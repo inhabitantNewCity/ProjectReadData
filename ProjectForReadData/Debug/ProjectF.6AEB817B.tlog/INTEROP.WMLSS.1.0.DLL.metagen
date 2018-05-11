@@ -1,0 +1,113 @@
+ImageRuntimeVersion: v4.0.30319
+Assembly Interop.WMLSS.1.0, Version=1.0.*, Culture=Инвариантный язык (Инвариантная страна): 
+	hash=SHA1, flags=PublicKey
+Assembly mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089: 
+	hash=None, flags=None
+Struct WMLSS.WindowsMediaLibrarySharingDeviceAuthorizationStatus: AutoLayout, AnsiClass, Class, Public, Sealed
+  :System.Enum
+  Fields:
+    Int32 value__ : Public, SpecialName, RTSpecialName
+    WMLSS.WindowsMediaLibrarySharingDeviceAuthorizationStatus DEVICE_AUTHORIZATION_UNKNOWN = 0 : Public, Static, Literal, HasDefault
+    WMLSS.WindowsMediaLibrarySharingDeviceAuthorizationStatus DEVICE_AUTHORIZATION_ALLOWED = 1 : Public, Static, Literal, HasDefault
+    WMLSS.WindowsMediaLibrarySharingDeviceAuthorizationStatus DEVICE_AUTHORIZATION_DENIED = 2 : Public, Static, Literal, HasDefault
+Interface WMLSS.IWindowsMediaLibrarySharingDeviceProperty: AutoLayout, AnsiClass, Class, Public, ClassSemanticsMask, Abstract, Import
+  Properties:
+    System.String Name 'get ' : 
+    System.Object Value 'get ' : 
+  Methods:
+    get_Name(): PrivateScope, Public, Virtual, HideBySig, VtableLayoutMask, Abstract, SpecialName
+    get_Value(): PrivateScope, Public, Virtual, HideBySig, VtableLayoutMask, Abstract, SpecialName
+Interface WMLSS.IWindowsMediaLibrarySharingDeviceProperties: AutoLayout, AnsiClass, Class, Public, ClassSemanticsMask, Abstract, Import
+  Properties:
+    WMLSS.IWindowsMediaLibrarySharingDeviceProperty Item [Int32] 'get ' : 
+    Int32 Count 'get ' : 
+  Methods:
+    get_Item(Int32(In)): PrivateScope, Public, Virtual, HideBySig, VtableLayoutMask, Abstract, SpecialName
+    get_Count(): PrivateScope, Public, Virtual, HideBySig, VtableLayoutMask, Abstract, SpecialName
+    GetProperty(String(In, HasFieldMarshal)): PrivateScope, Public, Virtual, HideBySig, VtableLayoutMask, Abstract
+Interface WMLSS.IWindowsMediaLibrarySharingDevice: AutoLayout, AnsiClass, Class, Public, ClassSemanticsMask, Abstract, Import
+  Properties:
+    System.String DeviceID 'get ' : 
+    WMLSS.WindowsMediaLibrarySharingDeviceAuthorizationStatus Authorization 'get set' : 
+    WMLSS.IWindowsMediaLibrarySharingDeviceProperties Properties 'get ' : 
+  Methods:
+    get_DeviceID(): PrivateScope, Public, Virtual, HideBySig, VtableLayoutMask, Abstract, SpecialName
+    get_Authorization(): PrivateScope, Public, Virtual, HideBySig, VtableLayoutMask, Abstract, SpecialName
+    set_Authorization(WindowsMediaLibrarySharingDeviceAuthorizationStatus(In)): PrivateScope, Public, Virtual, HideBySig, VtableLayoutMask, Abstract, SpecialName
+    get_Properties(): PrivateScope, Public, Virtual, HideBySig, VtableLayoutMask, Abstract, SpecialName
+Interface WMLSS.IWindowsMediaLibrarySharingDevices: AutoLayout, AnsiClass, Class, Public, ClassSemanticsMask, Abstract, Import
+  Properties:
+    WMLSS.IWindowsMediaLibrarySharingDevice Item [Int32] 'get ' : 
+    Int32 Count 'get ' : 
+  Methods:
+    get_Item(Int32(In)): PrivateScope, Public, Virtual, HideBySig, VtableLayoutMask, Abstract, SpecialName
+    get_Count(): PrivateScope, Public, Virtual, HideBySig, VtableLayoutMask, Abstract, SpecialName
+    GetDevice(String(In, HasFieldMarshal)): PrivateScope, Public, Virtual, HideBySig, VtableLayoutMask, Abstract
+Interface WMLSS.IWindowsMediaLibrarySharingServices: AutoLayout, AnsiClass, Class, Public, ClassSemanticsMask, Abstract, Import
+  Properties:
+    Boolean userHomeMediaSharingState 'get set' : 
+    System.String userHomeMediaSharingLibraryName 'get set' : 
+    Boolean computerHomeMediaSharingAllowedState 'get set' : 
+    Boolean userInternetMediaSharingState 'get set' : 
+    Boolean computerInternetMediaSharingAllowedState 'get set' : 
+    System.String internetMediaSharingSecurityGroup 'get set' : 
+    Boolean allowSharingToAllDevices 'get set' : 
+    Boolean customSettingsApplied 'get ' : 
+  Methods:
+    showShareMediaCPL(String(In, HasFieldMarshal)): PrivateScope, Public, Virtual, HideBySig, VtableLayoutMask, Abstract
+    get_userHomeMediaSharingState(): PrivateScope, Public, Virtual, HideBySig, VtableLayoutMask, Abstract, SpecialName
+    set_userHomeMediaSharingState(Boolean(In)): PrivateScope, Public, Virtual, HideBySig, VtableLayoutMask, Abstract, SpecialName
+    get_userHomeMediaSharingLibraryName(): PrivateScope, Public, Virtual, HideBySig, VtableLayoutMask, Abstract, SpecialName
+    set_userHomeMediaSharingLibraryName(String(In, HasFieldMarshal)): PrivateScope, Public, Virtual, HideBySig, VtableLayoutMask, Abstract, SpecialName
+    get_computerHomeMediaSharingAllowedState(): PrivateScope, Public, Virtual, HideBySig, VtableLayoutMask, Abstract, SpecialName
+    set_computerHomeMediaSharingAllowedState(Boolean(In)): PrivateScope, Public, Virtual, HideBySig, VtableLayoutMask, Abstract, SpecialName
+    get_userInternetMediaSharingState(): PrivateScope, Public, Virtual, HideBySig, VtableLayoutMask, Abstract, SpecialName
+    set_userInternetMediaSharingState(Boolean(In)): PrivateScope, Public, Virtual, HideBySig, VtableLayoutMask, Abstract, SpecialName
+    get_computerInternetMediaSharingAllowedState(): PrivateScope, Public, Virtual, HideBySig, VtableLayoutMask, Abstract, SpecialName
+    set_computerInternetMediaSharingAllowedState(Boolean(In)): PrivateScope, Public, Virtual, HideBySig, VtableLayoutMask, Abstract, SpecialName
+    get_internetMediaSharingSecurityGroup(): PrivateScope, Public, Virtual, HideBySig, VtableLayoutMask, Abstract, SpecialName
+    set_internetMediaSharingSecurityGroup(String(In, HasFieldMarshal)): PrivateScope, Public, Virtual, HideBySig, VtableLayoutMask, Abstract, SpecialName
+    get_allowSharingToAllDevices(): PrivateScope, Public, Virtual, HideBySig, VtableLayoutMask, Abstract, SpecialName
+    set_allowSharingToAllDevices(Boolean(In)): PrivateScope, Public, Virtual, HideBySig, VtableLayoutMask, Abstract, SpecialName
+    setDefaultAuthorization(String(In, HasFieldMarshal), String(In, HasFieldMarshal), Boolean(In)): PrivateScope, Public, Virtual, HideBySig, VtableLayoutMask, Abstract
+    setAuthorizationState(String(In, HasFieldMarshal), Boolean(In)): PrivateScope, Public, Virtual, HideBySig, VtableLayoutMask, Abstract
+    getAllDevices(): PrivateScope, Public, Virtual, HideBySig, VtableLayoutMask, Abstract
+    get_customSettingsApplied(): PrivateScope, Public, Virtual, HideBySig, VtableLayoutMask, Abstract, SpecialName
+Class WMLSS.WindowsMediaLibrarySharingServicesClass: AutoLayout, AnsiClass, Class, Public, Import
+  :System.__ComObject
+    Void .ctor(): PrivateScope, Public, SpecialName, RTSpecialName
+  Interfaces:
+    WMLSS.IWindowsMediaLibrarySharingServices
+    WMLSS.WindowsMediaLibrarySharingServices
+  Properties:
+    Boolean userHomeMediaSharingState 'get set' : 
+    System.String userHomeMediaSharingLibraryName 'get set' : 
+    Boolean computerHomeMediaSharingAllowedState 'get set' : 
+    Boolean userInternetMediaSharingState 'get set' : 
+    Boolean computerInternetMediaSharingAllowedState 'get set' : 
+    System.String internetMediaSharingSecurityGroup 'get set' : 
+    Boolean allowSharingToAllDevices 'get set' : 
+    Boolean customSettingsApplied 'get ' : 
+  Methods:
+    showShareMediaCPL(String(In, HasFieldMarshal)): PrivateScope, Public, Virtual, HideBySig, VtableLayoutMask
+    get_userHomeMediaSharingState(): PrivateScope, Public, Virtual, HideBySig, VtableLayoutMask, SpecialName
+    set_userHomeMediaSharingState(Boolean(In)): PrivateScope, Public, Virtual, HideBySig, VtableLayoutMask, SpecialName
+    get_userHomeMediaSharingLibraryName(): PrivateScope, Public, Virtual, HideBySig, VtableLayoutMask, SpecialName
+    set_userHomeMediaSharingLibraryName(String(In, HasFieldMarshal)): PrivateScope, Public, Virtual, HideBySig, VtableLayoutMask, SpecialName
+    get_computerHomeMediaSharingAllowedState(): PrivateScope, Public, Virtual, HideBySig, VtableLayoutMask, SpecialName
+    set_computerHomeMediaSharingAllowedState(Boolean(In)): PrivateScope, Public, Virtual, HideBySig, VtableLayoutMask, SpecialName
+    get_userInternetMediaSharingState(): PrivateScope, Public, Virtual, HideBySig, VtableLayoutMask, SpecialName
+    set_userInternetMediaSharingState(Boolean(In)): PrivateScope, Public, Virtual, HideBySig, VtableLayoutMask, SpecialName
+    get_computerInternetMediaSharingAllowedState(): PrivateScope, Public, Virtual, HideBySig, VtableLayoutMask, SpecialName
+    set_computerInternetMediaSharingAllowedState(Boolean(In)): PrivateScope, Public, Virtual, HideBySig, VtableLayoutMask, SpecialName
+    get_internetMediaSharingSecurityGroup(): PrivateScope, Public, Virtual, HideBySig, VtableLayoutMask, SpecialName
+    set_internetMediaSharingSecurityGroup(String(In, HasFieldMarshal)): PrivateScope, Public, Virtual, HideBySig, VtableLayoutMask, SpecialName
+    get_allowSharingToAllDevices(): PrivateScope, Public, Virtual, HideBySig, VtableLayoutMask, SpecialName
+    set_allowSharingToAllDevices(Boolean(In)): PrivateScope, Public, Virtual, HideBySig, VtableLayoutMask, SpecialName
+    setDefaultAuthorization(String(In, HasFieldMarshal), String(In, HasFieldMarshal), Boolean(In)): PrivateScope, Public, Virtual, HideBySig, VtableLayoutMask
+    setAuthorizationState(String(In, HasFieldMarshal), Boolean(In)): PrivateScope, Public, Virtual, HideBySig, VtableLayoutMask
+    getAllDevices(): PrivateScope, Public, Virtual, HideBySig, VtableLayoutMask
+    get_customSettingsApplied(): PrivateScope, Public, Virtual, HideBySig, VtableLayoutMask, SpecialName
+Interface WMLSS.WindowsMediaLibrarySharingServices: AutoLayout, AnsiClass, Class, Public, ClassSemanticsMask, Abstract, Import
+  Interfaces:
+    WMLSS.IWindowsMediaLibrarySharingServices

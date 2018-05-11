@@ -1,0 +1,104 @@
+Second phage: vertical acceleration [ -6 ; -0,9234567 ] Horizontal acceleration [ -8 ; -0,5 ] 
+Triad phage: vertical acceleration [ 0,945678 , 6 ] Horizontal acceleration [ 6 , 0,8 ] 
+ANGLES: angleX = -70,89 angleY = 88,45 angleZ = 74,53
+COMPAS: comX = -0,48 comY = 0,8 comZ = -0,48
+COMPAS: giroX = 4,02 giroY = -3,45 giroZ = -3,45
+
+ANGLES: angleX = -70,93 angleY = 92,26 angleZ = 71,41
+COMPAS: comX = -0,67 comY = 0,36 comZ = -0,67
+COMPAS: giroX = 4,03 giroY = -3,29 giroZ = -3,29
+
+ANGLES: angleX = -70,79 angleY = 93,1 angleZ = 71,14
+COMPAS: comX = -1,09 comY = -2,58 comZ = -1,09
+COMPAS: giroX = 4,03 giroY = -3,29 giroZ = -3,29
+
+ANGLES: angleX = -70,77 angleY = 91,52 angleZ = 70,63
+COMPAS: comX = 1,17 comY = -2,69 comZ = 1,17
+COMPAS: giroX = 4,03 giroY = -3,29 giroZ = -3,29
+
+ANGLES: angleX = -70,73 angleY = 95,18 angleZ = 72,48
+COMPAS: comX = 0,74 comY = -2,92 comZ = 0,74
+COMPAS: giroX = 4 giroY = -3,09 giroZ = -3,09
+
+ANGLES: angleX = -70,77 angleY = 95,84 angleZ = 71,84
+COMPAS: comX = -2,8 comY = -3,34 comZ = -2,8
+COMPAS: giroX = 4 giroY = -3,09 giroZ = -3,09
+
+ANGLES: angleX = -70,79 angleY = 95,87 angleZ = 68,83
+COMPAS: comX = -2,5 comY = -2,61 comZ = -2,5
+COMPAS: giroX = 4 giroY = -3,09 giroZ = -3,09
+
+ANGLES: angleX = -74,32 angleY = 89 angleZ = 74,29
+COMPAS: comX = -6,07 comY = -2,86 comZ = -6,07
+COMPAS: giroX = 4,03 giroY = -3,21 giroZ = -3,21
+
+ANGLES: angleX = -70,82 angleY = 88,79 angleZ = 70,69
+COMPAS: comX = -5,75 comY = 0,17 comZ = -5,75
+COMPAS: giroX = 4,03 giroY = -3,21 giroZ = -3,21
+
+ANGLES: angleX = -70,8 angleY = 92,2 angleZ = 72,14
+COMPAS: comX = -2,87 comY = 0,74 comZ = -2,87
+COMPAS: giroX = 4,03 giroY = -3,21 giroZ = -3,21
+
+ANGLES: angleX = -72,73 angleY = 89,59 angleZ = 71,84
+COMPAS: comX = -1,44 comY = 0,92 comZ = -1,44
+COMPAS: giroX = 4,05 giroY = -3,42 giroZ = -3,42
+
+ANGLES: angleX = -71,8 angleY = 92,67 angleZ = 68
+COMPAS: comX = -1,48 comY = -0,38 comZ = -1,48
+COMPAS: giroX = 4,05 giroY = -3,42 giroZ = -3,42
+
+ANGLES: angleX = -68,24 angleY = 93,23 angleZ = 69,49
+COMPAS: comX = -3,16 comY = -0,09 comZ = -3,16
+COMPAS: giroX = 4,05 giroY = -3,42 giroZ = -3,42
+
+ANGLES: angleX = -71,89 angleY = 91,6 angleZ = 65,66
+COMPAS: comX = -2,79 comY = -0,22 comZ = -2,79
+COMPAS: giroX = 3,99 giroY = -3,6 giroZ = -3,6
+
+ANGLES: angleX = -82,19 angleY = 100,74 angleZ = 57,63
+COMPAS: comX = -4,26 comY = 1,51 comZ = -4,26
+COMPAS: giroX = 3,99 giroY = -3,6 giroZ = -3,6
+
+ANGLES: angleX = -88,23 angleY = -123,46 angleZ = -80,67
+COMPAS: comX = -6,5 comY = 3,17 comZ = -6,5
+COMPAS: giroX = 3,99 giroY = -3,6 giroZ = -3,6
+
+ANGLES: angleX = -73,65 angleY = -101,74 angleZ = -101,59
+COMPAS: comX = -6,13 comY = 2,23 comZ = -6,13
+COMPAS: giroX = 3,94 giroY = -1,36 giroZ = -1,36
+
+ANGLES: angleX = -72,59 angleY = -98,13 angleZ = -107,03
+COMPAS: comX = 0,34 comY = -3,33 comZ = 0,34
+COMPAS: giroX = 3,94 giroY = -1,36 giroZ = -1,36
+
+ANGLES: angleX = -69,77 angleY = -90,9 angleZ = -111,47
+COMPAS: comX = -2,39 comY = -2,64 comZ = -2,39
+COMPAS: giroX = 3,94 giroY = -1,36 giroZ = -1,36
+
+ANGLES: angleX = -65,13 angleY = -88,69 angleZ = -112,11
+COMPAS: comX = -2,73 comY = -0,71 comZ = -2,73
+COMPAS: giroX = 5,52 giroY = -1,4 giroZ = -1,4
+
+ANGLES: angleX = -58,08 angleY = -86,5 angleZ = -116,19
+COMPAS: comX = -3,76 comY = -2,88 comZ = -3,76
+COMPAS: giroX = 5,52 giroY = -1,4 giroZ = -1,4
+
+ANGLES: angleX = -55,45 angleY = -87,65 angleZ = -115,93
+COMPAS: comX = 0,76 comY = -2,78 comZ = 0,76
+COMPAS: giroX = 5,52 giroY = -1,4 giroZ = -1,4
+
+ANGLES: angleX = -56,77 angleY = -83,49 angleZ = -115,92
+COMPAS: comX = -0,66 comY = -3,35 comZ = -0,66
+COMPAS: giroX = 1,88 giroY = -1,33 giroZ = -1,33
+
+ANGLES: angleX = -53,07 angleY = -81,74 angleZ = -116,44
+COMPAS: comX = -3,09 comY = -3,04 comZ = -3,09
+COMPAS: giroX = 1,88 giroY = -1,33 giroZ = -1,33
+
+ANGLES: angleX = -52,55 angleY = -81,07 angleZ = -114,17
+COMPAS: comX = -3,53 comY = -3,02 comZ = -3,53
+COMPAS: giroX = 1,88 giroY = -1,33 giroZ = -1,33
+
+ANGLES: angleX = -56,38 angleY = -80,96 angleZ = -116,19
+CO

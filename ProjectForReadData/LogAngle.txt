@@ -1,0 +1,2 @@
+Second phage: vertical acceleration [ -6 ; -0,9234567 ] Horizontal acceleration [ -8 ; -0,5 ] 
+Triad phage: vertical acceleration [ 0,945678 , 6 ] Horizontal acceleration [ 6 , 0,8 ] 

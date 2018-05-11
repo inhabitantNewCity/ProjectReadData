@@ -1,0 +1,2678 @@
+<root isReady="false">
+  <MagPoint asics="1" level="8">
+    <x>103,400001525879</x>
+    <y>378,700012207031</y>
+  </MagPoint>
+  <MagPoint asics="2" level="-3">
+    <x>103,400001525879</x>
+    <y>378,700012207031</y>
+  </MagPoint>
+  <MagPoint asics="3" level="-1">
+    <x>103,400001525879</x>
+    <y>378,700012207031</y>
+  </MagPoint>
+  <MagPoint asics="1" level="1">
+    <x>103,400001525879</x>
+    <y>368,700012207031</y>
+  </MagPoint>
+  <MagPoint asics="2" level="-10">
+    <x>103,400001525879</x>
+    <y>368,700012207031</y>
+  </MagPoint>
+  <MagPoint asics="3" level="-1">
+    <x>103,400001525879</x>
+    <y>368,700012207031</y>
+  </MagPoint>
+  <MagPoint asics="1" level="4">
+    <x>103,400001525879</x>
+    <y>358,700012207031</y>
+  </MagPoint>
+  <MagPoint asics="2" level="-4">
+    <x>103,400001525879</x>
+    <y>358,700012207031</y>
+  </MagPoint>
+  <MagPoint asics="3" level="-2">
+    <x>103,400001525879</x>
+    <y>358,700012207031</y>
+  </MagPoint>
+  <MagPoint asics="1" level="5">
+    <x>103,400001525879</x>
+    <y>348,700012207031</y>
+  </MagPoint>
+  <MagPoint asics="2" level="-6">
+    <x>103,400001525879</x>
+    <y>348,700012207031</y>
+  </MagPoint>
+  <MagPoint asics="3" level="-2">
+    <x>103,400001525879</x>
+    <y>348,700012207031</y>
+  </MagPoint>
+  <MagPoint asics="1" level="1">
+    <x>103,400001525879</x>
+    <y>338,700012207031</y>
+  </MagPoint>
+  <MagPoint asics="2" level="5">
+    <x>103,400001525879</x>
+    <y>338,700012207031</y>
+  </MagPoint>
+  <MagPoint asics="3" level="-2">
+    <x>103,400001525879</x>
+    <y>338,700012207031</y>
+  </MagPoint>
+  <MagPoint asics="1" level="1">
+    <x>103,400001525879</x>
+    <y>328,700012207031</y>
+  </MagPoint>
+  <MagPoint asics="2" level="-10">
+    <x>103,400001525879</x>
+    <y>328,700012207031</y>
+  </MagPoint>
+  <MagPoint asics="3" level="-5">
+    <x>103,400001525879</x>
+    <y>328,700012207031</y>
+  </MagPoint>
+  <MagPoint asics="1" level="6">
+    <x>103,400001525879</x>
+    <y>318,700012207031</y>
+  </MagPoint>
+  <MagPoint asics="2" level="-8">
+    <x>103,400001525879</x>
+    <y>318,700012207031</y>
+  </MagPoint>
+  <MagPoint asics="3" level="-5">
+    <x>103,400001525879</x>
+    <y>318,700012207031</y>
+  </MagPoint>
+  <MagPoint asics="1" level="1">
+    <x>103,400001525879</x>
+    <y>308,700012207031</y>
+  </MagPoint>
+  <MagPoint asics="2" level="-10">
+    <x>103,400001525879</x>
+    <y>308,700012207031</y>
+  </MagPoint>
+  <MagPoint asics="3" level="-2">
+    <x>103,400001525879</x>
+    <y>308,700012207031</y>
+  </MagPoint>
+  <MagPoint asics="1" level="2">
+    <x>103,400001525879</x>
+    <y>298,700012207031</y>
+  </MagPoint>
+  <MagPoint asics="2" level="2">
+    <x>103,400001525879</x>
+    <y>298,700012207031</y>
+  </MagPoint>
+  <MagPoint asics="3" level="-3">
+    <x>103,400001525879</x>
+    <y>298,700012207031</y>
+  </MagPoint>
+  <MagPoint asics="1" level="3">
+    <x>103,400001525879</x>
+    <y>288,700012207031</y>
+  </MagPoint>
+  <MagPoint asics="2" level="-10">
+    <x>103,400001525879</x>
+    <y>288,700012207031</y>
+  </MagPoint>
+  <MagPoint asics="3" level="-2">
+    <x>103,400001525879</x>
+    <y>288,700012207031</y>
+  </MagPoint>
+  <MagPoint asics="1" level="5">
+    <x>103,400001525879</x>
+    <y>278,700012207031</y>
+  </MagPoint>
+  <MagPoint asics="2" level="1">
+    <x>103,400001525879</x>
+    <y>278,700012207031</y>
+  </MagPoint>
+  <MagPoint asics="3" level="-3">
+    <x>103,400001525879</x>
+    <y>278,700012207031</y>
+  </MagPoint>
+  <MagPoint asics="1" level="5">
+    <x>103,400001525879</x>
+    <y>268,700012207031</y>
+  </MagPoint>
+  <MagPoint asics="2" level="-7">
+    <x>103,400001525879</x>
+    <y>268,700012207031</y>
+  </MagPoint>
+  <MagPoint asics="3" level="-2">
+    <x>103,400001525879</x>
+    <y>268,700012207031</y>
+  </MagPoint>
+  <MagPoint asics="1" level="4">
+    <x>103,400001525879</x>
+    <y>258,700012207031</y>
+  </MagPoint>
+  <MagPoint asics="2" level="3">
+    <x>103,400001525879</x>
+    <y>258,700012207031</y>
+  </MagPoint>
+  <MagPoint asics="3" level="-3">
+    <x>103,400001525879</x>
+    <y>258,700012207031</y>
+  </MagPoint>
+  <MagPoint asics="1" level="2">
+    <x>103,400001525879</x>
+    <y>248,700012207031</y>
+  </MagPoint>
+  <MagPoint asics="2" level="-7">
+    <x>103,400001525879</x>
+    <y>248,700012207031</y>
+  </MagPoint>
+  <MagPoint asics="3" level="-5">
+    <x>103,400001525879</x>
+    <y>248,700012207031</y>
+  </MagPoint>
+  <MagPoint asics="1" level="5">
+    <x>103,400001525879</x>
+    <y>238,700012207031</y>
+  </MagPoint>
+  <MagPoint asics="2" level="-7">
+    <x>103,400001525879</x>
+    <y>238,700012207031</y>
+  </MagPoint>
+  <MagPoint asics="3" level="-2">
+    <x>103,400001525879</x>
+    <y>238,700012207031</y>
+  </MagPoint>
+  <MagPoint asics="1" level="4">
+    <x>103,400001525879</x>
+    <y>228,700012207031</y>
+  </MagPoint>
+  <MagPoint asics="2" level="1">
+    <x>103,400001525879</x>
+    <y>228,700012207031</y>
+  </MagPoint>
+  <MagPoint asics="3" level="-5">
+    <x>103,400001525879</x>
+    <y>228,700012207031</y>
+  </MagPoint>
+  <MagPoint asics="1" level="5">
+    <x>113,400001525879</x>
+    <y>228,700012207031</y>
+  </MagPoint>
+  <MagPoint asics="2" level="-6">
+    <x>113,400001525879</x>
+    <y>228,700012207031</y>
+  </MagPoint>
+  <MagPoint asics="3" level="-1">
+    <x>113,400001525879</x>
+    <y>228,700012207031</y>
+  </MagPoint>
+  <MagPoint asics="1" level="4">
+    <x>113,400001525879</x>
+    <y>218,700012207031</y>
+  </MagPoint>
+  <MagPoint asics="2" level="2">
+    <x>113,400001525879</x>
+    <y>218,700012207031</y>
+  </MagPoint>
+  <MagPoint asics="3" level="-3">
+    <x>113,400001525879</x>
+    <y>218,700012207031</y>
+  </MagPoint>
+  <MagPoint asics="1" level="4">
+    <x>113,400001525879</x>
+    <y>208,700012207031</y>
+  </MagPoint>
+  <MagPoint asics="2" level="-8">
+    <x>113,400001525879</x>
+    <y>208,700012207031</y>
+  </MagPoint>
+  <MagPoint asics="3" level="-2">
+    <x>113,400001525879</x>
+    <y>208,700012207031</y>
+  </MagPoint>
+  <MagPoint asics="1" level="8">
+    <x>113,400001525879</x>
+    <y>198,700012207031</y>
+  </MagPoint>
+  <MagPoint asics="2" level="-1">
+    <x>113,400001525879</x>
+    <y>198,700012207031</y>
+  </MagPoint>
+  <MagPoint asics="3" level="-1">
+    <x>113,400001525879</x>
+    <y>198,700012207031</y>
+  </MagPoint>
+  <MagPoint asics="1" level="8">
+    <x>113,400001525879</x>
+    <y>188,700012207031</y>
+  </MagPoint>
+  <MagPoint asics="2" level="0">
+    <x>113,400001525879</x>
+    <y>188,700012207031</y>
+  </MagPoint>
+  <MagPoint asics="3" level="-1">
+    <x>113,400001525879</x>
+    <y>188,700012207031</y>
+  </MagPoint>
+  <MagPoint asics="1" level="8">
+    <x>113,400001525879</x>
+    <y>178,700012207031</y>
+  </MagPoint>
+  <MagPoint asics="2" level="-3">
+    <x>113,400001525879</x>
+    <y>178,700012207031</y>
+  </MagPoint>
+  <MagPoint asics="3" level="-2">
+    <x>113,400001525879</x>
+    <y>178,700012207031</y>
+  </MagPoint>
+  <MagPoint asics="1" level="8">
+    <x>113,400001525879</x>
+    <y>168,700012207031</y>
+  </MagPoint>
+  <MagPoint asics="2" level="-5">
+    <x>113,400001525879</x>
+    <y>168,700012207031</y>
+  </MagPoint>
+  <MagPoint asics="3" level="-1">
+    <x>113,400001525879</x>
+    <y>168,700012207031</y>
+  </MagPoint>
+  <MagPoint asics="1" level="4">
+    <x>113,400001525879</x>
+    <y>158,700012207031</y>
+  </MagPoint>
+  <MagPoint asics="2" level="-8">
+    <x>113,400001525879</x>
+    <y>158,700012207031</y>
+  </MagPoint>
+  <MagPoint asics="3" level="-1">
+    <x>113,400001525879</x>
+    <y>158,700012207031</y>
+  </MagPoint>
+  <MagPoint asics="1" level="8">
+    <x>113,400001525879</x>
+    <y>148,700012207031</y>
+  </MagPoint>
+  <MagPoint asics="2" level="-2">
+    <x>113,400001525879</x>
+    <y>148,700012207031</y>
+  </MagPoint>
+  <MagPoint asics="3" level="-3">
+    <x>113,400001525879</x>
+    <y>148,700012207031</y>
+  </MagPoint>
+  <MagPoint asics="1" level="2">
+    <x>113,400001525879</x>
+    <y>138,700012207031</y>
+  </MagPoint>
+  <MagPoint asics="2" level="5">
+    <x>113,400001525879</x>
+    <y>138,700012207031</y>
+  </MagPoint>
+  <MagPoint asics="3" level="-1">
+    <x>113,400001525879</x>
+    <y>138,700012207031</y>
+  </MagPoint>
+  <MagPoint asics="1" level="5">
+    <x>113,400001525879</x>
+    <y>128,700012207031</y>
+  </MagPoint>
+  <MagPoint asics="2" level="-6">
+    <x>113,400001525879</x>
+    <y>128,700012207031</y>
+  </MagPoint>
+  <MagPoint asics="3" level="-5">
+    <x>113,400001525879</x>
+    <y>128,700012207031</y>
+  </MagPoint>
+  <MagPoint asics="1" level="2">
+    <x>113,400001525879</x>
+    <y>118,700012207031</y>
+  </MagPoint>
+  <MagPoint asics="2" level="1">
+    <x>113,400001525879</x>
+    <y>118,700012207031</y>
+  </MagPoint>
+  <MagPoint asics="3" level="-5">
+    <x>113,400001525879</x>
+    <y>118,700012207031</y>
+  </MagPoint>
+  <MagPoint asics="1" level="4">
+    <x>113,400001525879</x>
+    <y>108,700012207031</y>
+  </MagPoint>
+  <MagPoint asics="2" level="-4">
+    <x>113,400001525879</x>
+    <y>108,700012207031</y>
+  </MagPoint>
+  <MagPoint asics="3" level="-5">
+    <x>113,400001525879</x>
+    <y>108,700012207031</y>
+  </MagPoint>
+  <MagPoint asics="1" level="3">
+    <x>113,400001525879</x>
+    <y>98,7000122070313</y>
+  </MagPoint>
+  <MagPoint asics="2" level="2">
+    <x>113,400001525879</x>
+    <y>98,7000122070313</y>
+  </MagPoint>
+  <MagPoint asics="3" level="-5">
+    <x>113,400001525879</x>
+    <y>98,7000122070313</y>
+  </MagPoint>
+  <MagPoint asics="1" level="5">
+    <x>113,400001525879</x>
+    <y>88,7000122070313</y>
+  </MagPoint>
+  <MagPoint asics="2" level="-4">
+    <x>113,400001525879</x>
+    <y>88,7000122070313</y>
+  </MagPoint>
+  <MagPoint asics="3" level="-2">
+    <x>113,400001525879</x>
+    <y>88,7000122070313</y>
+  </MagPoint>
+  <MagPoint asics="1" level="4">
+    <x>113,400001525879</x>
+    <y>78,7000122070313</y>
+  </MagPoint>
+  <MagPoint asics="2" level="0">
+    <x>113,400001525879</x>
+    <y>78,7000122070313</y>
+  </MagPoint>
+  <MagPoint asics="3" level="-1">
+    <x>113,400001525879</x>
+    <y>78,7000122070313</y>
+  </MagPoint>
+  <MagPoint asics="1" level="0">
+    <x>113,400001525879</x>
+    <y>68,7000122070313</y>
+  </MagPoint>
+  <MagPoint asics="2" level="5">
+    <x>113,400001525879</x>
+    <y>68,7000122070313</y>
+  </MagPoint>
+  <MagPoint asics="3" level="-2">
+    <x>113,400001525879</x>
+    <y>68,7000122070313</y>
+  </MagPoint>
+  <MagPoint asics="1" level="4">
+    <x>113,400001525879</x>
+    <y>58,7000122070313</y>
+  </MagPoint>
+  <MagPoint asics="2" level="-4">
+    <x>113,400001525879</x>
+    <y>58,7000122070313</y>
+  </MagPoint>
+  <MagPoint asics="3" level="-1">
+    <x>113,400001525879</x>
+    <y>58,7000122070313</y>
+  </MagPoint>
+  <MagPoint asics="1" level="8">
+    <x>113,400001525879</x>
+    <y>48,7000122070313</y>
+  </MagPoint>
+  <MagPoint asics="2" level="-5">
+    <x>113,400001525879</x>
+    <y>48,7000122070313</y>
+  </MagPoint>
+  <MagPoint asics="3" level="-1">
+    <x>113,400001525879</x>
+    <y>48,7000122070313</y>
+  </MagPoint>
+  <MagPoint asics="1" level="7">
+    <x>103,400001525879</x>
+    <y>378,700012207031</y>
+  </MagPoint>
+  <MagPoint asics="2" level="0">
+    <x>103,400001525879</x>
+    <y>378,700012207031</y>
+  </MagPoint>
+  <MagPoint asics="3" level="-1">
+    <x>103,400001525879</x>
+    <y>378,700012207031</y>
+  </MagPoint>
+  <MagPoint asics="1" level="5">
+    <x>103,400001525879</x>
+    <y>368,700012207031</y>
+  </MagPoint>
+  <MagPoint asics="2" level="-8">
+    <x>103,400001525879</x>
+    <y>368,700012207031</y>
+  </MagPoint>
+  <MagPoint asics="3" level="-5">
+    <x>103,400001525879</x>
+    <y>368,700012207031</y>
+  </MagPoint>
+  <MagPoint asics="1" level="6">
+    <x>103,400001525879</x>
+    <y>358,700012207031</y>
+  </MagPoint>
+  <MagPoint asics="2" level="-8">
+    <x>103,400001525879</x>
+    <y>358,700012207031</y>
+  </MagPoint>
+  <MagPoint asics="3" level="-5">
+    <x>103,400001525879</x>
+    <y>358,700012207031</y>
+  </MagPoint>
+  <MagPoint asics="1" level="6">
+    <x>103,400001525879</x>
+    <y>348,700012207031</y>
+  </MagPoint>
+  <MagPoint asics="2" level="-7">
+    <x>103,400001525879</x>
+    <y>348,700012207031</y>
+  </MagPoint>
+  <MagPoint asics="3" level="-5">
+    <x>103,400001525879</x>
+    <y>348,700012207031</y>
+  </MagPoint>
+  <MagPoint asics="1" level="5">
+    <x>103,400001525879</x>
+    <y>338,700012207031</y>
+  </MagPoint>
+  <MagPoint asics="2" level="-6">
+    <x>103,400001525879</x>
+    <y>338,700012207031</y>
+  </MagPoint>
+  <MagPoint asics="3" level="-5">
+    <x>103,400001525879</x>
+    <y>338,700012207031</y>
+  </MagPoint>
+  <MagPoint asics="1" level="4">
+    <x>103,400001525879</x>
+    <y>328,700012207031</y>
+  </MagPoint>
+  <MagPoint asics="2" level="-5">
+    <x>103,400001525879</x>
+    <y>328,700012207031</y>
+  </MagPoint>
+  <MagPoint asics="3" level="-2">
+    <x>103,400001525879</x>
+    <y>328,700012207031</y>
+  </MagPoint>
+  <MagPoint asics="1" level="7">
+    <x>103,400001525879</x>
+    <y>318,700012207031</y>
+  </MagPoint>
+  <MagPoint asics="2" level="-6">
+    <x>103,400001525879</x>
+    <y>318,700012207031</y>
+  </MagPoint>
+  <MagPoint asics="3" level="-2">
+    <x>103,400001525879</x>
+    <y>318,700012207031</y>
+  </MagPoint>
+  <MagPoint asics="1" level="8">
+    <x>103,400001525879</x>
+    <y>308,700012207031</y>
+  </MagPoint>
+  <MagPoint asics="2" level="-2">
+    <x>103,400001525879</x>
+    <y>308,700012207031</y>
+  </MagPoint>
+  <MagPoint asics="3" level="-1">
+    <x>103,400001525879</x>
+    <y>308,700012207031</y>
+  </MagPoint>
+  <MagPoint asics="1" level="8">
+    <x>103,400001525879</x>
+    <y>298,700012207031</y>
+  </MagPoint>
+  <MagPoint asics="2" level="-3">
+    <x>103,400001525879</x>
+    <y>298,700012207031</y>
+  </MagPoint>
+  <MagPoint asics="3" level="-1">
+    <x>103,400001525879</x>
+    <y>298,700012207031</y>
+  </MagPoint>
+  <MagPoint asics="1" level="7">
+    <x>103,400001525879</x>
+    <y>288,700012207031</y>
+  </MagPoint>
+  <MagPoint asics="2" level="0">
+    <x>103,400001525879</x>
+    <y>288,700012207031</y>
+  </MagPoint>
+  <MagPoint asics="3" level="-1">
+    <x>103,400001525879</x>
+    <y>288,700012207031</y>
+  </MagPoint>
+  <MagPoint asics="1" level="5">
+    <x>103,400001525879</x>
+    <y>278,700012207031</y>
+  </MagPoint>
+  <MagPoint asics="2" level="-7">
+    <x>103,400001525879</x>
+    <y>278,700012207031</y>
+  </MagPoint>
+  <MagPoint asics="3" level="-2">
+    <x>103,400001525879</x>
+    <y>278,700012207031</y>
+  </MagPoint>
+  <MagPoint asics="1" level="0">
+    <x>103,400001525879</x>
+    <y>268,700012207031</y>
+  </MagPoint>
+  <MagPoint asics="2" level="6">
+    <x>103,400001525879</x>
+    <y>268,700012207031</y>
+  </MagPoint>
+  <MagPoint asics="3" level="-3">
+    <x>103,400001525879</x>
+    <y>268,700012207031</y>
+  </MagPoint>
+  <MagPoint asics="1" level="3">
+    <x>103,400001525879</x>
+    <y>258,700012207031</y>
+  </MagPoint>
+  <MagPoint asics="2" level="3">
+    <x>103,400001525879</x>
+    <y>258,700012207031</y>
+  </MagPoint>
+  <MagPoint asics="3" level="-3">
+    <x>103,400001525879</x>
+    <y>258,700012207031</y>
+  </MagPoint>
+  <MagPoint asics="1" level="6">
+    <x>103,400001525879</x>
+    <y>248,700012207031</y>
+  </MagPoint>
+  <MagPoint asics="2" level="-8">
+    <x>103,400001525879</x>
+    <y>248,700012207031</y>
+  </MagPoint>
+  <MagPoint asics="3" level="-5">
+    <x>103,400001525879</x>
+    <y>248,700012207031</y>
+  </MagPoint>
+  <MagPoint asics="1" level="4">
+    <x>103,400001525879</x>
+    <y>238,700012207031</y>
+  </MagPoint>
+  <MagPoint asics="2" level="-6">
+    <x>103,400001525879</x>
+    <y>238,700012207031</y>
+  </MagPoint>
+  <MagPoint asics="3" level="-5">
+    <x>103,400001525879</x>
+    <y>238,700012207031</y>
+  </MagPoint>
+  <MagPoint asics="1" level="4">
+    <x>103,400001525879</x>
+    <y>228,700012207031</y>
+  </MagPoint>
+  <MagPoint asics="2" level="-4">
+    <x>103,400001525879</x>
+    <y>228,700012207031</y>
+  </MagPoint>
+  <MagPoint asics="3" level="-2">
+    <x>103,400001525879</x>
+    <y>228,700012207031</y>
+  </MagPoint>
+  <MagPoint asics="1" level="4">
+    <x>113,400001525879</x>
+    <y>228,700012207031</y>
+  </MagPoint>
+  <MagPoint asics="2" level="-1">
+    <x>113,400001525879</x>
+    <y>228,700012207031</y>
+  </MagPoint>
+  <MagPoint asics="3" level="-2">
+    <x>113,400001525879</x>
+    <y>228,700012207031</y>
+  </MagPoint>
+  <MagPoint asics="1" level="7">
+    <x>113,400001525879</x>
+    <y>218,700012207031</y>
+  </MagPoint>
+  <MagPoint asics="2" level="0">
+    <x>113,400001525879</x>
+    <y>218,700012207031</y>
+  </MagPoint>
+  <MagPoint asics="3" level="-1">
+    <x>113,400001525879</x>
+    <y>218,700012207031</y>
+  </MagPoint>
+  <MagPoint asics="1" level="5">
+    <x>113,400001525879</x>
+    <y>208,700012207031</y>
+  </MagPoint>
+  <MagPoint asics="2" level="1">
+    <x>113,400001525879</x>
+    <y>208,700012207031</y>
+  </MagPoint>
+  <MagPoint asics="3" level="-2">
+    <x>113,400001525879</x>
+    <y>208,700012207031</y>
+  </MagPoint>
+  <MagPoint asics="1" level="5">
+    <x>113,400001525879</x>
+    <y>198,700012207031</y>
+  </MagPoint>
+  <MagPoint asics="2" level="-7">
+    <x>113,400001525879</x>
+    <y>198,700012207031</y>
+  </MagPoint>
+  <MagPoint asics="3" level="-2">
+    <x>113,400001525879</x>
+    <y>198,700012207031</y>
+  </MagPoint>
+  <MagPoint asics="1" level="7">
+    <x>113,400001525879</x>
+    <y>188,700012207031</y>
+  </MagPoint>
+  <MagPoint asics="2" level="-2">
+    <x>113,400001525879</x>
+    <y>188,700012207031</y>
+  </MagPoint>
+  <MagPoint asics="3" level="-5">
+    <x>113,400001525879</x>
+    <y>188,700012207031</y>
+  </MagPoint>
+  <MagPoint asics="1" level="3">
+    <x>113,400001525879</x>
+    <y>178,700012207031</y>
+  </MagPoint>
+  <MagPoint asics="2" level="-8">
+    <x>113,400001525879</x>
+    <y>178,700012207031</y>
+  </MagPoint>
+  <MagPoint asics="3" level="-2">
+    <x>113,400001525879</x>
+    <y>178,700012207031</y>
+  </MagPoint>
+  <MagPoint asics="1" level="8">
+    <x>113,400001525879</x>
+    <y>168,700012207031</y>
+  </MagPoint>
+  <MagPoint asics="2" level="-1">
+    <x>113,400001525879</x>
+    <y>168,700012207031</y>
+  </MagPoint>
+  <MagPoint asics="3" level="-1">
+    <x>113,400001525879</x>
+    <y>168,700012207031</y>
+  </MagPoint>
+  <MagPoint asics="1" level="5">
+    <x>113,400001525879</x>
+    <y>158,700012207031</y>
+  </MagPoint>
+  <MagPoint asics="2" level="-6">
+    <x>113,400001525879</x>
+    <y>158,700012207031</y>
+  </MagPoint>
+  <MagPoint asics="3" level="-2">
+    <x>113,400001525879</x>
+    <y>158,700012207031</y>
+  </MagPoint>
+  <MagPoint asics="1" level="2">
+    <x>113,400001525879</x>
+    <y>148,700012207031</y>
+  </MagPoint>
+  <MagPoint asics="2" level="-7">
+    <x>113,400001525879</x>
+    <y>148,700012207031</y>
+  </MagPoint>
+  <MagPoint asics="3" level="-1">
+    <x>113,400001525879</x>
+    <y>148,700012207031</y>
+  </MagPoint>
+  <MagPoint asics="1" level="8">
+    <x>113,400001525879</x>
+    <y>138,700012207031</y>
+  </MagPoint>
+  <MagPoint asics="2" level="-3">
+    <x>113,400001525879</x>
+    <y>138,700012207031</y>
+  </MagPoint>
+  <MagPoint asics="3" level="-1">
+    <x>113,400001525879</x>
+    <y>138,700012207031</y>
+  </MagPoint>
+  <MagPoint asics="1" level="7">
+    <x>113,400001525879</x>
+    <y>128,700012207031</y>
+  </MagPoint>
+  <MagPoint asics="2" level="-3">
+    <x>113,400001525879</x>
+    <y>128,700012207031</y>
+  </MagPoint>
+  <MagPoint asics="3" level="-1">
+    <x>113,400001525879</x>
+    <y>128,700012207031</y>
+  </MagPoint>
+  <MagPoint asics="1" level="5">
+    <x>113,400001525879</x>
+    <y>118,700012207031</y>
+  </MagPoint>
+  <MagPoint asics="2" level="-6">
+    <x>113,400001525879</x>
+    <y>118,700012207031</y>
+  </MagPoint>
+  <MagPoint asics="3" level="-5">
+    <x>113,400001525879</x>
+    <y>118,700012207031</y>
+  </MagPoint>
+  <MagPoint asics="1" level="5">
+    <x>113,400001525879</x>
+    <y>108,700012207031</y>
+  </MagPoint>
+  <MagPoint asics="2" level="-7">
+    <x>113,400001525879</x>
+    <y>108,700012207031</y>
+  </MagPoint>
+  <MagPoint asics="3" level="-2">
+    <x>113,400001525879</x>
+    <y>108,700012207031</y>
+  </MagPoint>
+  <MagPoint asics="1" level="1">
+    <x>113,400001525879</x>
+    <y>98,7000122070313</y>
+  </MagPoint>
+  <MagPoint asics="2" level="2">
+    <x>113,400001525879</x>
+    <y>98,7000122070313</y>
+  </MagPoint>
+  <MagPoint asics="3" level="-5">
+    <x>113,400001525879</x>
+    <y>98,7000122070313</y>
+  </MagPoint>
+  <MagPoint asics="1" level="5">
+    <x>113,400001525879</x>
+    <y>88,7000122070313</y>
+  </MagPoint>
+  <MagPoint asics="2" level="-6">
+    <x>113,400001525879</x>
+    <y>88,7000122070313</y>
+  </MagPoint>
+  <MagPoint asics="3" level="-2">
+    <x>113,400001525879</x>
+    <y>88,7000122070313</y>
+  </MagPoint>
+  <MagPoint asics="1" level="4">
+    <x>113,400001525879</x>
+    <y>78,7000122070313</y>
+  </MagPoint>
+  <MagPoint asics="2" level="-8">
+    <x>113,400001525879</x>
+    <y>78,7000122070313</y>
+  </MagPoint>
+  <MagPoint asics="3" level="-1">
+    <x>113,400001525879</x>
+    <y>78,7000122070313</y>
+  </MagPoint>
+  <MagPoint asics="1" level="4">
+    <x>113,400001525879</x>
+    <y>68,7000122070313</y>
+  </MagPoint>
+  <MagPoint asics="2" level="-7">
+    <x>113,400001525879</x>
+    <y>68,7000122070313</y>
+  </MagPoint>
+  <MagPoint asics="3" level="-2">
+    <x>113,400001525879</x>
+    <y>68,7000122070313</y>
+  </MagPoint>
+  <MagPoint asics="1" level="4">
+    <x>113,400001525879</x>
+    <y>58,7000122070313</y>
+  </MagPoint>
+  <MagPoint asics="2" level="-5">
+    <x>113,400001525879</x>
+    <y>58,7000122070313</y>
+  </MagPoint>
+  <MagPoint asics="3" level="-5">
+    <x>113,400001525879</x>
+    <y>58,7000122070313</y>
+  </MagPoint>
+  <MagPoint asics="1" level="4">
+    <x>113,400001525879</x>
+    <y>48,7000122070313</y>
+  </MagPoint>
+  <MagPoint asics="2" level="-5">
+    <x>113,400001525879</x>
+    <y>48,7000122070313</y>
+  </MagPoint>
+  <MagPoint asics="3" level="-2">
+    <x>113,400001525879</x>
+    <y>48,7000122070313</y>
+  </MagPoint>
+  <MagPoint asics="1" level="6">
+    <x>103,400001525879</x>
+    <y>378,700012207031</y>
+  </MagPoint>
+  <MagPoint asics="2" level="-6">
+    <x>103,400001525879</x>
+    <y>378,700012207031</y>
+  </MagPoint>
+  <MagPoint asics="3" level="-3">
+    <x>103,400001525879</x>
+    <y>378,700012207031</y>
+  </MagPoint>
+  <MagPoint asics="1" level="4">
+    <x>103,400001525879</x>
+    <y>368,700012207031</y>
+  </MagPoint>
+  <MagPoint asics="2" level="-1">
+    <x>103,400001525879</x>
+    <y>368,700012207031</y>
+  </MagPoint>
+  <MagPoint asics="3" level="-2">
+    <x>103,400001525879</x>
+    <y>368,700012207031</y>
+  </MagPoint>
+  <MagPoint asics="1" level="5">
+    <x>103,400001525879</x>
+    <y>358,700012207031</y>
+  </MagPoint>
+  <MagPoint asics="2" level="-3">
+    <x>103,400001525879</x>
+    <y>358,700012207031</y>
+  </MagPoint>
+  <MagPoint asics="3" level="-3">
+    <x>103,400001525879</x>
+    <y>358,700012207031</y>
+  </MagPoint>
+  <MagPoint asics="1" level="6">
+    <x>103,400001525879</x>
+    <y>348,700012207031</y>
+  </MagPoint>
+  <MagPoint asics="2" level="-2">
+    <x>103,400001525879</x>
+    <y>348,700012207031</y>
+  </MagPoint>
+  <MagPoint asics="3" level="0">
+    <x>103,400001525879</x>
+    <y>348,700012207031</y>
+  </MagPoint>
+  <MagPoint asics="1" level="2">
+    <x>103,400001525879</x>
+    <y>338,700012207031</y>
+  </MagPoint>
+  <MagPoint asics="2" level="-4">
+    <x>103,400001525879</x>
+    <y>338,700012207031</y>
+  </MagPoint>
+  <MagPoint asics="3" level="-3">
+    <x>103,400001525879</x>
+    <y>338,700012207031</y>
+  </MagPoint>
+  <MagPoint asics="1" level="6">
+    <x>103,400001525879</x>
+    <y>328,700012207031</y>
+  </MagPoint>
+  <MagPoint asics="2" level="-2">
+    <x>103,400001525879</x>
+    <y>328,700012207031</y>
+  </MagPoint>
+  <MagPoint asics="3" level="0">
+    <x>103,400001525879</x>
+    <y>328,700012207031</y>
+  </MagPoint>
+  <MagPoint asics="1" level="6">
+    <x>103,400001525879</x>
+    <y>318,700012207031</y>
+  </MagPoint>
+  <MagPoint asics="2" level="-1">
+    <x>103,400001525879</x>
+    <y>318,700012207031</y>
+  </MagPoint>
+  <MagPoint asics="3" level="0">
+    <x>103,400001525879</x>
+    <y>318,700012207031</y>
+  </MagPoint>
+  <MagPoint asics="1" level="1">
+    <x>103,400001525879</x>
+    <y>308,700012207031</y>
+  </MagPoint>
+  <MagPoint asics="2" level="-8">
+    <x>103,400001525879</x>
+    <y>308,700012207031</y>
+  </MagPoint>
+  <MagPoint asics="3" level="-3">
+    <x>103,400001525879</x>
+    <y>308,700012207031</y>
+  </MagPoint>
+  <MagPoint asics="1" level="5">
+    <x>103,400001525879</x>
+    <y>298,700012207031</y>
+  </MagPoint>
+  <MagPoint asics="2" level="1">
+    <x>103,400001525879</x>
+    <y>298,700012207031</y>
+  </MagPoint>
+  <MagPoint asics="3" level="-2">
+    <x>103,400001525879</x>
+    <y>298,700012207031</y>
+  </MagPoint>
+  <MagPoint asics="1" level="5">
+    <x>103,400001525879</x>
+    <y>288,700012207031</y>
+  </MagPoint>
+  <MagPoint asics="2" level="-2">
+    <x>103,400001525879</x>
+    <y>288,700012207031</y>
+  </MagPoint>
+  <MagPoint asics="3" level="0">
+    <x>103,400001525879</x>
+    <y>288,700012207031</y>
+  </MagPoint>
+  <MagPoint asics="1" level="2">
+    <x>103,400001525879</x>
+    <y>278,700012207031</y>
+  </MagPoint>
+  <MagPoint asics="2" level="0">
+    <x>103,400001525879</x>
+    <y>278,700012207031</y>
+  </MagPoint>
+  <MagPoint asics="3" level="0">
+    <x>103,400001525879</x>
+    <y>278,700012207031</y>
+  </MagPoint>
+  <MagPoint asics="1" level="6">
+    <x>103,400001525879</x>
+    <y>268,700012207031</y>
+  </MagPoint>
+  <MagPoint asics="2" level="0">
+    <x>103,400001525879</x>
+    <y>268,700012207031</y>
+  </MagPoint>
+  <MagPoint asics="3" level="0">
+    <x>103,400001525879</x>
+    <y>268,700012207031</y>
+  </MagPoint>
+  <MagPoint asics="1" level="3">
+    <x>103,400001525879</x>
+    <y>258,700012207031</y>
+  </MagPoint>
+  <MagPoint asics="2" level="-5">
+    <x>103,400001525879</x>
+    <y>258,700012207031</y>
+  </MagPoint>
+  <MagPoint asics="3" level="0">
+    <x>103,400001525879</x>
+    <y>258,700012207031</y>
+  </MagPoint>
+  <MagPoint asics="1" level="3">
+    <x>103,400001525879</x>
+    <y>248,700012207031</y>
+  </MagPoint>
+  <MagPoint asics="2" level="-3">
+    <x>103,400001525879</x>
+    <y>248,700012207031</y>
+  </MagPoint>
+  <MagPoint asics="3" level="0">
+    <x>103,400001525879</x>
+    <y>248,700012207031</y>
+  </MagPoint>
+  <MagPoint asics="1" level="5">
+    <x>103,400001525879</x>
+    <y>238,700012207031</y>
+  </MagPoint>
+  <MagPoint asics="2" level="-1">
+    <x>103,400001525879</x>
+    <y>238,700012207031</y>
+  </MagPoint>
+  <MagPoint asics="3" level="-1">
+    <x>103,400001525879</x>
+    <y>238,700012207031</y>
+  </MagPoint>
+  <MagPoint asics="1" level="5">
+    <x>103,400001525879</x>
+    <y>228,700012207031</y>
+  </MagPoint>
+  <MagPoint asics="2" level="-4">
+    <x>103,400001525879</x>
+    <y>228,700012207031</y>
+  </MagPoint>
+  <MagPoint asics="3" level="0">
+    <x>103,400001525879</x>
+    <y>228,700012207031</y>
+  </MagPoint>
+  <MagPoint asics="1" level="2">
+    <x>113,400001525879</x>
+    <y>228,700012207031</y>
+  </MagPoint>
+  <MagPoint asics="2" level="-7">
+    <x>113,400001525879</x>
+    <y>228,700012207031</y>
+  </MagPoint>
+  <MagPoint asics="3" level="-1">
+    <x>113,400001525879</x>
+    <y>228,700012207031</y>
+  </MagPoint>
+  <MagPoint asics="1" level="5">
+    <x>113,400001525879</x>
+    <y>218,700012207031</y>
+  </MagPoint>
+  <MagPoint asics="2" level="-5">
+    <x>113,400001525879</x>
+    <y>218,700012207031</y>
+  </MagPoint>
+  <MagPoint asics="3" level="-3">
+    <x>113,400001525879</x>
+    <y>218,700012207031</y>
+  </MagPoint>
+  <MagPoint asics="1" level="6">
+    <x>113,400001525879</x>
+    <y>208,700012207031</y>
+  </MagPoint>
+  <MagPoint asics="2" level="-5">
+    <x>113,400001525879</x>
+    <y>208,700012207031</y>
+  </MagPoint>
+  <MagPoint asics="3" level="-3">
+    <x>113,400001525879</x>
+    <y>208,700012207031</y>
+  </MagPoint>
+  <MagPoint asics="1" level="5">
+    <x>113,400001525879</x>
+    <y>198,700012207031</y>
+  </MagPoint>
+  <MagPoint asics="2" level="-3">
+    <x>113,400001525879</x>
+    <y>198,700012207031</y>
+  </MagPoint>
+  <MagPoint asics="3" level="-3">
+    <x>113,400001525879</x>
+    <y>198,700012207031</y>
+  </MagPoint>
+  <MagPoint asics="1" level="6">
+    <x>113,400001525879</x>
+    <y>188,700012207031</y>
+  </MagPoint>
+  <MagPoint asics="2" level="-1">
+    <x>113,400001525879</x>
+    <y>188,700012207031</y>
+  </MagPoint>
+  <MagPoint asics="3" level="-2">
+    <x>113,400001525879</x>
+    <y>188,700012207031</y>
+  </MagPoint>
+  <MagPoint asics="1" level="1">
+    <x>113,400001525879</x>
+    <y>178,700012207031</y>
+  </MagPoint>
+  <MagPoint asics="2" level="-8">
+    <x>113,400001525879</x>
+    <y>178,700012207031</y>
+  </MagPoint>
+  <MagPoint asics="3" level="-3">
+    <x>113,400001525879</x>
+    <y>178,700012207031</y>
+  </MagPoint>
+  <MagPoint asics="1" level="6">
+    <x>113,400001525879</x>
+    <y>168,700012207031</y>
+  </MagPoint>
+  <MagPoint asics="2" level="-2">
+    <x>113,400001525879</x>
+    <y>168,700012207031</y>
+  </MagPoint>
+  <MagPoint asics="3" level="0">
+    <x>113,400001525879</x>
+    <y>168,700012207031</y>
+  </MagPoint>
+  <MagPoint asics="1" level="4">
+    <x>113,400001525879</x>
+    <y>158,700012207031</y>
+  </MagPoint>
+  <MagPoint asics="2" level="-2">
+    <x>113,400001525879</x>
+    <y>158,700012207031</y>
+  </MagPoint>
+  <MagPoint asics="3" level="-1">
+    <x>113,400001525879</x>
+    <y>158,700012207031</y>
+  </MagPoint>
+  <MagPoint asics="1" level="6">
+    <x>113,400001525879</x>
+    <y>148,700012207031</y>
+  </MagPoint>
+  <MagPoint asics="2" level="-2">
+    <x>113,400001525879</x>
+    <y>148,700012207031</y>
+  </MagPoint>
+  <MagPoint asics="3" level="-1">
+    <x>113,400001525879</x>
+    <y>148,700012207031</y>
+  </MagPoint>
+  <MagPoint asics="1" level="1">
+    <x>113,400001525879</x>
+    <y>138,700012207031</y>
+  </MagPoint>
+  <MagPoint asics="2" level="-8">
+    <x>113,400001525879</x>
+    <y>138,700012207031</y>
+  </MagPoint>
+  <MagPoint asics="3" level="-2">
+    <x>113,400001525879</x>
+    <y>138,700012207031</y>
+  </MagPoint>
+  <MagPoint asics="1" level="6">
+    <x>113,400001525879</x>
+    <y>128,700012207031</y>
+  </MagPoint>
+  <MagPoint asics="2" level="-2">
+    <x>113,400001525879</x>
+    <y>128,700012207031</y>
+  </MagPoint>
+  <MagPoint asics="3" level="-2">
+    <x>113,400001525879</x>
+    <y>128,700012207031</y>
+  </MagPoint>
+  <MagPoint asics="1" level="3">
+    <x>113,400001525879</x>
+    <y>118,700012207031</y>
+  </MagPoint>
+  <MagPoint asics="2" level="-2">
+    <x>113,400001525879</x>
+    <y>118,700012207031</y>
+  </MagPoint>
+  <MagPoint asics="3" level="-2">
+    <x>113,400001525879</x>
+    <y>118,700012207031</y>
+  </MagPoint>
+  <MagPoint asics="1" level="5">
+    <x>113,400001525879</x>
+    <y>108,700012207031</y>
+  </MagPoint>
+  <MagPoint asics="2" level="0">
+    <x>113,400001525879</x>
+    <y>108,700012207031</y>
+  </MagPoint>
+  <MagPoint asics="3" level="1">
+    <x>113,400001525879</x>
+    <y>108,700012207031</y>
+  </MagPoint>
+  <MagPoint asics="1" level="5">
+    <x>113,400001525879</x>
+    <y>98,7000122070313</y>
+  </MagPoint>
+  <MagPoint asics="2" level="-2">
+    <x>113,400001525879</x>
+    <y>98,7000122070313</y>
+  </MagPoint>
+  <MagPoint asics="3" level="0">
+    <x>113,400001525879</x>
+    <y>98,7000122070313</y>
+  </MagPoint>
+  <MagPoint asics="1" level="5">
+    <x>113,400001525879</x>
+    <y>88,7000122070313</y>
+  </MagPoint>
+  <MagPoint asics="2" level="-2">
+    <x>113,400001525879</x>
+    <y>88,7000122070313</y>
+  </MagPoint>
+  <MagPoint asics="3" level="0">
+    <x>113,400001525879</x>
+    <y>88,7000122070313</y>
+  </MagPoint>
+  <MagPoint asics="1" level="6">
+    <x>113,400001525879</x>
+    <y>78,7000122070313</y>
+  </MagPoint>
+  <MagPoint asics="2" level="-3">
+    <x>113,400001525879</x>
+    <y>78,7000122070313</y>
+  </MagPoint>
+  <MagPoint asics="3" level="-3">
+    <x>113,400001525879</x>
+    <y>78,7000122070313</y>
+  </MagPoint>
+  <MagPoint asics="1" level="5">
+    <x>113,400001525879</x>
+    <y>68,7000122070313</y>
+  </MagPoint>
+  <MagPoint asics="2" level="-6">
+    <x>113,400001525879</x>
+    <y>68,7000122070313</y>
+  </MagPoint>
+  <MagPoint asics="3" level="-2">
+    <x>113,400001525879</x>
+    <y>68,7000122070313</y>
+  </MagPoint>
+  <MagPoint asics="1" level="3">
+    <x>113,400001525879</x>
+    <y>58,7000122070313</y>
+  </MagPoint>
+  <MagPoint asics="2" level="-2">
+    <x>113,400001525879</x>
+    <y>58,7000122070313</y>
+  </MagPoint>
+  <MagPoint asics="3" level="-1">
+    <x>113,400001525879</x>
+    <y>58,7000122070313</y>
+  </MagPoint>
+  <MagPoint asics="1" level="5">
+    <x>113,400001525879</x>
+    <y>48,7000122070313</y>
+  </MagPoint>
+  <MagPoint asics="2" level="-5">
+    <x>113,400001525879</x>
+    <y>48,7000122070313</y>
+  </MagPoint>
+  <MagPoint asics="3" level="-1">
+    <x>113,400001525879</x>
+    <y>48,7000122070313</y>
+  </MagPoint>
+  <MagPoint asics="1" level="6">
+    <x>103,400001525879</x>
+    <y>378,700012207031</y>
+  </MagPoint>
+  <MagPoint asics="2" level="-3">
+    <x>103,400001525879</x>
+    <y>378,700012207031</y>
+  </MagPoint>
+  <MagPoint asics="3" level="-1">
+    <x>103,400001525879</x>
+    <y>378,700012207031</y>
+  </MagPoint>
+  <MagPoint asics="1" level="2">
+    <x>103,400001525879</x>
+    <y>368,700012207031</y>
+  </MagPoint>
+  <MagPoint asics="2" level="-7">
+    <x>103,400001525879</x>
+    <y>368,700012207031</y>
+  </MagPoint>
+  <MagPoint asics="3" level="-1">
+    <x>103,400001525879</x>
+    <y>368,700012207031</y>
+  </MagPoint>
+  <MagPoint asics="1" level="6">
+    <x>103,400001525879</x>
+    <y>358,700012207031</y>
+  </MagPoint>
+  <MagPoint asics="2" level="-2">
+    <x>103,400001525879</x>
+    <y>358,700012207031</y>
+  </MagPoint>
+  <MagPoint asics="3" level="-1">
+    <x>103,400001525879</x>
+    <y>358,700012207031</y>
+  </MagPoint>
+  <MagPoint asics="1" level="3">
+    <x>103,400001525879</x>
+    <y>348,700012207031</y>
+  </MagPoint>
+  <MagPoint asics="2" level="-3">
+    <x>103,400001525879</x>
+    <y>348,700012207031</y>
+  </MagPoint>
+  <MagPoint asics="3" level="-3">
+    <x>103,400001525879</x>
+    <y>348,700012207031</y>
+  </MagPoint>
+  <MagPoint asics="1" level="6">
+    <x>103,400001525879</x>
+    <y>338,700012207031</y>
+  </MagPoint>
+  <MagPoint asics="2" level="0">
+    <x>103,400001525879</x>
+    <y>338,700012207031</y>
+  </MagPoint>
+  <MagPoint asics="3" level="-3">
+    <x>103,400001525879</x>
+    <y>338,700012207031</y>
+  </MagPoint>
+  <MagPoint asics="1" level="3">
+    <x>103,400001525879</x>
+    <y>328,700012207031</y>
+  </MagPoint>
+  <MagPoint asics="2" level="-3">
+    <x>103,400001525879</x>
+    <y>328,700012207031</y>
+  </MagPoint>
+  <MagPoint asics="3" level="-3">
+    <x>103,400001525879</x>
+    <y>328,700012207031</y>
+  </MagPoint>
+  <MagPoint asics="1" level="2">
+    <x>103,400001525879</x>
+    <y>318,700012207031</y>
+  </MagPoint>
+  <MagPoint asics="2" level="-4">
+    <x>103,400001525879</x>
+    <y>318,700012207031</y>
+  </MagPoint>
+  <MagPoint asics="3" level="-2">
+    <x>103,400001525879</x>
+    <y>318,700012207031</y>
+  </MagPoint>
+  <MagPoint asics="1" level="5">
+    <x>103,400001525879</x>
+    <y>308,700012207031</y>
+  </MagPoint>
+  <MagPoint asics="2" level="-4">
+    <x>103,400001525879</x>
+    <y>308,700012207031</y>
+  </MagPoint>
+  <MagPoint asics="3" level="-2">
+    <x>103,400001525879</x>
+    <y>308,700012207031</y>
+  </MagPoint>
+  <MagPoint asics="1" level="2">
+    <x>103,400001525879</x>
+    <y>298,700012207031</y>
+  </MagPoint>
+  <MagPoint asics="2" level="-4">
+    <x>103,400001525879</x>
+    <y>298,700012207031</y>
+  </MagPoint>
+  <MagPoint asics="3" level="-5">
+    <x>103,400001525879</x>
+    <y>298,700012207031</y>
+  </MagPoint>
+  <MagPoint asics="1" level="5">
+    <x>103,400001525879</x>
+    <y>288,700012207031</y>
+  </MagPoint>
+  <MagPoint asics="2" level="1">
+    <x>103,400001525879</x>
+    <y>288,700012207031</y>
+  </MagPoint>
+  <MagPoint asics="3" level="-3">
+    <x>103,400001525879</x>
+    <y>288,700012207031</y>
+  </MagPoint>
+  <MagPoint asics="1" level="6">
+    <x>103,400001525879</x>
+    <y>278,700012207031</y>
+  </MagPoint>
+  <MagPoint asics="2" level="0">
+    <x>103,400001525879</x>
+    <y>278,700012207031</y>
+  </MagPoint>
+  <MagPoint asics="3" level="-3">
+    <x>103,400001525879</x>
+    <y>278,700012207031</y>
+  </MagPoint>
+  <MagPoint asics="1" level="5">
+    <x>103,400001525879</x>
+    <y>268,700012207031</y>
+  </MagPoint>
+  <MagPoint asics="2" level="-4">
+    <x>103,400001525879</x>
+    <y>268,700012207031</y>
+  </MagPoint>
+  <MagPoint asics="3" level="-2">
+    <x>103,400001525879</x>
+    <y>268,700012207031</y>
+  </MagPoint>
+  <MagPoint asics="1" level="1">
+    <x>103,400001525879</x>
+    <y>258,700012207031</y>
+  </MagPoint>
+  <MagPoint asics="2" level="-7">
+    <x>103,400001525879</x>
+    <y>258,700012207031</y>
+  </MagPoint>
+  <MagPoint asics="3" level="-5">
+    <x>103,400001525879</x>
+    <y>258,700012207031</y>
+  </MagPoint>
+  <MagPoint asics="1" level="5">
+    <x>103,400001525879</x>
+    <y>248,700012207031</y>
+  </MagPoint>
+  <MagPoint asics="2" level="-4">
+    <x>103,400001525879</x>
+    <y>248,700012207031</y>
+  </MagPoint>
+  <MagPoint asics="3" level="-2">
+    <x>103,400001525879</x>
+    <y>248,700012207031</y>
+  </MagPoint>
+  <MagPoint asics="1" level="5">
+    <x>103,400001525879</x>
+    <y>238,700012207031</y>
+  </MagPoint>
+  <MagPoint asics="2" level="-6">
+    <x>103,400001525879</x>
+    <y>238,700012207031</y>
+  </MagPoint>
+  <MagPoint asics="3" level="-2">
+    <x>103,400001525879</x>
+    <y>238,700012207031</y>
+  </MagPoint>
+  <MagPoint asics="1" level="3">
+    <x>103,400001525879</x>
+    <y>228,700012207031</y>
+  </MagPoint>
+  <MagPoint asics="2" level="-3">
+    <x>103,400001525879</x>
+    <y>228,700012207031</y>
+  </MagPoint>
+  <MagPoint asics="3" level="-3">
+    <x>103,400001525879</x>
+    <y>228,700012207031</y>
+  </MagPoint>
+  <MagPoint asics="1" level="3">
+    <x>113,400001525879</x>
+    <y>228,700012207031</y>
+  </MagPoint>
+  <MagPoint asics="2" level="-2">
+    <x>113,400001525879</x>
+    <y>228,700012207031</y>
+  </MagPoint>
+  <MagPoint asics="3" level="-1">
+    <x>113,400001525879</x>
+    <y>228,700012207031</y>
+  </MagPoint>
+  <MagPoint asics="1" level="2">
+    <x>113,400001525879</x>
+    <y>218,700012207031</y>
+  </MagPoint>
+  <MagPoint asics="2" level="-5">
+    <x>113,400001525879</x>
+    <y>218,700012207031</y>
+  </MagPoint>
+  <MagPoint asics="3" level="-2">
+    <x>113,400001525879</x>
+    <y>218,700012207031</y>
+  </MagPoint>
+  <MagPoint asics="1" level="6">
+    <x>113,400001525879</x>
+    <y>208,700012207031</y>
+  </MagPoint>
+  <MagPoint asics="2" level="-5">
+    <x>113,400001525879</x>
+    <y>208,700012207031</y>
+  </MagPoint>
+  <MagPoint asics="3" level="-1">
+    <x>113,400001525879</x>
+    <y>208,700012207031</y>
+  </MagPoint>
+  <MagPoint asics="1" level="2">
+    <x>113,400001525879</x>
+    <y>198,700012207031</y>
+  </MagPoint>
+  <MagPoint asics="2" level="-7">
+    <x>113,400001525879</x>
+    <y>198,700012207031</y>
+  </MagPoint>
+  <MagPoint asics="3" level="-2">
+    <x>113,400001525879</x>
+    <y>198,700012207031</y>
+  </MagPoint>
+  <MagPoint asics="1" level="3">
+    <x>113,400001525879</x>
+    <y>188,700012207031</y>
+  </MagPoint>
+  <MagPoint asics="2" level="-1">
+    <x>113,400001525879</x>
+    <y>188,700012207031</y>
+  </MagPoint>
+  <MagPoint asics="3" level="-3">
+    <x>113,400001525879</x>
+    <y>188,700012207031</y>
+  </MagPoint>
+  <MagPoint asics="1" level="5">
+    <x>113,400001525879</x>
+    <y>178,700012207031</y>
+  </MagPoint>
+  <MagPoint asics="2" level="0">
+    <x>113,400001525879</x>
+    <y>178,700012207031</y>
+  </MagPoint>
+  <MagPoint asics="3" level="-3">
+    <x>113,400001525879</x>
+    <y>178,700012207031</y>
+  </MagPoint>
+  <MagPoint asics="1" level="2">
+    <x>113,400001525879</x>
+    <y>168,700012207031</y>
+  </MagPoint>
+  <MagPoint asics="2" level="-4">
+    <x>113,400001525879</x>
+    <y>168,700012207031</y>
+  </MagPoint>
+  <MagPoint asics="3" level="-2">
+    <x>113,400001525879</x>
+    <y>168,700012207031</y>
+  </MagPoint>
+  <MagPoint asics="1" level="3">
+    <x>113,400001525879</x>
+    <y>158,700012207031</y>
+  </MagPoint>
+  <MagPoint asics="2" level="-3">
+    <x>113,400001525879</x>
+    <y>158,700012207031</y>
+  </MagPoint>
+  <MagPoint asics="3" level="-3">
+    <x>113,400001525879</x>
+    <y>158,700012207031</y>
+  </MagPoint>
+  <MagPoint asics="1" level="3">
+    <x>113,400001525879</x>
+    <y>148,700012207031</y>
+  </MagPoint>
+  <MagPoint asics="2" level="-8">
+    <x>113,400001525879</x>
+    <y>148,700012207031</y>
+  </MagPoint>
+  <MagPoint asics="3" level="-5">
+    <x>113,400001525879</x>
+    <y>148,700012207031</y>
+  </MagPoint>
+  <MagPoint asics="1" level="3">
+    <x>113,400001525879</x>
+    <y>138,700012207031</y>
+  </MagPoint>
+  <MagPoint asics="2" level="-1">
+    <x>113,400001525879</x>
+    <y>138,700012207031</y>
+  </MagPoint>
+  <MagPoint asics="3" level="-1">
+    <x>113,400001525879</x>
+    <y>138,700012207031</y>
+  </MagPoint>
+  <MagPoint asics="1" level="2">
+    <x>113,400001525879</x>
+    <y>128,700012207031</y>
+  </MagPoint>
+  <MagPoint asics="2" level="-8">
+    <x>113,400001525879</x>
+    <y>128,700012207031</y>
+  </MagPoint>
+  <MagPoint asics="3" level="-1">
+    <x>113,400001525879</x>
+    <y>128,700012207031</y>
+  </MagPoint>
+  <MagPoint asics="1" level="5">
+    <x>113,400001525879</x>
+    <y>118,700012207031</y>
+  </MagPoint>
+  <MagPoint asics="2" level="-4">
+    <x>113,400001525879</x>
+    <y>118,700012207031</y>
+  </MagPoint>
+  <MagPoint asics="3" level="-1">
+    <x>113,400001525879</x>
+    <y>118,700012207031</y>
+  </MagPoint>
+  <MagPoint asics="1" level="3">
+    <x>113,400001525879</x>
+    <y>108,700012207031</y>
+  </MagPoint>
+  <MagPoint asics="2" level="-2">
+    <x>113,400001525879</x>
+    <y>108,700012207031</y>
+  </MagPoint>
+  <MagPoint asics="3" level="-3">
+    <x>113,400001525879</x>
+    <y>108,700012207031</y>
+  </MagPoint>
+  <MagPoint asics="1" level="5">
+    <x>113,400001525879</x>
+    <y>98,7000122070313</y>
+  </MagPoint>
+  <MagPoint asics="2" level="-4">
+    <x>113,400001525879</x>
+    <y>98,7000122070313</y>
+  </MagPoint>
+  <MagPoint asics="3" level="-3">
+    <x>113,400001525879</x>
+    <y>98,7000122070313</y>
+  </MagPoint>
+  <MagPoint asics="1" level="6">
+    <x>113,400001525879</x>
+    <y>88,7000122070313</y>
+  </MagPoint>
+  <MagPoint asics="2" level="-5">
+    <x>113,400001525879</x>
+    <y>88,7000122070313</y>
+  </MagPoint>
+  <MagPoint asics="3" level="-2">
+    <x>113,400001525879</x>
+    <y>88,7000122070313</y>
+  </MagPoint>
+  <MagPoint asics="1" level="3">
+    <x>113,400001525879</x>
+    <y>78,7000122070313</y>
+  </MagPoint>
+  <MagPoint asics="2" level="-6">
+    <x>113,400001525879</x>
+    <y>78,7000122070313</y>
+  </MagPoint>
+  <MagPoint asics="3" level="-3">
+    <x>113,400001525879</x>
+    <y>78,7000122070313</y>
+  </MagPoint>
+  <MagPoint asics="1" level="5">
+    <x>113,400001525879</x>
+    <y>68,7000122070313</y>
+  </MagPoint>
+  <MagPoint asics="2" level="-6">
+    <x>113,400001525879</x>
+    <y>68,7000122070313</y>
+  </MagPoint>
+  <MagPoint asics="3" level="1">
+    <x>113,400001525879</x>
+    <y>68,7000122070313</y>
+  </MagPoint>
+  <MagPoint asics="1" level="2">
+    <x>113,400001525879</x>
+    <y>58,7000122070313</y>
+  </MagPoint>
+  <MagPoint asics="2" level="-8">
+    <x>113,400001525879</x>
+    <y>58,7000122070313</y>
+  </MagPoint>
+  <MagPoint asics="3" level="0">
+    <x>113,400001525879</x>
+    <y>58,7000122070313</y>
+  </MagPoint>
+  <MagPoint asics="1" level="3">
+    <x>103,400001525879</x>
+    <y>378,700012207031</y>
+  </MagPoint>
+  <MagPoint asics="2" level="-2">
+    <x>103,400001525879</x>
+    <y>378,700012207031</y>
+  </MagPoint>
+  <MagPoint asics="3" level="-3">
+    <x>103,400001525879</x>
+    <y>378,700012207031</y>
+  </MagPoint>
+  <MagPoint asics="1" level="6">
+    <x>103,400001525879</x>
+    <y>368,700012207031</y>
+  </MagPoint>
+  <MagPoint asics="2" level="-4">
+    <x>103,400001525879</x>
+    <y>368,700012207031</y>
+  </MagPoint>
+  <MagPoint asics="3" level="-3">
+    <x>103,400001525879</x>
+    <y>368,700012207031</y>
+  </MagPoint>
+  <MagPoint asics="1" level="5">
+    <x>103,400001525879</x>
+    <y>358,700012207031</y>
+  </MagPoint>
+  <MagPoint asics="2" level="-8">
+    <x>103,400001525879</x>
+    <y>358,700012207031</y>
+  </MagPoint>
+  <MagPoint asics="3" level="-1">
+    <x>103,400001525879</x>
+    <y>358,700012207031</y>
+  </MagPoint>
+  <MagPoint asics="1" level="4">
+    <x>103,400001525879</x>
+    <y>348,700012207031</y>
+  </MagPoint>
+  <MagPoint asics="2" level="-2">
+    <x>103,400001525879</x>
+    <y>348,700012207031</y>
+  </MagPoint>
+  <MagPoint asics="3" level="-3">
+    <x>103,400001525879</x>
+    <y>348,700012207031</y>
+  </MagPoint>
+  <MagPoint asics="1" level="1">
+    <x>103,400001525879</x>
+    <y>338,700012207031</y>
+  </MagPoint>
+  <MagPoint asics="2" level="-8">
+    <x>103,400001525879</x>
+    <y>338,700012207031</y>
+  </MagPoint>
+  <MagPoint asics="3" level="-1">
+    <x>103,400001525879</x>
+    <y>338,700012207031</y>
+  </MagPoint>
+  <MagPoint asics="1" level="5">
+    <x>103,400001525879</x>
+    <y>328,700012207031</y>
+  </MagPoint>
+  <MagPoint asics="2" level="-4">
+    <x>103,400001525879</x>
+    <y>328,700012207031</y>
+  </MagPoint>
+  <MagPoint asics="3" level="-3">
+    <x>103,400001525879</x>
+    <y>328,700012207031</y>
+  </MagPoint>
+  <MagPoint asics="1" level="5">
+    <x>103,400001525879</x>
+    <y>318,700012207031</y>
+  </MagPoint>
+  <MagPoint asics="2" level="-3">
+    <x>103,400001525879</x>
+    <y>318,700012207031</y>
+  </MagPoint>
+  <MagPoint asics="3" level="0">
+    <x>103,400001525879</x>
+    <y>318,700012207031</y>
+  </MagPoint>
+  <MagPoint asics="1" level="5">
+    <x>103,400001525879</x>
+    <y>308,700012207031</y>
+  </MagPoint>
+  <MagPoint asics="2" level="-5">
+    <x>103,400001525879</x>
+    <y>308,700012207031</y>
+  </MagPoint>
+  <MagPoint asics="3" level="-3">
+    <x>103,400001525879</x>
+    <y>308,700012207031</y>
+  </MagPoint>
+  <MagPoint asics="1" level="2">
+    <x>103,400001525879</x>
+    <y>298,700012207031</y>
+  </MagPoint>
+  <MagPoint asics="2" level="-7">
+    <x>103,400001525879</x>
+    <y>298,700012207031</y>
+  </MagPoint>
+  <MagPoint asics="3" level="-3">
+    <x>103,400001525879</x>
+    <y>298,700012207031</y>
+  </MagPoint>
+  <MagPoint asics="1" level="6">
+    <x>103,400001525879</x>
+    <y>288,700012207031</y>
+  </MagPoint>
+  <MagPoint asics="2" level="-1">
+    <x>103,400001525879</x>
+    <y>288,700012207031</y>
+  </MagPoint>
+  <MagPoint asics="3" level="0">
+    <x>103,400001525879</x>
+    <y>288,700012207031</y>
+  </MagPoint>
+  <MagPoint asics="1" level="5">
+    <x>103,400001525879</x>
+    <y>278,700012207031</y>
+  </MagPoint>
+  <MagPoint asics="2" level="-4">
+    <x>103,400001525879</x>
+    <y>278,700012207031</y>
+  </MagPoint>
+  <MagPoint asics="3" level="-3">
+    <x>103,400001525879</x>
+    <y>278,700012207031</y>
+  </MagPoint>
+  <MagPoint asics="1" level="5">
+    <x>103,400001525879</x>
+    <y>268,700012207031</y>
+  </MagPoint>
+  <MagPoint asics="2" level="0">
+    <x>103,400001525879</x>
+    <y>268,700012207031</y>
+  </MagPoint>
+  <MagPoint asics="3" level="0">
+    <x>103,400001525879</x>
+    <y>268,700012207031</y>
+  </MagPoint>
+  <MagPoint asics="1" level="5">
+    <x>103,400001525879</x>
+    <y>258,700012207031</y>
+  </MagPoint>
+  <MagPoint asics="2" level="-6">
+    <x>103,400001525879</x>
+    <y>258,700012207031</y>
+  </MagPoint>
+  <MagPoint asics="3" level="-2">
+    <x>103,400001525879</x>
+    <y>258,700012207031</y>
+  </MagPoint>
+  <MagPoint asics="1" level="5">
+    <x>103,400001525879</x>
+    <y>248,700012207031</y>
+  </MagPoint>
+  <MagPoint asics="2" level="0">
+    <x>103,400001525879</x>
+    <y>248,700012207031</y>
+  </MagPoint>
+  <MagPoint asics="3" level="0">
+    <x>103,400001525879</x>
+    <y>248,700012207031</y>
+  </MagPoint>
+  <MagPoint asics="1" level="5">
+    <x>103,400001525879</x>
+    <y>238,700012207031</y>
+  </MagPoint>
+  <MagPoint asics="2" level="0">
+    <x>103,400001525879</x>
+    <y>238,700012207031</y>
+  </MagPoint>
+  <MagPoint asics="3" level="1">
+    <x>103,400001525879</x>
+    <y>238,700012207031</y>
+  </MagPoint>
+  <MagPoint asics="1" level="4">
+    <x>103,400001525879</x>
+    <y>228,700012207031</y>
+  </MagPoint>
+  <MagPoint asics="2" level="-5">
+    <x>103,400001525879</x>
+    <y>228,700012207031</y>
+  </MagPoint>
+  <MagPoint asics="3" level="0">
+    <x>103,400001525879</x>
+    <y>228,700012207031</y>
+  </MagPoint>
+  <MagPoint asics="1" level="3">
+    <x>103,400001525879</x>
+    <y>218,700012207031</y>
+  </MagPoint>
+  <MagPoint asics="2" level="-6">
+    <x>103,400001525879</x>
+    <y>218,700012207031</y>
+  </MagPoint>
+  <MagPoint asics="3" level="-2">
+    <x>103,400001525879</x>
+    <y>218,700012207031</y>
+  </MagPoint>
+  <MagPoint asics="1" level="3">
+    <x>113,400001525879</x>
+    <y>218,700012207031</y>
+  </MagPoint>
+  <MagPoint asics="2" level="-1">
+    <x>113,400001525879</x>
+    <y>218,700012207031</y>
+  </MagPoint>
+  <MagPoint asics="3" level="0">
+    <x>113,400001525879</x>
+    <y>218,700012207031</y>
+  </MagPoint>
+  <MagPoint asics="1" level="6">
+    <x>123,400001525879</x>
+    <y>218,700012207031</y>
+  </MagPoint>
+  <MagPoint asics="2" level="-2">
+    <x>123,400001525879</x>
+    <y>218,700012207031</y>
+  </MagPoint>
+  <MagPoint asics="3" level="0">
+    <x>123,400001525879</x>
+    <y>218,700012207031</y>
+  </MagPoint>
+  <MagPoint asics="1" level="6">
+    <x>123,400001525879</x>
+    <y>208,700012207031</y>
+  </MagPoint>
+  <MagPoint asics="2" level="-5">
+    <x>123,400001525879</x>
+    <y>208,700012207031</y>
+  </MagPoint>
+  <MagPoint asics="3" level="-2">
+    <x>123,400001525879</x>
+    <y>208,700012207031</y>
+  </MagPoint>
+  <MagPoint asics="1" level="6">
+    <x>103,400001525879</x>
+    <y>378,700012207031</y>
+  </MagPoint>
+  <MagPoint asics="2" level="-5">
+    <x>103,400001525879</x>
+    <y>378,700012207031</y>
+  </MagPoint>
+  <MagPoint asics="3" level="-2">
+    <x>103,400001525879</x>
+    <y>378,700012207031</y>
+  </MagPoint>
+  <MagPoint asics="1" level="5">
+    <x>103,400001525879</x>
+    <y>368,700012207031</y>
+  </MagPoint>
+  <MagPoint asics="2" level="-4">
+    <x>103,400001525879</x>
+    <y>368,700012207031</y>
+  </MagPoint>
+  <MagPoint asics="3" level="-1">
+    <x>103,400001525879</x>
+    <y>368,700012207031</y>
+  </MagPoint>
+  <MagPoint asics="1" level="5">
+    <x>103,400001525879</x>
+    <y>358,700012207031</y>
+  </MagPoint>
+  <MagPoint asics="2" level="-4">
+    <x>103,400001525879</x>
+    <y>358,700012207031</y>
+  </MagPoint>
+  <MagPoint asics="3" level="-1">
+    <x>103,400001525879</x>
+    <y>358,700012207031</y>
+  </MagPoint>
+  <MagPoint asics="1" level="2">
+    <x>103,400001525879</x>
+    <y>348,700012207031</y>
+  </MagPoint>
+  <MagPoint asics="2" level="-8">
+    <x>103,400001525879</x>
+    <y>348,700012207031</y>
+  </MagPoint>
+  <MagPoint asics="3" level="-1">
+    <x>103,400001525879</x>
+    <y>348,700012207031</y>
+  </MagPoint>
+  <MagPoint asics="1" level="4">
+    <x>103,400001525879</x>
+    <y>338,700012207031</y>
+  </MagPoint>
+  <MagPoint asics="2" level="-3">
+    <x>103,400001525879</x>
+    <y>338,700012207031</y>
+  </MagPoint>
+  <MagPoint asics="3" level="0">
+    <x>103,400001525879</x>
+    <y>338,700012207031</y>
+  </MagPoint>
+  <MagPoint asics="1" level="6">
+    <x>103,400001525879</x>
+    <y>328,700012207031</y>
+  </MagPoint>
+  <MagPoint asics="2" level="-1">
+    <x>103,400001525879</x>
+    <y>328,700012207031</y>
+  </MagPoint>
+  <MagPoint asics="3" level="-3">
+    <x>103,400001525879</x>
+    <y>328,700012207031</y>
+  </MagPoint>
+  <MagPoint asics="1" level="6">
+    <x>103,400001525879</x>
+    <y>318,700012207031</y>
+  </MagPoint>
+  <MagPoint asics="2" level="-5">
+    <x>103,400001525879</x>
+    <y>318,700012207031</y>
+  </MagPoint>
+  <MagPoint asics="3" level="-3">
+    <x>103,400001525879</x>
+    <y>318,700012207031</y>
+  </MagPoint>
+  <MagPoint asics="1" level="6">
+    <x>103,400001525879</x>
+    <y>308,700012207031</y>
+  </MagPoint>
+  <MagPoint asics="2" level="-3">
+    <x>103,400001525879</x>
+    <y>308,700012207031</y>
+  </MagPoint>
+  <MagPoint asics="3" level="0">
+    <x>103,400001525879</x>
+    <y>308,700012207031</y>
+  </MagPoint>
+  <MagPoint asics="1" level="5">
+    <x>103,400001525879</x>
+    <y>298,700012207031</y>
+  </MagPoint>
+  <MagPoint asics="2" level="-4">
+    <x>103,400001525879</x>
+    <y>298,700012207031</y>
+  </MagPoint>
+  <MagPoint asics="3" level="-3">
+    <x>103,400001525879</x>
+    <y>298,700012207031</y>
+  </MagPoint>
+  <MagPoint asics="1" level="6">
+    <x>103,400001525879</x>
+    <y>288,700012207031</y>
+  </MagPoint>
+  <MagPoint asics="2" level="-5">
+    <x>103,400001525879</x>
+    <y>288,700012207031</y>
+  </MagPoint>
+  <MagPoint asics="3" level="-1">
+    <x>103,400001525879</x>
+    <y>288,700012207031</y>
+  </MagPoint>
+  <MagPoint asics="1" level="5">
+    <x>103,400001525879</x>
+    <y>278,700012207031</y>
+  </MagPoint>
+  <MagPoint asics="2" level="0">
+    <x>103,400001525879</x>
+    <y>278,700012207031</y>
+  </MagPoint>
+  <MagPoint asics="3" level="-2">
+    <x>103,400001525879</x>
+    <y>278,700012207031</y>
+  </MagPoint>
+  <MagPoint asics="1" level="5">
+    <x>103,400001525879</x>
+    <y>268,700012207031</y>
+  </MagPoint>
+  <MagPoint asics="2" level="0">
+    <x>103,400001525879</x>
+    <y>268,700012207031</y>
+  </MagPoint>
+  <MagPoint asics="3" level="0">
+    <x>103,400001525879</x>
+    <y>268,700012207031</y>
+  </MagPoint>
+  <MagPoint asics="1" level="2">
+    <x>103,400001525879</x>
+    <y>258,700012207031</y>
+  </MagPoint>
+  <MagPoint asics="2" level="-1">
+    <x>103,400001525879</x>
+    <y>258,700012207031</y>
+  </MagPoint>
+  <MagPoint asics="3" level="0">
+    <x>103,400001525879</x>
+    <y>258,700012207031</y>
+  </MagPoint>
+  <MagPoint asics="1" level="5">
+    <x>103,400001525879</x>
+    <y>248,700012207031</y>
+  </MagPoint>
+  <MagPoint asics="2" level="0">
+    <x>103,400001525879</x>
+    <y>248,700012207031</y>
+  </MagPoint>
+  <MagPoint asics="3" level="0">
+    <x>103,400001525879</x>
+    <y>248,700012207031</y>
+  </MagPoint>
+  <MagPoint asics="1" level="6">
+    <x>103,400001525879</x>
+    <y>238,700012207031</y>
+  </MagPoint>
+  <MagPoint asics="2" level="-5">
+    <x>103,400001525879</x>
+    <y>238,700012207031</y>
+  </MagPoint>
+  <MagPoint asics="3" level="-2">
+    <x>103,400001525879</x>
+    <y>238,700012207031</y>
+  </MagPoint>
+  <MagPoint asics="1" level="6">
+    <x>103,400001525879</x>
+    <y>228,700012207031</y>
+  </MagPoint>
+  <MagPoint asics="2" level="-5">
+    <x>103,400001525879</x>
+    <y>228,700012207031</y>
+  </MagPoint>
+  <MagPoint asics="3" level="0">
+    <x>103,400001525879</x>
+    <y>228,700012207031</y>
+  </MagPoint>
+  <MagPoint asics="1" level="6">
+    <x>103,400001525879</x>
+    <y>218,700012207031</y>
+  </MagPoint>
+  <MagPoint asics="2" level="-6">
+    <x>103,400001525879</x>
+    <y>218,700012207031</y>
+  </MagPoint>
+  <MagPoint asics="3" level="0">
+    <x>103,400001525879</x>
+    <y>218,700012207031</y>
+  </MagPoint>
+  <MagPoint asics="1" level="3">
+    <x>103,400001525879</x>
+    <y>378,700012207031</y>
+  </MagPoint>
+  <MagPoint asics="2" level="-2">
+    <x>103,400001525879</x>
+    <y>378,700012207031</y>
+  </MagPoint>
+  <MagPoint asics="3" level="-2">
+    <x>103,400001525879</x>
+    <y>378,700012207031</y>
+  </MagPoint>
+  <MagPoint asics="1" level="5">
+    <x>103,400001525879</x>
+    <y>368,700012207031</y>
+  </MagPoint>
+  <MagPoint asics="2" level="-5">
+    <x>103,400001525879</x>
+    <y>368,700012207031</y>
+  </MagPoint>
+  <MagPoint asics="3" level="-6">
+    <x>103,400001525879</x>
+    <y>368,700012207031</y>
+  </MagPoint>
+  <MagPoint asics="1" level="4">
+    <x>103,400001525879</x>
+    <y>358,700012207031</y>
+  </MagPoint>
+  <MagPoint asics="2" level="-3">
+    <x>103,400001525879</x>
+    <y>358,700012207031</y>
+  </MagPoint>
+  <MagPoint asics="3" level="0">
+    <x>103,400001525879</x>
+    <y>358,700012207031</y>
+  </MagPoint>
+  <MagPoint asics="1" level="1">
+    <x>103,400001525879</x>
+    <y>348,700012207031</y>
+  </MagPoint>
+  <MagPoint asics="2" level="-6">
+    <x>103,400001525879</x>
+    <y>348,700012207031</y>
+  </MagPoint>
+  <MagPoint asics="3" level="-1">
+    <x>103,400001525879</x>
+    <y>348,700012207031</y>
+  </MagPoint>
+  <MagPoint asics="1" level="6">
+    <x>103,400001525879</x>
+    <y>338,700012207031</y>
+  </MagPoint>
+  <MagPoint asics="2" level="-3">
+    <x>103,400001525879</x>
+    <y>338,700012207031</y>
+  </MagPoint>
+  <MagPoint asics="3" level="-3">
+    <x>103,400001525879</x>
+    <y>338,700012207031</y>
+  </MagPoint>
+  <MagPoint asics="1" level="6">
+    <x>103,400001525879</x>
+    <y>328,700012207031</y>
+  </MagPoint>
+  <MagPoint asics="2" level="-1">
+    <x>103,400001525879</x>
+    <y>328,700012207031</y>
+  </MagPoint>
+  <MagPoint asics="3" level="-3">
+    <x>103,400001525879</x>
+    <y>328,700012207031</y>
+  </MagPoint>
+  <MagPoint asics="1" level="3">
+    <x>103,400001525879</x>
+    <y>318,700012207031</y>
+  </MagPoint>
+  <MagPoint asics="2" level="-8">
+    <x>103,400001525879</x>
+    <y>318,700012207031</y>
+  </MagPoint>
+  <MagPoint asics="3" level="-2">
+    <x>103,400001525879</x>
+    <y>318,700012207031</y>
+  </MagPoint>
+  <MagPoint asics="1" level="6">
+    <x>103,400001525879</x>
+    <y>308,700012207031</y>
+  </MagPoint>
+  <MagPoint asics="2" level="-1">
+    <x>103,400001525879</x>
+    <y>308,700012207031</y>
+  </MagPoint>
+  <MagPoint asics="3" level="0">
+    <x>103,400001525879</x>
+    <y>308,700012207031</y>
+  </MagPoint>
+  <MagPoint asics="1" level="5">
+    <x>103,400001525879</x>
+    <y>298,700012207031</y>
+  </MagPoint>
+  <MagPoint asics="2" level="-2">
+    <x>103,400001525879</x>
+    <y>298,700012207031</y>
+  </MagPoint>
+  <MagPoint asics="3" level="-2">
+    <x>103,400001525879</x>
+    <y>298,700012207031</y>
+  </MagPoint>
+  <MagPoint asics="1" level="6">
+    <x>103,400001525879</x>
+    <y>288,700012207031</y>
+  </MagPoint>
+  <MagPoint asics="2" level="-5">
+    <x>103,400001525879</x>
+    <y>288,700012207031</y>
+  </MagPoint>
+  <MagPoint asics="3" level="-2">
+    <x>103,400001525879</x>
+    <y>288,700012207031</y>
+  </MagPoint>
+  <MagPoint asics="1" level="1">
+    <x>103,400001525879</x>
+    <y>278,700012207031</y>
+  </MagPoint>
+  <MagPoint asics="2" level="-8">
+    <x>103,400001525879</x>
+    <y>278,700012207031</y>
+  </MagPoint>
+  <MagPoint asics="3" level="-3">
+    <x>103,400001525879</x>
+    <y>278,700012207031</y>
+  </MagPoint>
+  <MagPoint asics="1" level="5">
+    <x>103,400001525879</x>
+    <y>268,700012207031</y>
+  </MagPoint>
+  <MagPoint asics="2" level="-6">
+    <x>103,400001525879</x>
+    <y>268,700012207031</y>
+  </MagPoint>
+  <MagPoint asics="3" level="-3">
+    <x>103,400001525879</x>
+    <y>268,700012207031</y>
+  </MagPoint>
+  <MagPoint asics="1" level="2">
+    <x>103,400001525879</x>
+    <y>258,700012207031</y>
+  </MagPoint>
+  <MagPoint asics="2" level="0">
+    <x>103,400001525879</x>
+    <y>258,700012207031</y>
+  </MagPoint>
+  <MagPoint asics="3" level="0">
+    <x>103,400001525879</x>
+    <y>258,700012207031</y>
+  </MagPoint>
+  <MagPoint asics="1" level="6">
+    <x>103,400001525879</x>
+    <y>248,700012207031</y>
+  </MagPoint>
+  <MagPoint asics="2" level="-5">
+    <x>103,400001525879</x>
+    <y>248,700012207031</y>
+  </MagPoint>
+  <MagPoint asics="3" level="0">
+    <x>103,400001525879</x>
+    <y>248,700012207031</y>
+  </MagPoint>
+  <MagPoint asics="1" level="5">
+    <x>103,400001525879</x>
+    <y>238,700012207031</y>
+  </MagPoint>
+  <MagPoint asics="2" level="1">
+    <x>103,400001525879</x>
+    <y>238,700012207031</y>
+  </MagPoint>
+  <MagPoint asics="3" level="0">
+    <x>103,400001525879</x>
+    <y>238,700012207031</y>
+  </MagPoint>
+  <MagPoint asics="1" level="5">
+    <x>103,400001525879</x>
+    <y>228,700012207031</y>
+  </MagPoint>
+  <MagPoint asics="2" level="0">
+    <x>103,400001525879</x>
+    <y>228,700012207031</y>
+  </MagPoint>
+  <MagPoint asics="3" level="1">
+    <x>103,400001525879</x>
+    <y>228,700012207031</y>
+  </MagPoint>
+  <MagPoint asics="1" level="4">
+    <x>113,400001525879</x>
+    <y>228,700012207031</y>
+  </MagPoint>
+  <MagPoint asics="2" level="-5">
+    <x>113,400001525879</x>
+    <y>228,700012207031</y>
+  </MagPoint>
+  <MagPoint asics="3" level="-2">
+    <x>113,400001525879</x>
+    <y>228,700012207031</y>
+  </MagPoint>
+  <MagPoint asics="1" level="2">
+    <x>113,400001525879</x>
+    <y>218,700012207031</y>
+  </MagPoint>
+  <MagPoint asics="2" level="0">
+    <x>113,400001525879</x>
+    <y>218,700012207031</y>
+  </MagPoint>
+  <MagPoint asics="3" level="-1">
+    <x>113,400001525879</x>
+    <y>218,700012207031</y>
+  </MagPoint>
+  <MagPoint asics="1" level="5">
+    <x>113,400001525879</x>
+    <y>208,700012207031</y>
+  </MagPoint>
+  <MagPoint asics="2" level="0">
+    <x>113,400001525879</x>
+    <y>208,700012207031</y>
+  </MagPoint>
+  <MagPoint asics="3" level="0">
+    <x>113,400001525879</x>
+    <y>208,700012207031</y>
+  </MagPoint>
+  <MagPoint asics="1" level="2">
+    <x>113,400001525879</x>
+    <y>198,700012207031</y>
+  </MagPoint>
+  <MagPoint asics="2" level="-8">
+    <x>113,400001525879</x>
+    <y>198,700012207031</y>
+  </MagPoint>
+  <MagPoint asics="3" level="-1">
+    <x>113,400001525879</x>
+    <y>198,700012207031</y>
+  </MagPoint>
+  <MagPoint asics="1" level="1">
+    <x>113,400001525879</x>
+    <y>188,700012207031</y>
+  </MagPoint>
+  <MagPoint asics="2" level="-6">
+    <x>113,400001525879</x>
+    <y>188,700012207031</y>
+  </MagPoint>
+  <MagPoint asics="3" level="-1">
+    <x>113,400001525879</x>
+    <y>188,700012207031</y>
+  </MagPoint>
+  <MagPoint asics="1" level="2">
+    <x>113,400001525879</x>
+    <y>178,700012207031</y>
+  </MagPoint>
+  <MagPoint asics="2" level="-8">
+    <x>113,400001525879</x>
+    <y>178,700012207031</y>
+  </MagPoint>
+  <MagPoint asics="3" level="-1">
+    <x>113,400001525879</x>
+    <y>178,700012207031</y>
+  </MagPoint>
+  <MagPoint asics="1" level="6">
+    <x>113,400001525879</x>
+    <y>168,700012207031</y>
+  </MagPoint>
+  <MagPoint asics="2" level="-1">
+    <x>113,400001525879</x>
+    <y>168,700012207031</y>
+  </MagPoint>
+  <MagPoint asics="3" level="0">
+    <x>113,400001525879</x>
+    <y>168,700012207031</y>
+  </MagPoint>
+  <MagPoint asics="1" level="5">
+    <x>113,400001525879</x>
+    <y>158,700012207031</y>
+  </MagPoint>
+  <MagPoint asics="2" level="-4">
+    <x>113,400001525879</x>
+    <y>158,700012207031</y>
+  </MagPoint>
+  <MagPoint asics="3" level="-3">
+    <x>113,400001525879</x>
+    <y>158,700012207031</y>
+  </MagPoint>
+  <MagPoint asics="1" level="5">
+    <x>113,400001525879</x>
+    <y>148,700012207031</y>
+  </MagPoint>
+  <MagPoint asics="2" level="-1">
+    <x>113,400001525879</x>
+    <y>148,700012207031</y>
+  </MagPoint>
+  <MagPoint asics="3" level="0">
+    <x>113,400001525879</x>
+    <y>148,700012207031</y>
+  </MagPoint>
+  <MagPoint asics="1" level="5">
+    <x>113,400001525879</x>
+    <y>138,700012207031</y>
+  </MagPoint>
+  <MagPoint asics="2" level="0">
+    <x>113,400001525879</x>
+    <y>138,700012207031</y>
+  </MagPoint>
+  <MagPoint asics="3" level="0">
+    <x>113,400001525879</x>
+    <y>138,700012207031</y>
+  </MagPoint>
+  <MagPoint asics="1" level="6">
+    <x>113,400001525879</x>
+    <y>128,700012207031</y>
+  </MagPoint>
+  <MagPoint asics="2" level="-3">
+    <x>113,400001525879</x>
+    <y>128,700012207031</y>
+  </MagPoint>
+  <MagPoint asics="3" level="0">
+    <x>113,400001525879</x>
+    <y>128,700012207031</y>
+  </MagPoint>
+  <MagPoint asics="1" level="6">
+    <x>113,400001525879</x>
+    <y>118,700012207031</y>
+  </MagPoint>
+  <MagPoint asics="2" level="-3">
+    <x>113,400001525879</x>
+    <y>118,700012207031</y>
+  </MagPoint>
+  <MagPoint asics="3" level="0">
+    <x>113,400001525879</x>
+    <y>118,700012207031</y>
+  </MagPoint>
+  <MagPoint asics="1" level="6">
+    <x>113,400001525879</x>
+    <y>108,700012207031</y>
+  </MagPoint>
+  <MagPoint asics="2" level="-6">
+    <x>113,400001525879</x>
+    <y>108,700012207031</y>
+  </MagPoint>
+  <MagPoint asics="3" level="0">
+    <x>113,400001525879</x>
+    <y>108,700012207031</y>
+  </MagPoint>
+  <MagPoint asics="1" level="2">
+    <x>113,400001525879</x>
+    <y>98,7000122070313</y>
+  </MagPoint>
+  <MagPoint asics="2" level="0">
+    <x>113,400001525879</x>
+    <y>98,7000122070313</y>
+  </MagPoint>
+  <MagPoint asics="3" level="0">
+    <x>113,400001525879</x>
+    <y>98,7000122070313</y>
+  </MagPoint>
+  <MagPoint asics="1" level="6">
+    <x>113,400001525879</x>
+    <y>88,7000122070313</y>
+  </MagPoint>
+  <MagPoint asics="2" level="-4">
+    <x>113,400001525879</x>
+    <y>88,7000122070313</y>
+  </MagPoint>
+  <MagPoint asics="3" level="0">
+    <x>113,400001525879</x>
+    <y>88,7000122070313</y>
+  </MagPoint>
+  <MagPoint asics="1" level="6">
+    <x>113,400001525879</x>
+    <y>78,7000122070313</y>
+  </MagPoint>
+  <MagPoint asics="2" level="-5">
+    <x>113,400001525879</x>
+    <y>78,7000122070313</y>
+  </MagPoint>
+  <MagPoint asics="3" level="0">
+    <x>113,400001525879</x>
+    <y>78,7000122070313</y>
+  </MagPoint>
+  <MagPoint asics="1" level="5">
+    <x>113,400001525879</x>
+    <y>68,7000122070313</y>
+  </MagPoint>
+  <MagPoint asics="2" level="0">
+    <x>113,400001525879</x>
+    <y>68,7000122070313</y>
+  </MagPoint>
+  <MagPoint asics="3" level="1">
+    <x>113,400001525879</x>
+    <y>68,7000122070313</y>
+  </MagPoint>
+  <MagPoint asics="1" level="6">
+    <x>113,400001525879</x>
+    <y>58,7000122070313</y>
+  </MagPoint>
+  <MagPoint asics="2" level="-1">
+    <x>113,400001525879</x>
+    <y>58,7000122070313</y>
+  </MagPoint>
+  <MagPoint asics="3" level="1">
+    <x>113,400001525879</x>
+    <y>58,7000122070313</y>
+  </MagPoint>
+  <MagPoint asics="1" level="3">
+    <x>113,400001525879</x>
+    <y>48,7000122070313</y>
+  </MagPoint>
+  <MagPoint asics="2" level="-6">
+    <x>113,400001525879</x>
+    <y>48,7000122070313</y>
+  </MagPoint>
+  <MagPoint asics="3" level="-3">
+    <x>113,400001525879</x>
+    <y>48,7000122070313</y>
+  </MagPoint>
+  <MagPoint asics="1" level="-131">
+    <x>103,400001525879</x>
+    <y>378,700012207031</y>
+  </MagPoint>
+  <MagPoint asics="2" level="-131">
+    <x>103,400001525879</x>
+    <y>378,700012207031</y>
+  </MagPoint>
+  <MagPoint asics="3" level="-131">
+    <x>103,400001525879</x>
+    <y>378,700012207031</y>
+  </MagPoint>
+  <MagPoint asics="1" level="-131">
+    <x>103,400001525879</x>
+    <y>378,700012207031</y>
+  </MagPoint>
+  <MagPoint asics="2" level="-131">
+    <x>103,400001525879</x>
+    <y>378,700012207031</y>
+  </MagPoint>
+  <MagPoint asics="3" level="-131">
+    <x>103,400001525879</x>
+    <y>378,700012207031</y>
+  </MagPoint>
+  <MagPoint asics="1" level="-131">
+    <x>103,400001525879</x>
+    <y>378,700012207031</y>
+  </MagPoint>
+  <MagPoint asics="2" level="-131">
+    <x>103,400001525879</x>
+    <y>378,700012207031</y>
+  </MagPoint>
+  <MagPoint asics="3" level="-131">
+    <x>103,400001525879</x>
+    <y>378,700012207031</y>
+  </MagPoint>
+  <MagPoint asics="1" level="-131">
+    <x>103,400001525879</x>
+    <y>378,700012207031</y>
+  </MagPoint>
+  <MagPoint asics="2" level="-131">
+    <x>103,400001525879</x>
+    <y>378,700012207031</y>
+  </MagPoint>
+  <MagPoint asics="3" level="-131">
+    <x>103,400001525879</x>
+    <y>378,700012207031</y>
+  </MagPoint>
+  <MagPoint asics="1" level="-131">
+    <x>103,400001525879</x>
+    <y>378,700012207031</y>
+  </MagPoint>
+  <MagPoint asics="2" level="-131">
+    <x>103,400001525879</x>
+    <y>378,700012207031</y>
+  </MagPoint>
+  <MagPoint asics="3" level="-131">
+    <x>103,400001525879</x>
+    <y>378,700012207031</y>
+  </MagPoint>
+  <MagPoint asics="1" level="-131">
+    <x>103,400001525879</x>
+    <y>378,700012207031</y>
+  </MagPoint>
+  <MagPoint asics="2" level="-131">
+    <x>103,400001525879</x>
+    <y>378,700012207031</y>
+  </MagPoint>
+  <MagPoint asics="3" level="-131">
+    <x>103,400001525879</x>
+    <y>378,700012207031</y>
+  </MagPoint>
+  <MagPoint asics="1" level="-131">
+    <x>103,400001525879</x>
+    <y>378,700012207031</y>
+  </MagPoint>
+  <MagPoint asics="2" level="-131">
+    <x>103,400001525879</x>
+    <y>378,700012207031</y>
+  </MagPoint>
+  <MagPoint asics="3" level="-131">
+    <x>103,400001525879</x>
+    <y>378,700012207031</y>
+  </MagPoint>
+  <MagPoint asics="1" level="-3">
+    <x>103,400001525879</x>
+    <y>378,700012207031</y>
+  </MagPoint>
+  <MagPoint asics="2" level="0">
+    <x>103,400001525879</x>
+    <y>378,700012207031</y>
+  </MagPoint>
+  <MagPoint asics="3" level="-8">
+    <x>103,400001525879</x>
+    <y>378,700012207031</y>
+  </MagPoint>
+  <MagPoint asics="1" level="4">
+    <x>103,400001525879</x>
+    <y>378,700012207031</y>
+  </MagPoint>
+  <MagPoint asics="2" level="-2">
+    <x>103,400001525879</x>
+    <y>378,700012207031</y>
+  </MagPoint>
+  <MagPoint asics="3" level="-3">
+    <x>103,400001525879</x>
+    <y>378,700012207031</y>
+  </MagPoint>
+  <MagPoint asics="1" level="6">
+    <x>111,45</x>
+    <y>37,7</y>
+  </MagPoint>
+  <MagPoint asics="2" level="-4">
+    <x>111,45</x>
+    <y>37,7</y>
+  </MagPoint>
+  <MagPoint asics="3" level="-1">
+    <x>111,45</x>
+    <y>37,7</y>
+  </MagPoint>
+  <MagPoint asics="1" level="2">
+    <x>111,41</x>
+    <y>47,7</y>
+  </MagPoint>
+  <MagPoint asics="2" level="-6">
+    <x>111,41</x>
+    <y>47,7</y>
+  </MagPoint>
+  <MagPoint asics="3" level="-6">
+    <x>111,41</x>
+    <y>47,7</y>
+  </MagPoint>
+  <MagPoint asics="1" level="4">
+    <x>103,400001525879</x>
+    <y>378,700012207031</y>
+  </MagPoint>
+  <MagPoint asics="2" level="-5">
+    <x>103,400001525879</x>
+    <y>378,700012207031</y>
+  </MagPoint>
+  <MagPoint asics="3" level="-3">
+    <x>103,400001525879</x>
+    <y>378,700012207031</y>
+  </MagPoint>
+</root>

@@ -1,0 +1,113 @@
+﻿cl : командная строка warning D9035: использование параметра "clr:pure" нежелательно, он будет удален в следующих выпусках
+  wifiListener.cpp
+wifiListener.cpp(22): error C2065: HANDLE: необъявленный идентификатор
+wifiListener.cpp(22): error C2146: синтаксическая ошибка: отсутствие ";" перед идентификатором "hClient"
+wifiListener.cpp(22): error C2065: hClient: необъявленный идентификатор
+wifiListener.cpp(22): error C2065: NULL: необъявленный идентификатор
+wifiListener.cpp(23): error C2065: DWORD: необъявленный идентификатор
+wifiListener.cpp(23): error C2146: синтаксическая ошибка: отсутствие ";" перед идентификатором "dwMaxClient"
+wifiListener.cpp(23): error C2065: dwMaxClient: необъявленный идентификатор
+wifiListener.cpp(24): error C2065: DWORD: необъявленный идентификатор
+wifiListener.cpp(24): error C2146: синтаксическая ошибка: отсутствие ";" перед идентификатором "dwCurVersion"
+wifiListener.cpp(24): error C2065: dwCurVersion: необъявленный идентификатор
+wifiListener.cpp(25): error C2065: DWORD: необъявленный идентификатор
+wifiListener.cpp(25): error C2146: синтаксическая ошибка: отсутствие ";" перед идентификатором "dwResult"
+wifiListener.cpp(25): error C2065: dwResult: необъявленный идентификатор
+wifiListener.cpp(26): error C2065: DWORD: необъявленный идентификатор
+wifiListener.cpp(26): error C2146: синтаксическая ошибка: отсутствие ";" перед идентификатором "dwRetVal"
+wifiListener.cpp(26): error C2065: dwRetVal: необъявленный идентификатор
+wifiListener.cpp(29): error C2065: WCHAR: необъявленный идентификатор
+wifiListener.cpp(29): error C2146: синтаксическая ошибка: отсутствие ";" перед идентификатором "GuidString"
+wifiListener.cpp(29): error C2065: GuidString: необъявленный идентификатор
+wifiListener.cpp(35): error C2065: PWLAN_INTERFACE_INFO_LIST: необъявленный идентификатор
+wifiListener.cpp(35): error C2146: синтаксическая ошибка: отсутствие ";" перед идентификатором "pIfList"
+wifiListener.cpp(35): error C2065: pIfList: необъявленный идентификатор
+wifiListener.cpp(35): error C2065: NULL: необъявленный идентификатор
+wifiListener.cpp(36): error C2065: PWLAN_INTERFACE_INFO: необъявленный идентификатор
+wifiListener.cpp(36): error C2146: синтаксическая ошибка: отсутствие ";" перед идентификатором "pIfInfo"
+wifiListener.cpp(36): error C2065: pIfInfo: необъявленный идентификатор
+wifiListener.cpp(36): error C2065: NULL: необъявленный идентификатор
+wifiListener.cpp(38): error C2065: PWLAN_AVAILABLE_NETWORK_LIST: необъявленный идентификатор
+wifiListener.cpp(38): error C2146: синтаксическая ошибка: отсутствие ";" перед идентификатором "pBssList"
+wifiListener.cpp(38): error C2065: pBssList: необъявленный идентификатор
+wifiListener.cpp(38): error C2065: NULL: необъявленный идентификатор
+wifiListener.cpp(39): error C2065: PWLAN_AVAILABLE_NETWORK: необъявленный идентификатор
+wifiListener.cpp(39): error C2146: синтаксическая ошибка: отсутствие ";" перед идентификатором "pBssEntry"
+wifiListener.cpp(39): error C2065: pBssEntry: необъявленный идентификатор
+wifiListener.cpp(39): error C2065: NULL: необъявленный идентификатор
+wifiListener.cpp(45): error C2065: dwResult: необъявленный идентификатор
+wifiListener.cpp(45): error C2065: dwMaxClient: необъявленный идентификатор
+wifiListener.cpp(45): error C2065: NULL: необъявленный идентификатор
+wifiListener.cpp(45): error C2065: dwCurVersion: необъявленный идентификатор
+wifiListener.cpp(45): error C2065: hClient: необъявленный идентификатор
+wifiListener.cpp(45): error C3861: WlanOpenHandle: идентификатор не найден
+wifiListener.cpp(46): error C2065: dwResult: необъявленный идентификатор
+wifiListener.cpp(46): error C2065: ERROR_SUCCESS: необъявленный идентификатор
+wifiListener.cpp(47): error C2065: dwResult: необъявленный идентификатор
+wifiListener.cpp(47): error C3861: wprintf: идентификатор не найден
+wifiListener.cpp(48): error C2065: NULL: необъявленный идентификатор
+wifiListener.cpp(52): error C2065: dwResult: необъявленный идентификатор
+wifiListener.cpp(52): error C2065: hClient: необъявленный идентификатор
+wifiListener.cpp(52): error C2065: NULL: необъявленный идентификатор
+wifiListener.cpp(52): error C2065: pIfList: необъявленный идентификатор
+wifiListener.cpp(52): error C3861: WlanEnumInterfaces: идентификатор не найден
+wifiListener.cpp(53): error C2065: dwResult: необъявленный идентификатор
+wifiListener.cpp(53): error C2065: ERROR_SUCCESS: необъявленный идентификатор
+wifiListener.cpp(54): error C2065: dwResult: необъявленный идентификатор
+wifiListener.cpp(54): error C3861: wprintf: идентификатор не найден
+wifiListener.cpp(55): error C2065: NULL: необъявленный идентификатор
+wifiListener.cpp(59): error C2065: pIfList: необъявленный идентификатор
+wifiListener.cpp(59): error C2227: выражение слева от "->dwNumberOfItems" должно указывать на тип класса, структуры или объединения либо на универсальный тип
+  wifiListener.cpp(59): note: тип: unknown-type
+wifiListener.cpp(59): error C3861: wprintf: идентификатор не найден
+wifiListener.cpp(60): error C2065: pIfList: необъявленный идентификатор
+wifiListener.cpp(60): error C2227: выражение слева от "->dwIndex" должно указывать на тип класса, структуры или объединения либо на универсальный тип
+  wifiListener.cpp(60): note: тип: unknown-type
+wifiListener.cpp(60): error C3861: wprintf: идентификатор не найден
+wifiListener.cpp(62): error C2065: pIfList: необъявленный идентификатор
+wifiListener.cpp(62): error C2227: выражение слева от "->dwNumberOfItems" должно указывать на тип класса, структуры или объединения либо на универсальный тип
+  wifiListener.cpp(62): note: тип: unknown-type
+wifiListener.cpp(63): error C2065: pIfInfo: необъявленный идентификатор
+wifiListener.cpp(63): error C2065: WLAN_INTERFACE_INFO: необъявленный идентификатор
+wifiListener.cpp(63): error C2059: синтаксическая ошибка: )
+wifiListener.cpp(64): error C3861: wprintf: идентификатор не найден
+wifiListener.cpp(65): error C2065: pIfInfo: необъявленный идентификатор
+wifiListener.cpp(65): error C2227: выражение слева от "->InterfaceGuid" должно указывать на тип класса, структуры или объединения либо на универсальный тип
+  wifiListener.cpp(65): note: тип: unknown-type
+wifiListener.cpp(65): error C2065: LPOLESTR: необъявленный идентификатор
+wifiListener.cpp(65): error C2065: GuidString: необъявленный идентификатор
+wifiListener.cpp(66): error C2065: GuidString: необъявленный идентификатор
+wifiListener.cpp(65): error C3861: StringFromGUID2: идентификатор не найден
+wifiListener.cpp(71): error C3861: wprintf: идентификатор не найден
+wifiListener.cpp(73): error C2065: GuidString: необъявленный идентификатор
+wifiListener.cpp(73): error C3861: wprintf: идентификатор не найден
+wifiListener.cpp(75): error C2065: dwResult: необъявленный идентификатор
+wifiListener.cpp(75): error C2065: hClient: необъявленный идентификатор
+wifiListener.cpp(76): error C2065: pIfInfo: необъявленный идентификатор
+wifiListener.cpp(76): error C2227: выражение слева от "->InterfaceGuid" должно указывать на тип класса, структуры или объединения либо на универсальный тип
+  wifiListener.cpp(76): note: тип: unknown-type
+wifiListener.cpp(78): error C2065: NULL: необъявленный идентификатор
+wifiListener.cpp(79): error C2065: pBssList: необъявленный идентификатор
+wifiListener.cpp(75): error C3861: WlanGetAvailableNetworkList: идентификатор не найден
+wifiListener.cpp(81): error C2065: dwResult: необъявленный идентификатор
+wifiListener.cpp(81): error C2065: ERROR_SUCCESS: необъявленный идентификатор
+wifiListener.cpp(83): error C2065: dwResult: необъявленный идентификатор
+wifiListener.cpp(82): error C3861: wprintf: идентификатор не найден
+wifiListener.cpp(84): error C2065: dwRetVal: необъявленный идентификатор
+wifiListener.cpp(89): error C2065: pIfList: необъявленный идентификатор
+wifiListener.cpp(89): error C2227: выражение слева от "->dwNumberOfItems" должно указывать на тип класса, структуры или объединения либо на универсальный тип
+  wifiListener.cpp(89): note: тип: unknown-type
+wifiListener.cpp(89): error C3078: размер массива должен быть указан в новых выражениях
+wifiListener.cpp(90): error C2065: pIfList: необъявленный идентификатор
+wifiListener.cpp(90): error C2227: выражение слева от "->dwNumberOfItems" должно указывать на тип класса, структуры или объединения либо на универсальный тип
+  wifiListener.cpp(90): note: тип: unknown-type
+wifiListener.cpp(90): error C3078: размер массива должен быть указан в новых выражениях
+wifiListener.cpp(91): error C2065: pIfList: необъявленный идентификатор
+wifiListener.cpp(91): error C2227: выражение слева от "->dwNumberOfItems" должно указывать на тип класса, структуры или объединения либо на универсальный тип
+  wifiListener.cpp(91): note: тип: unknown-type
+wifiListener.cpp(93): error C2065: pBssList: необъявленный идентификатор
+wifiListener.cpp(93): error C2227: выражение слева от "->dwNumberOfItems" должно указывать на тип класса, структуры или объединения либо на универсальный тип
+  wifiListener.cpp(93): note: тип: unknown-type
+wifiListener.cpp(94): error C2065: pBssEntry: необъявленный идентификатор
+wifiListener.cpp(95): error C2065: WLAN_AVAILABLE_NETWORK: необъявленный идентификатор
+wifiListener.cpp(95): fatal error C1003: число ошибок превышает 100; остановка компиляции
