@@ -15,16 +15,16 @@ c:\steps\projectforreaddata_fix28\projectforreaddata\Form1.h(51): warning C4244:
 c:\steps\projectforreaddata_fix28\projectforreaddata\Form1.h(52): warning C4244: =: преобразование "double" в "float", возможна потеря данных
 c:\steps\projectforreaddata_fix28\projectforreaddata\Form1.h(68): warning C4552: -: оператор не имеет результата; требуется оператор с побочным действием
 c:\steps\projectforreaddata_fix28\projectforreaddata\Form1.h(74): warning C4552: +: оператор не имеет результата; требуется оператор с побочным действием
-c:\steps\projectforreaddata_fix28\projectforreaddata\Form1.h(519): warning C4244: return: преобразование "double" в "float", возможна потеря данных
+c:\steps\projectforreaddata_fix28\projectforreaddata\Form1.h(520): warning C4244: return: преобразование "double" в "float", возможна потеря данных
 c:\steps\projectforreaddata_fix28\projectforreaddata\Form1.h(691): warning C4244: аргумент: преобразование "double" в "int", возможна потеря данных
 c:\steps\projectforreaddata_fix28\projectforreaddata\Form1.h(694): warning C4244: аргумент: преобразование "double" в "int", возможна потеря данных
-c:\steps\projectforreaddata_fix28\projectforreaddata\Form1.h(765): warning C4244: =: преобразование "double" в "float", возможна потеря данных
-c:\steps\projectforreaddata_fix28\projectforreaddata\Form1.h(766): warning C4244: инициализация: преобразование "double" в "float", возможна потеря данных
+c:\steps\projectforreaddata_fix28\projectforreaddata\Form1.h(766): warning C4244: =: преобразование "double" в "float", возможна потеря данных
 c:\steps\projectforreaddata_fix28\projectforreaddata\Form1.h(767): warning C4244: инициализация: преобразование "double" в "float", возможна потеря данных
+c:\steps\projectforreaddata_fix28\projectforreaddata\Form1.h(768): warning C4244: инициализация: преобразование "double" в "float", возможна потеря данных
+c:\steps\projectforreaddata_fix28\projectforreaddata\Form1.h(882): warning C4101: aveg_z: неиспользованная локальная переменная
 c:\steps\projectforreaddata_fix28\projectforreaddata\probability_cor_map.h(279): warning C4715: CurrentStateWay::getNextline: значение возвращается не при всех путях выполнения
-c:\steps\projectforreaddata_fix28\projectforreaddata\form1.h(883): warning C4700: использована неинициализированная локальная переменная "aveg_x"
-c:\steps\projectforreaddata_fix28\projectforreaddata\form1.h(884): warning C4700: использована неинициализированная локальная переменная "aveg_y"
-c:\steps\projectforreaddata_fix28\projectforreaddata\form1.h(885): warning C4700: использована неинициализированная локальная переменная "aveg_z"
+c:\steps\projectforreaddata_fix28\projectforreaddata\form1.h(884): warning C4700: использована неинициализированная локальная переменная "aveg_x"
+c:\steps\projectforreaddata_fix28\projectforreaddata\form1.h(885): warning C4700: использована неинициализированная локальная переменная "aveg_y"
   AssemblyInfo.obj : /DEBUG:FASTLINK не поддерживается, если присутствует управляемый код; выполняется перезапуск компоновки с /DEBUG:FULL
   ProjectForReadData.vcxproj -> C:\steps\ProjectForReadData_fix28\Debug\ProjectForReadData.exe
   ProjectForReadData.vcxproj -> C:\steps\ProjectForReadData_fix28\Debug\ProjectForReadData.pdb (Partial PDB)

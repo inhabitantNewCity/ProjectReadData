@@ -114,6 +114,7 @@ namespace ProjectForReadData {
 
 			currentAngle = PI;
 			this->KeyPreview = true;
+			allAccDetected = true;
 		}
 
 	protected:
@@ -587,7 +588,7 @@ bool firstPhaseOfStepIsDetected(float accX, float accY, float accZ)
 			numberReadInBetweenPhase = 0;
 
 		}
-		if(thridPhaseOfStepIsDetected(accX, accY, accZ)){
+		if(thridPhaseOfStepIsDetected(accX, accY, accZ) && secondPhaseOfStepDetected){
 			thridPhaseOfStepDetected = true;
 
 			DataPoint^ cur_ver_point = gcnew DataPoint(current_time, accY);
@@ -599,13 +600,14 @@ bool firstPhaseOfStepIsDetected(float accX, float accY, float accZ)
 		}
 		if(secondPhaseOfStepDetected && thridPhaseOfStepDetected){
 			
-			numberStep++;
-
-			if(numberStep){
-				merge();
-				if(allAccDetected)
-					return module(accX, accY, accZ);
-			}
+			secondPhaseOfStepDetected = false;
+			thridPhaseOfStepDetected = false;
+				if (allAccDetected) {
+					this->labelCountStepNumber->Text = Convert::ToString(numberStep);
+					numberStep++;
+					merge();
+					return  calculateLengthOfStep(module(accX, accY, accZ));
+				}
 			
 			x_current->Add(accY);	
 			y_current->Add(accX);
@@ -618,7 +620,7 @@ bool firstPhaseOfStepIsDetected(float accX, float accY, float accZ)
 	}
 
 	void merge(){
-		int limit = x_patern->Count >= x_current->Count?x_current->Count:x_patern->Count;
+		
 		
 		array<float>^ x_curent_ar = x_current->ToArray(); 
 		array<float>^ y_curent_ar = y_current->ToArray();
@@ -626,24 +628,22 @@ bool firstPhaseOfStepIsDetected(float accX, float accY, float accZ)
 		array<float>^ x_patern_ar = x_patern->ToArray();
 		array<float>^ y_patern_ar = y_patern->ToArray();
 
-		x_current->Clear();
-		y_current->Clear();
-		x_patern->Clear();
-		x_patern->Clear();
+		int limitx = x_patern->Count >= x_current->Count ? x_current->Count : x_patern->Count;
+		int limitY = y_patern->Count >= y_current->Count ? y_current->Count : y_patern->Count;
+		int limit = limitx >= limitY? limitY: limitx;
 
 		for(int i = 0; i < limit; i++)
 		{
 			x_patern_ar[i] = (x_patern_ar[i] + x_curent_ar[i])/2;
 			y_patern_ar[i] = (y_patern_ar[i] + y_curent_ar[i])/2;
 		}
-		
+
+		x_current->Clear();
+		y_current->Clear();
+		x_patern->Clear();
+		y_patern->Clear();
 		x_patern->AddRange(x_patern_ar);
 		y_patern->AddRange(y_patern_ar);
-
-		delete[]x_curent_ar;
-		delete[]y_curent_ar;
-		delete[]x_patern_ar;
-		delete[]y_patern_ar;
 
 	}
 	
@@ -753,6 +753,7 @@ private: System::Void Form1_Load(System::Object^  sender, System::EventArgs^  e)
 				 x_patern->Add(angleX);
 				 y_patern->Add(angleY);
 				 x_current->Add(angleX);
+				 y_current->Add(angleY);
 
 				sw->WriteLine("ANGLES: angleX = " + angleX + " angleY = " + angleY + " angleZ = " + angleZ);
 				sw->WriteLine("COMPAS: comX = " + comX + " comY = " + comY + " comZ = " + comX);
@@ -775,7 +776,7 @@ private: System::Void Form1_Load(System::Object^  sender, System::EventArgs^  e)
 	private: System::Void timer1_Tick(System::Object^  sender, System::EventArgs^  e) {
 				 char* readDate = readDataFromSensors();
 				 parseReadDate(readDate);
-				 float lengthStep = execute(accX, accY, accZ);
+				 float lengthStep = executeChatAlgorithm(accX, accY, accZ);
 				 
 				 if (lengthStep) {
 					 calculateStartPointAndFinishpoint(lengthStep, angleX, angleY, angleZ);
@@ -882,7 +883,7 @@ private: System::Void Form1_Deactivate(System::Object^  sender, System::EventArg
 	for (int i = 0; i < x_patern->Count; i++) {
 		aveg_x += x_patern[i];
 		aveg_y += y_patern[i];
-		aveg_z += x_current[i];
+		//aveg_z += x_current[i];
 	}
 
 	sw->Flush();
