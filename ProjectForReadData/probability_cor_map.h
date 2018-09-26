@@ -13,14 +13,20 @@ using namespace System::Collections::Generic;
 #define ERR 0.1
 #define CLOSED_ENVIRONS 10
 
+//current class provide posibility to simple operation for vectors
 ref class LineSegmentCustom {
 private:
+	//presented by point(derection and length) from (0,0) point 
 	Windows::Vector line_segment;
+	//point for stor information about start point for current vector
 	Windows::Point start_point;
+	
+	//creating vector for two points
 	static Windows::Vector transforPointToVector(Windows::Point point1, Windows::Point point2) {
 		Windows::Vector vector(point2.X - point1.X, point2.Y - point1.Y);
 		return vector;
 	}
+	// creating vector from simple Window Line
 	static Windows::Vector transforLineToVector(Line^ line) {
 		Windows::Vector vector(line->X2 - line->X1, line->Y2 - line->Y1);
 		return vector;
@@ -41,7 +47,8 @@ public:
 		this->start_point = first_point;
 		this->line_segment = LineSegmentCustom::transforLineToVector(line);
 	}
-
+	//standart geometry algorithm for calculating distance between to vectors(http://forum.algolist.ru/algorithm-geometry/661-ishu-algoritm-kratchaishee-rasstoianie-mejdu-otrezkami.html)
+	//for current task we have assumption that start points qual for both vectors
 	double getDistanceBetweenVectors(Windows::Vector vector) {
 		Windows::Vector neg_line_segment = line_segment;
 		neg_line_segment.Negate();
@@ -84,7 +91,7 @@ public:
 	double getModule() {
 		return line_segment.Length;
 	}
-
+	//turning current vector by angles matrix
 	LineSegmentCustom^ turnVector(double angle) {
 		double x = Math::Round(this->line_segment.X * cos(angle) - this->line_segment.Y * sin(angle), 2);
 		double y = Math::Round(this->line_segment.X * sin(angle) + this->line_segment.Y * cos(angle), 2);
@@ -92,6 +99,7 @@ public:
 	
 		return gcnew LineSegmentCustom(vector, this->start_point);
 	}
+	//move current point to the vector
 	Windows::Point shiftPointToVector(Windows::Point point) {
 		Windows::Point result(point.X + line_segment.X, point.Y + line_segment.Y);
 		return result;
@@ -101,7 +109,7 @@ public:
 		return gcnew LineSegmentCustom(Windows::Vector::Subtract(this->line_segment, segment->getVector()), this->start_point);
 	}
 
-	
+	//using for calculating destination between vectors. calclulating mapping to current path
 	LineSegmentCustom^ procFromVector(LineSegmentCustom^ segment) {
 		LineSegmentCustom^ proc2way = segment->turnVector(segment->getAngleBetweenVectores(this));
 		this->start_point = proc2way->shiftPointToVector(this->start_point);
@@ -121,7 +129,7 @@ public:
 };
 
 
-
+//store information about lines which system find out in database
 ref class Map {
 	
 private:
@@ -197,7 +205,7 @@ public:
 
 };
 
-
+//provide information about selecting way
 ref class Way : public Map {
 private:
 	bool isOptim;
@@ -239,23 +247,32 @@ public:
 	}
 
 };
-
+// class store information about current  state of one of the used way
 ref class CurrentStateWay: IComparable {
 private:
+	//value probability of current way is corrected 
 	double probability;
+	
+	//current line when user presumably is 
 	LineSegmentCustom^ line_segment;
 	bool is_primary_way;
 	Map^ map;
 	Way^ way;
+	
+	//nearest of current nebourses (lines which have one equaled point)
 	List<CurrentStateWay^>^ nebourses;
+	
+	//service for calculating and update probability in each step
 	CalculaterProbability^ calculater_probability;
+	
 	bool is_updated;
 
 
 	double getCurrentProbability(LineSegmentCustom^ way_line_segment, LineSegmentCustom^ current_line_segment, double current_probability) {
 		double angle = way_line_segment->getAngleBetweenVectores(current_line_segment);
 		double distance = way_line_segment->getDistanceBetweenVectors(current_line_segment);
-
+		
+		//correcting current probability acording to information about current angle between ideal position of user and current position
 		return current_probability * calculater_probability->getCurrentValue(angle, distance);
 	}
 
@@ -390,12 +407,15 @@ public:
 		return is_last_segment && is_last_step;
 	}
 };
-
+//provide result of mapping current information from PPS to map
 ref class PredictionResult
 {
 public:
+	//calculated point
 	Windows::Point point;
+	//flag provided information that current way was changed
 	bool is_rebilded;
+	//way is finished user aimed end of way
 	bool is_closed;
 
 	PredictionResult() {};
@@ -420,6 +440,7 @@ private:
 	CalculaterProbability^ calculater_probability;
 
 	//techical methods
+	//norming dispensation of Probability to current wais
 	void normalizeState() {
 		double sum = 0;
 		
@@ -429,8 +450,6 @@ private:
 			current_states[i]->setProbability(current_states[i]->getProbability() / sum);
 	}
 	
-	///TODO: set only 6 first ways 
-	//how work sort function for the list
 	void normalize() {
 		current_states->Sort();
 		if (current_states->Count.CompareTo(OPT_WAYS_NUMBER) == 1 )
