@@ -139,14 +139,15 @@ int databaseGenerate(List<Line^>^ map, List<Line^>^ way, PictureBox^ image) {
 			map->Add(line);
 		}
 	}
-
-	for (int i = 0; i < countWay - 1; i++) {
+	sw->WriteLine("Opt way");
+	for (int i = countWay - 1; i > 0 ; i--) {
 		Line^ line = gcnew Line();
 		line->X1 = (float)(wayCor[i].x_ )/ 10.0f;
 		line->Y1 = (float)(wayCor[i].y_ )/ 10.0f;
-		line->X2 = (float)(wayCor[i+1].x_ )/ 10.0f;
-		line->Y2 = (float)(wayCor[i+1].y_ )/ 10.0f;
+		line->X2 = (float)(wayCor[i-1].x_ )/ 10.0f;
+		line->Y2 = (float)(wayCor[i-1].y_ )/ 10.0f;
 		way->Add(line);
+		sw->WriteLine("Line: {(" + line->X1 + ", " + line->Y1 + "), (" + line->X2 + ", " + line->Y2 + ")}");
 	}
 
 	delete[] mapCor;

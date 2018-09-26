@@ -507,9 +507,9 @@ bool firstPhaseOfStepIsDetected(float accX, float accY, float accZ)
 	float calculateLengthOfStep(float acc)
 	{
 		SumRecivedAcceleration += acc;
-		float result = 0;
+		float result = 10;
 		if (countStep)
-			result = 10;//(CONST_G/countStep) * pow((double)SumRecivedAcceleration, 1.0 / 3.0);
+			result = (CONST_G/countStep) * pow((double)SumRecivedAcceleration, 1.0 / 3.0);
 		sw->WriteLine ("LENGTH OF STEP: result = " + result + " module acc = " + acc +
 			" sum = " + SumRecivedAcceleration + "count step = " + countStep);
 		return result;
@@ -781,7 +781,7 @@ private: System::Void Form1_Load(System::Object^  sender, System::EventArgs^  e)
 				 if (lengthStep) {
 					 calculateStartPointAndFinishpoint(lengthStep, angleX, angleY, angleZ);
 
-					 PredictionResult^ report = checker->checkOnMap(angleZ, -lengthStep);
+					 PredictionResult^ report = checker->checkOnMap(angleZ, lengthStep);
 					 cur_point = report->point;
 
 					 ///TODO: get current points from algorithm and update way and closed way.
@@ -803,8 +803,8 @@ private: System::Void Form1_Load(System::Object^  sender, System::EventArgs^  e)
 					 }
 					 if (report->is_rebilded) {
 						 ///TODO: call rebuild way from way class
-						 updateWay(checker->getNearestPoint(report->point), checker->getLastPointOnWay(), way);
-						 checker->refreshChecker(way);
+						 //updateWay(checker->getNearestPoint(report->point), checker->getLastPointOnWay(), way);
+						 //checker->refreshChecker(way);
 						 System::Windows::Forms::MessageBox::Show("way is rebuilded");
 					 }
 				 }

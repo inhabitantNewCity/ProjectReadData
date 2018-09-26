@@ -174,10 +174,14 @@ public:
 			
 			if (line == lines[i])
 				continue;
-			else if (line->X1 == lines[i]->X1 && line->Y1 == lines[i]->Y1)
+			else if (line->X2 == lines[i]->X1 && line->Y2 == lines[i]->Y1)
 				result->Add(lines[i]);
-			else if (line->X1 == lines[i]->X2 && line->Y1 == lines[i]->Y2 ) 
+			else if (line->X2 == lines[i]->X2 && line->Y2 == lines[i]->Y2 ) 
 				result->Add(lines[i]);
+			/*else if (line->X2 == lines[i]->X1 && line->Y2 == lines[i]->Y1)
+				result->Add(lines[i]);
+			else if (line->X2 == lines[i]->X2 && line->Y2 == lines[i]->Y2)
+				result->Add(lines[i]);*/
 		}
 		return result;
 	}
@@ -219,10 +223,10 @@ public:
 
 		for (int i = 0; i < neboures->Count; i++) {
 			for (int j = 0; j < lines->Count; j++) {
-				if (neboures[i]->X1 == lines[j]->X1 &&
-					neboures[i]->Y1 == lines[j]->Y1 &&
-					neboures[i]->X2 == lines[j]->X2 &&
-					neboures[i]->Y2 == lines[j]->Y2	)
+				if ((neboures[i]->X1 == lines[j]->X1 &&
+					neboures[i]->Y1 == lines[j]->Y1) &&
+					(neboures[i]->X2 == lines[j]->X2 &&
+					neboures[i]->Y2 == lines[j]->Y2))
 					return neboures[i];
 			}
 		}
@@ -236,7 +240,7 @@ public:
 
 };
 
-ref class CurrentStateWay {
+ref class CurrentStateWay: IComparable {
 private:
 	double probability;
 	LineSegmentCustom^ line_segment;
@@ -367,9 +371,10 @@ public:
 		this->is_primary_way = flag;
 	};
 
-	int CompareTo(CurrentStateWay^ state) override {
+	int CompareTo(Object^ state) override {
+		CurrentStateWay^ stateS = (CurrentStateWay^)state;
 		Double^ this_porbability = gcnew Double(probability);
-		Double^ state_porbability = gcnew Double(state->getProbability());
+		Double^ state_porbability = gcnew Double(stateS->getProbability());
 		return this_porbability->CompareTo(state_porbability);
 	}
 	//check if current line not has nebourses
@@ -428,7 +433,7 @@ private:
 	//how work sort function for the list
 	void normalize() {
 		current_states->Sort();
-		if (current_states->Count > OPT_WAYS_NUMBER)
+		if (current_states->Count.CompareTo(OPT_WAYS_NUMBER) == 1 )
 			current_states = current_states->GetRange(0, OPT_WAYS_NUMBER);
 		normalizeState();
 	};
@@ -438,7 +443,7 @@ private:
 	PredictionResult^ takeSolution() {
 		CurrentStateWay^ currentSate = current_states[0];
 		Windows::Point result = currentSate->getCurrentPoint();
-		return gcnew PredictionResult(result, !currentSate->getPrimaryWay(), currentSate->isLastStep(result));
+		return gcnew PredictionResult(result, false/*!currentSate->getPrimaryWay()*/, false/*currentSate->isLastStep(result)*/);
 	};
 
 public:
