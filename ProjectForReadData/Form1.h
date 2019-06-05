@@ -55,8 +55,8 @@ namespace ProjectForReadData {
 			double angleBettwenLegOnSecondPhaseAndNormal = PI / 6;
 			double angleBettwenLegOnThridPhaseAndNormal = PI / 3;
 			this->deltaTime = 100;
-			UIOffset_x = 103.4f;
-			UIOffset_y = 378.7f;
+			UIOffset_x = 10;
+			UIOffset_y = 10;
 
 			SumRecivedAcceleration = 0;
 			countStep = 0;
@@ -230,6 +230,10 @@ namespace ProjectForReadData {
 private: System::Windows::Forms::Button^  buttonDraw;
 private: System::Windows::Forms::Label^  labelWiFi;
 private: System::Windows::Forms::Label^  WiFiResult;
+private: System::Windows::Forms::Button^  leftButton;
+private: System::Windows::Forms::Button^  button1;
+private: System::Windows::Forms::Button^  button2;
+private: System::Windows::Forms::Button^  button3;
 
 		 bool allAccDetected;
 	protected: 
@@ -248,12 +252,12 @@ private: System::Windows::Forms::Label^  WiFiResult;
 		void InitializeComponent(void)
 		{
 			this->components = (gcnew System::ComponentModel::Container());
-			System::Windows::Forms::DataVisualization::Charting::ChartArea^  chartArea3 = (gcnew System::Windows::Forms::DataVisualization::Charting::ChartArea());
-			System::Windows::Forms::DataVisualization::Charting::Legend^  legend3 = (gcnew System::Windows::Forms::DataVisualization::Charting::Legend());
-			System::Windows::Forms::DataVisualization::Charting::Series^  series3 = (gcnew System::Windows::Forms::DataVisualization::Charting::Series());
-			System::Windows::Forms::DataVisualization::Charting::ChartArea^  chartArea4 = (gcnew System::Windows::Forms::DataVisualization::Charting::ChartArea());
-			System::Windows::Forms::DataVisualization::Charting::Legend^  legend4 = (gcnew System::Windows::Forms::DataVisualization::Charting::Legend());
-			System::Windows::Forms::DataVisualization::Charting::Series^  series4 = (gcnew System::Windows::Forms::DataVisualization::Charting::Series());
+			System::Windows::Forms::DataVisualization::Charting::ChartArea^  chartArea1 = (gcnew System::Windows::Forms::DataVisualization::Charting::ChartArea());
+			System::Windows::Forms::DataVisualization::Charting::Legend^  legend1 = (gcnew System::Windows::Forms::DataVisualization::Charting::Legend());
+			System::Windows::Forms::DataVisualization::Charting::Series^  series1 = (gcnew System::Windows::Forms::DataVisualization::Charting::Series());
+			System::Windows::Forms::DataVisualization::Charting::ChartArea^  chartArea2 = (gcnew System::Windows::Forms::DataVisualization::Charting::ChartArea());
+			System::Windows::Forms::DataVisualization::Charting::Legend^  legend2 = (gcnew System::Windows::Forms::DataVisualization::Charting::Legend());
+			System::Windows::Forms::DataVisualization::Charting::Series^  series2 = (gcnew System::Windows::Forms::DataVisualization::Charting::Series());
 			this->pictureBox1 = (gcnew System::Windows::Forms::PictureBox());
 			this->timer1 = (gcnew System::Windows::Forms::Timer(this->components));
 			this->labelCountStep = (gcnew System::Windows::Forms::Label());
@@ -268,6 +272,10 @@ private: System::Windows::Forms::Label^  WiFiResult;
 			this->buttonDraw = (gcnew System::Windows::Forms::Button());
 			this->labelWiFi = (gcnew System::Windows::Forms::Label());
 			this->WiFiResult = (gcnew System::Windows::Forms::Label());
+			this->leftButton = (gcnew System::Windows::Forms::Button());
+			this->button1 = (gcnew System::Windows::Forms::Button());
+			this->button2 = (gcnew System::Windows::Forms::Button());
+			this->button3 = (gcnew System::Windows::Forms::Button());
 			(cli::safe_cast<System::ComponentModel::ISupportInitialize^>(this->pictureBox1))->BeginInit();
 			(cli::safe_cast<System::ComponentModel::ISupportInitialize^>(this->chart1))->BeginInit();
 			(cli::safe_cast<System::ComponentModel::ISupportInitialize^>(this->chart2))->BeginInit();
@@ -308,35 +316,35 @@ private: System::Windows::Forms::Label^  WiFiResult;
 			// 
 			// chart1
 			// 
-			chartArea3->AxisX->MajorGrid->IntervalType = System::Windows::Forms::DataVisualization::Charting::DateTimeIntervalType::Number;
-			chartArea3->AxisX->MajorGrid->LineColor = System::Drawing::Color::LightGray;
-			chartArea3->AxisX->ScaleView->SizeType = System::Windows::Forms::DataVisualization::Charting::DateTimeIntervalType::Number;
-			chartArea3->AxisY->MajorGrid->IntervalType = System::Windows::Forms::DataVisualization::Charting::DateTimeIntervalType::Number;
-			chartArea3->AxisY->MajorGrid->LineColor = System::Drawing::Color::LightGray;
-			chartArea3->CursorX->IntervalOffsetType = System::Windows::Forms::DataVisualization::Charting::DateTimeIntervalType::Number;
-			chartArea3->CursorX->IntervalType = System::Windows::Forms::DataVisualization::Charting::DateTimeIntervalType::Number;
-			chartArea3->Name = L"ChartArea1";
-			this->chart1->ChartAreas->Add(chartArea3);
-			legend3->Font = (gcnew System::Drawing::Font(L"Microsoft Sans Serif", 8, System::Drawing::FontStyle::Regular, System::Drawing::GraphicsUnit::Point,
+			chartArea1->AxisX->MajorGrid->IntervalType = System::Windows::Forms::DataVisualization::Charting::DateTimeIntervalType::Number;
+			chartArea1->AxisX->MajorGrid->LineColor = System::Drawing::Color::LightGray;
+			chartArea1->AxisX->ScaleView->SizeType = System::Windows::Forms::DataVisualization::Charting::DateTimeIntervalType::Number;
+			chartArea1->AxisY->MajorGrid->IntervalType = System::Windows::Forms::DataVisualization::Charting::DateTimeIntervalType::Number;
+			chartArea1->AxisY->MajorGrid->LineColor = System::Drawing::Color::LightGray;
+			chartArea1->CursorX->IntervalOffsetType = System::Windows::Forms::DataVisualization::Charting::DateTimeIntervalType::Number;
+			chartArea1->CursorX->IntervalType = System::Windows::Forms::DataVisualization::Charting::DateTimeIntervalType::Number;
+			chartArea1->Name = L"ChartArea1";
+			this->chart1->ChartAreas->Add(chartArea1);
+			legend1->Font = (gcnew System::Drawing::Font(L"Microsoft Sans Serif", 8, System::Drawing::FontStyle::Regular, System::Drawing::GraphicsUnit::Point,
 				static_cast<System::Byte>(1), true));
-			legend3->IsTextAutoFit = false;
-			legend3->Name = L"Legend1";
-			legend3->Title = L"Vertical";
-			this->chart1->Legends->Add(legend3);
+			legend1->IsTextAutoFit = false;
+			legend1->Name = L"Legend1";
+			legend1->Title = L"Vertical";
+			this->chart1->Legends->Add(legend1);
 			this->chart1->Location = System::Drawing::Point(26, 24);
 			this->chart1->Name = L"chart1";
 			this->chart1->Palette = System::Windows::Forms::DataVisualization::Charting::ChartColorPalette::Grayscale;
-			series3->ChartArea = L"ChartArea1";
-			series3->ChartType = System::Windows::Forms::DataVisualization::Charting::SeriesChartType::Spline;
-			series3->Color = System::Drawing::Color::Yellow;
-			series3->EmptyPointStyle->IsVisibleInLegend = false;
-			series3->IsVisibleInLegend = false;
-			series3->IsXValueIndexed = true;
-			series3->Legend = L"Legend1";
-			series3->Name = L"Vertical";
-			series3->XValueType = System::Windows::Forms::DataVisualization::Charting::ChartValueType::Double;
-			series3->YValueType = System::Windows::Forms::DataVisualization::Charting::ChartValueType::Double;
-			this->chart1->Series->Add(series3);
+			series1->ChartArea = L"ChartArea1";
+			series1->ChartType = System::Windows::Forms::DataVisualization::Charting::SeriesChartType::Spline;
+			series1->Color = System::Drawing::Color::Yellow;
+			series1->EmptyPointStyle->IsVisibleInLegend = false;
+			series1->IsVisibleInLegend = false;
+			series1->IsXValueIndexed = true;
+			series1->Legend = L"Legend1";
+			series1->Name = L"Vertical";
+			series1->XValueType = System::Windows::Forms::DataVisualization::Charting::ChartValueType::Double;
+			series1->YValueType = System::Windows::Forms::DataVisualization::Charting::ChartValueType::Double;
+			this->chart1->Series->Add(series1);
 			this->chart1->Size = System::Drawing::Size(538, 295);
 			this->chart1->TabIndex = 2;
 			this->chart1->Text = L"chartVert";
@@ -344,24 +352,24 @@ private: System::Windows::Forms::Label^  WiFiResult;
 			// 
 			// chart2
 			// 
-			chartArea4->AxisX->LineColor = System::Drawing::Color::LightGray;
-			chartArea4->AxisX->MajorGrid->LineColor = System::Drawing::Color::LightGray;
-			chartArea4->AxisX->ScaleView->SizeType = System::Windows::Forms::DataVisualization::Charting::DateTimeIntervalType::Number;
-			chartArea4->AxisY->LineColor = System::Drawing::Color::LightGray;
-			chartArea4->AxisY->MajorGrid->LineColor = System::Drawing::Color::LightGray;
-			chartArea4->Name = L"ChartArea1";
-			this->chart2->ChartAreas->Add(chartArea4);
-			legend4->Name = L"Legend1";
-			this->chart2->Legends->Add(legend4);
+			chartArea2->AxisX->LineColor = System::Drawing::Color::LightGray;
+			chartArea2->AxisX->MajorGrid->LineColor = System::Drawing::Color::LightGray;
+			chartArea2->AxisX->ScaleView->SizeType = System::Windows::Forms::DataVisualization::Charting::DateTimeIntervalType::Number;
+			chartArea2->AxisY->LineColor = System::Drawing::Color::LightGray;
+			chartArea2->AxisY->MajorGrid->LineColor = System::Drawing::Color::LightGray;
+			chartArea2->Name = L"ChartArea1";
+			this->chart2->ChartAreas->Add(chartArea2);
+			legend2->Name = L"Legend1";
+			this->chart2->Legends->Add(legend2);
 			this->chart2->Location = System::Drawing::Point(26, 338);
 			this->chart2->Name = L"chart2";
-			series4->ChartArea = L"ChartArea1";
-			series4->ChartType = System::Windows::Forms::DataVisualization::Charting::SeriesChartType::Spline;
-			series4->Color = System::Drawing::Color::Yellow;
-			series4->IsVisibleInLegend = false;
-			series4->Legend = L"Legend1";
-			series4->Name = L"Horizontal";
-			this->chart2->Series->Add(series4);
+			series2->ChartArea = L"ChartArea1";
+			series2->ChartType = System::Windows::Forms::DataVisualization::Charting::SeriesChartType::Spline;
+			series2->Color = System::Drawing::Color::Yellow;
+			series2->IsVisibleInLegend = false;
+			series2->Legend = L"Legend1";
+			series2->Name = L"Horizontal";
+			this->chart2->Series->Add(series2);
 			this->chart2->Size = System::Drawing::Size(538, 284);
 			this->chart2->TabIndex = 3;
 			this->chart2->Text = L"chartVert";
@@ -443,11 +451,55 @@ private: System::Windows::Forms::Label^  WiFiResult;
 			this->WiFiResult->Size = System::Drawing::Size(0, 13);
 			this->WiFiResult->TabIndex = 11;
 			// 
+			// leftButton
+			// 
+			this->leftButton->Location = System::Drawing::Point(805, 96);
+			this->leftButton->Name = L"leftButton";
+			this->leftButton->Size = System::Drawing::Size(18, 23);
+			this->leftButton->TabIndex = 12;
+			this->leftButton->Text = L"<";
+			this->leftButton->UseVisualStyleBackColor = true;
+			this->leftButton->Click += gcnew System::EventHandler(this, &Form1::leftButton_Click);
+			// 
+			// button1
+			// 
+			this->button1->Location = System::Drawing::Point(820, 76);
+			this->button1->Name = L"button1";
+			this->button1->Size = System::Drawing::Size(18, 23);
+			this->button1->TabIndex = 13;
+			this->button1->Text = L"^";
+			this->button1->UseVisualStyleBackColor = true;
+			this->button1->Click += gcnew System::EventHandler(this, &Form1::button1_Click);
+			// 
+			// button2
+			// 
+			this->button2->Location = System::Drawing::Point(837, 96);
+			this->button2->Name = L"button2";
+			this->button2->Size = System::Drawing::Size(18, 23);
+			this->button2->TabIndex = 14;
+			this->button2->Text = L">";
+			this->button2->UseVisualStyleBackColor = true;
+			this->button2->Click += gcnew System::EventHandler(this, &Form1::button2_Click);
+			// 
+			// button3
+			// 
+			this->button3->Location = System::Drawing::Point(820, 96);
+			this->button3->Name = L"button3";
+			this->button3->Size = System::Drawing::Size(18, 23);
+			this->button3->TabIndex = 15;
+			this->button3->Text = L"|";
+			this->button3->UseVisualStyleBackColor = true;
+			this->button3->Click += gcnew System::EventHandler(this, &Form1::button3_Click);
+			// 
 			// Form1
 			// 
 			this->AutoScaleDimensions = System::Drawing::SizeF(6, 13);
 			this->AutoScaleMode = System::Windows::Forms::AutoScaleMode::Font;
 			this->ClientSize = System::Drawing::Size(1088, 646);
+			this->Controls->Add(this->button3);
+			this->Controls->Add(this->button2);
+			this->Controls->Add(this->button1);
+			this->Controls->Add(this->leftButton);
 			this->Controls->Add(this->WiFiResult);
 			this->Controls->Add(this->labelWiFi);
 			this->Controls->Add(this->buttonDraw);
@@ -506,13 +558,15 @@ bool firstPhaseOfStepIsDetected(float accX, float accY, float accZ)
 	};
 	float calculateLengthOfStep(float acc)
 	{
-		SumRecivedAcceleration += acc;
+		return 10;
+		/*SumRecivedAcceleration += acc;
 		float result = 10;
 		if (countStep)
 			result = (CONST_G/countStep) * pow((double)SumRecivedAcceleration, 1.0 / 3.0);
 		sw->WriteLine ("LENGTH OF STEP: result = " + result + " module acc = " + acc +
 			" sum = " + SumRecivedAcceleration + "count step = " + countStep);
-		return result;
+		return result;*/
+	
 	}
 	float module(float accX, float accY, float accZ)
 	{
@@ -776,18 +830,18 @@ private: System::Void Form1_Load(System::Object^  sender, System::EventArgs^  e)
 	private: System::Void timer1_Tick(System::Object^  sender, System::EventArgs^  e) {
 				 char* readDate = readDataFromSensors();
 				 parseReadDate(readDate);
-				 float lengthStep = executeChatAlgorithm(accX, accY, accZ);
+				 float lengthStep = execute(accX, accY, accZ);
 				 
 				 if (lengthStep) {
 					 calculateStartPointAndFinishpoint(lengthStep, angleX, angleY, angleZ);
 
-					 PredictionResult^ report = checker->checkOnMap(angleZ, lengthStep);
+					 PredictionResult^ report = checker->checkOnMap(getAngle(), lengthStep);
 					 cur_point = report->point;
 
 					 ///TODO: get current points from algorithm and update way and closed way.
 					 List<WifiPk^>^ listWifi = fingerPrinting->getCurrentSignal();
 					 List<Windows::Point>^ mags = magnetic->getSquery(magnetic->getCurrentSignal(), cur_point);
-					 wifis->AddRange(fingerPrinting->getSquery(listWifi, cur_point));
+					 //wifis->AddRange(fingerPrinting->getSquery(listWifi, cur_point));
 					 
 					 WiFiResult->Text = "";
 					 for (int i = 0; i < listWifi->Count; i++) {
@@ -795,7 +849,7 @@ private: System::Void Form1_Load(System::Object^  sender, System::EventArgs^  e)
 					 }
 
 					 points->Add(cur_point);
-					 techicalPoints->AddRange(checker->getAllCurrentPoints());
+					 //techicalPoints->AddRange(checker->getAllCurrentPoints());
 					 
 					 if (report->is_closed) {
 						 timer1->Stop();
@@ -851,7 +905,7 @@ private: System::Void buttonClear_Click(System::Object^  sender, System::EventAr
 
 private: System::Void buttonDraw_Click(System::Object^  sender, System::EventArgs^  e) {
 	
-	databaseGenerate(map, way, pictureBox1);
+	simpleGenerate(map, way, pictureBox1);
 	checker = gcnew ProbabilityMapChecker(map, way);
 	
 	Windows::Point cur_point(UIOffset_x, UIOffset_y);
@@ -873,10 +927,12 @@ private: System::Void buttonDraw_Click(System::Object^  sender, System::EventArg
 	pictureBox1->Invalidate();
 	timer1->Start();
 }
+private: double getAngle() {
+	return currentAngle;
+}
 
 private: double getAngle(double rowAngle) {
 	return currentAngle;
-
 }
 private: System::Void Form1_Deactivate(System::Object^  sender, System::EventArgs^  e) {
 	float aveg_x, aveg_y, aveg_z;
@@ -922,6 +978,18 @@ private: System::Void pictureBox1_Click_1(System::Object^  sender, System::Event
 }
 private: System::Void pictureBox1_MouseClick(System::Object^  sender, System::Windows::Forms::MouseEventArgs^  e) {
 	
+}
+private: System::Void leftButton_Click(System::Object^  sender, System::EventArgs^  e) {
+	currentAngle = PI;
+}
+private: System::Void button1_Click(System::Object^  sender, System::EventArgs^  e) {
+	currentAngle = PI/2;
+}
+private: System::Void button3_Click(System::Object^  sender, System::EventArgs^  e) {
+	currentAngle = -PI / 2;
+}
+private: System::Void button2_Click(System::Object^  sender, System::EventArgs^  e) {
+	currentAngle = 0;
 }
 };
 }

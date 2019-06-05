@@ -59,6 +59,48 @@ int simpleGenerate(List<Line^>^ map, List<Line^>^ way, PictureBox^ image) {
 	map->Add(line1);
 	way->Add(line1);
 
+	Line^ line105 = gcnew Line();
+	line105->X1 = line1->X2 / 4;
+	line105->Y1 = line1->Y1;
+	line105->X2 = line1->X2 / 4;
+	line105->Y2 = line1->Y2 + 100;
+	map->Add(line105);
+
+	Line^ line11 = gcnew Line();
+	line11->X1 = line1->X2 / 2;
+	line11->Y1 = line1->Y1;
+	line11->X2 = line1->X2 / 2;
+	line11->Y2 = line1->Y2 + 50;
+	map->Add(line11);
+
+	Line^ line12 = gcnew Line();
+	line12->X1 = line11->X2 ;
+	line12->Y1 = line11->Y2;
+	line12->X2 = line11->X2 + 50;
+	line12->Y2 = line11->Y2;
+	map->Add(line12);
+
+	Line^ line13 = gcnew Line();
+	line13->X1 = line12->X2;
+	line13->Y1 = line12->Y2;
+	line13->X2 = line12->X2;
+	line13->Y2 = line12->Y2 + 100;
+	map->Add(line13);
+
+	Line^ line13l = gcnew Line();
+	line13l->X1 = line13->X2;
+	line13l->Y1 = line13->Y2 - 50;
+	line13l->X2 = line13->X2 - 60;
+	line13l->Y2 = line13->Y2 - 50;
+	map->Add(line13l);
+
+	Line^ line13r = gcnew Line();
+	line13r->X1 = line13->X2;
+	line13r->Y1 = line13->Y2;
+	line13r->X2 = line13->X2 + 50;
+	line13r->Y2 = line13->Y2;
+	map->Add(line13r);
+
 	Line^ line2 = gcnew Line();
 	line2->X1 = line1->X2;
 	line2->Y1 = line1->Y2;
@@ -80,6 +122,20 @@ int simpleGenerate(List<Line^>^ map, List<Line^>^ way, PictureBox^ image) {
 	line4->Y2 = line3->Y2 + image->Width / 2;
 	map->Add(line4);
 
+	Line^ line4d1 = gcnew Line();
+	line4d1->X1 = line3->X2 - 60;
+	line4d1->Y1 = line3->Y2;
+	line4d1->X2 = line3->X2 - 60;
+	line4d1->Y2 = line3->Y2 + 60;
+	map->Add(line4d1);
+
+	Line^ line4d2 = gcnew Line();
+	line4d2->X1 = line3->X2 - 30;
+	line4d2->Y1 = line3->Y2;
+	line4d2->X2 = line3->X2 - 30;
+	line4d2->Y2 = line3->Y2 + 40;
+	map->Add(line4d2);
+
 	Line^ line5 = gcnew Line();
 	line5->X1 = line1->X2;
 	line5->Y1 = line1->Y2;
@@ -87,6 +143,41 @@ int simpleGenerate(List<Line^>^ map, List<Line^>^ way, PictureBox^ image) {
 	line5->Y2 = line1->Y2 + image->Width / 4;
 	map->Add(line5);
 	way->Add(line5);
+
+	Line^ line5l = gcnew Line();
+	line5l->X1 = line5->X2;
+	line5l->Y1 = line5->Y2 / 4;
+	line5l->X2 = line5->X2 - 60;
+	line5l->Y2 = line5->Y2 / 4;
+	map->Add(line5l);
+
+	Line^ line5ld = gcnew Line();
+	line5ld->X1 = line5l->X2 + 30;
+	line5ld->Y1 = line5l->Y2;
+	line5ld->X2 = line5l->X2 + 30;
+	line5ld->Y2 = line5l->Y2 + 30;
+	map->Add(line5ld);
+
+	Line^ line51 = gcnew Line();
+	line51->X1 = line5->X2;
+	line51->Y1 = line5->Y2 / 2;
+	line51->X2 = line5->X2 + 50;
+	line51->Y2 = line5->Y2 / 2;
+	map->Add(line51);
+
+	Line^ line52 = gcnew Line();
+	line52->X1 = line51->X2;
+	line52->Y1 = line51->Y2;
+	line52->X2 = line51->X2;
+	line52->Y2 = line51->Y2 - 40;
+	map->Add(line52);
+
+	Line^ line53 = gcnew Line();
+	line53->X1 = line51->X2;
+	line53->Y1 = line51->Y2;
+	line53->X2 = line51->X2;
+	line53->Y2 = line51->Y2 + 40;
+	map->Add(line53);
 
 	Line^ line6 = gcnew Line();
 	line6->X1 = line5->X2;

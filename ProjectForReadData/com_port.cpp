@@ -29,7 +29,7 @@ int COMOpen()
 {
  DCB dcb;               //структура для общей инициализации порта DCB
  
- COMport = CreateFile(L"\\\\.\\\COM3",
+ COMport = CreateFile(L"\\\\.\\\COM4",
         GENERIC_READ | GENERIC_WRITE,
         0,
         NULL,
