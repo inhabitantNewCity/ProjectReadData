@@ -4,7 +4,7 @@
 #include "math.h"
 #include "filtering.h"
 #include "Stubs.h"
-#include "probability_cor_map.h"
+#include "OptWay.h"
 #include "way_load.h"
 #include "WifiFingerPrinting.h"
 
@@ -204,10 +204,14 @@ namespace ProjectForReadData {
 	List<Line^>^ way;
 	List<Windows::Point>^ points;
 	ProbabilityMapChecker^ checker;
+	OptWayBuilder^ optWayBuilder;
 	WifiWorker^ fingerPrinting;
 	MagneticWolker^ magnetic;
 	List<Windows::Point>^ techicalPoints;
 	List<Windows::Point>^ wifis;
+
+	Map^ structMap;
+	Way^ structWay;
 
 	Windows::Point cur_point;
 
@@ -234,6 +238,7 @@ private: System::Windows::Forms::Button^  leftButton;
 private: System::Windows::Forms::Button^  button1;
 private: System::Windows::Forms::Button^  button2;
 private: System::Windows::Forms::Button^  button3;
+private: System::Windows::Forms::Label^  currentStates;
 
 		 bool allAccDetected;
 	protected: 
@@ -276,6 +281,7 @@ private: System::Windows::Forms::Button^  button3;
 			this->button1 = (gcnew System::Windows::Forms::Button());
 			this->button2 = (gcnew System::Windows::Forms::Button());
 			this->button3 = (gcnew System::Windows::Forms::Button());
+			this->currentStates = (gcnew System::Windows::Forms::Label());
 			(cli::safe_cast<System::ComponentModel::ISupportInitialize^>(this->pictureBox1))->BeginInit();
 			(cli::safe_cast<System::ComponentModel::ISupportInitialize^>(this->chart1))->BeginInit();
 			(cli::safe_cast<System::ComponentModel::ISupportInitialize^>(this->chart2))->BeginInit();
@@ -345,7 +351,7 @@ private: System::Windows::Forms::Button^  button3;
 			series1->XValueType = System::Windows::Forms::DataVisualization::Charting::ChartValueType::Double;
 			series1->YValueType = System::Windows::Forms::DataVisualization::Charting::ChartValueType::Double;
 			this->chart1->Series->Add(series1);
-			this->chart1->Size = System::Drawing::Size(538, 295);
+			this->chart1->Size = System::Drawing::Size(538, 272);
 			this->chart1->TabIndex = 2;
 			this->chart1->Text = L"chartVert";
 			this->chart1->Click += gcnew System::EventHandler(this, &Form1::chart1_Click);
@@ -361,7 +367,7 @@ private: System::Windows::Forms::Button^  button3;
 			this->chart2->ChartAreas->Add(chartArea2);
 			legend2->Name = L"Legend1";
 			this->chart2->Legends->Add(legend2);
-			this->chart2->Location = System::Drawing::Point(26, 338);
+			this->chart2->Location = System::Drawing::Point(26, 315);
 			this->chart2->Name = L"chart2";
 			series2->ChartArea = L"ChartArea1";
 			series2->ChartType = System::Windows::Forms::DataVisualization::Charting::SeriesChartType::Spline;
@@ -370,7 +376,7 @@ private: System::Windows::Forms::Button^  button3;
 			series2->Legend = L"Legend1";
 			series2->Name = L"Horizontal";
 			this->chart2->Series->Add(series2);
-			this->chart2->Size = System::Drawing::Size(538, 284);
+			this->chart2->Size = System::Drawing::Size(538, 251);
 			this->chart2->TabIndex = 3;
 			this->chart2->Text = L"chartVert";
 			// 
@@ -491,11 +497,19 @@ private: System::Windows::Forms::Button^  button3;
 			this->button3->UseVisualStyleBackColor = true;
 			this->button3->Click += gcnew System::EventHandler(this, &Form1::button3_Click);
 			// 
+			// currentStates
+			// 
+			this->currentStates->Location = System::Drawing::Point(23, 591);
+			this->currentStates->Name = L"currentStates";
+			this->currentStates->Size = System::Drawing::Size(541, 206);
+			this->currentStates->TabIndex = 16;
+			// 
 			// Form1
 			// 
 			this->AutoScaleDimensions = System::Drawing::SizeF(6, 13);
 			this->AutoScaleMode = System::Windows::Forms::AutoScaleMode::Font;
-			this->ClientSize = System::Drawing::Size(1088, 646);
+			this->ClientSize = System::Drawing::Size(1088, 823);
+			this->Controls->Add(this->currentStates);
 			this->Controls->Add(this->button3);
 			this->Controls->Add(this->button2);
 			this->Controls->Add(this->button1);
@@ -750,6 +764,8 @@ private: System::Void Form1_Load(System::Object^  sender, System::EventArgs^  e)
 					
 				for (int i = 0; i < map->Count; i++) {
 					e->Graphics->DrawLine(penMap, (float)map[i]->X1, (float)map[i]->Y1, (float)map[i]->X2, (float)map[i]->Y2);
+					//e->Graphics->FillEllipse(brashPoints, map[i]->X1, map[i]->Y1, 8, 8);
+					//e->Graphics->FillEllipse(brashPoints, map[i]->X2, map[i]->Y2, 8, 8);
 				}
 
 
@@ -837,7 +853,7 @@ private: System::Void Form1_Load(System::Object^  sender, System::EventArgs^  e)
 
 					 PredictionResult^ report = checker->checkOnMap(getAngle(), lengthStep);
 					 cur_point = report->point;
-
+					 printCurrentState();
 					 ///TODO: get current points from algorithm and update way and closed way.
 					 List<WifiPk^>^ listWifi = fingerPrinting->getCurrentSignal();
 					 List<Windows::Point>^ mags = magnetic->getSquery(magnetic->getCurrentSignal(), cur_point);
@@ -855,10 +871,12 @@ private: System::Void Form1_Load(System::Object^  sender, System::EventArgs^  e)
 						 timer1->Stop();
 						 System::Windows::Forms::MessageBox::Show("you achived your aim");
 					 }
-					 if (report->is_rebilded) {
-						 ///TODO: call rebuild way from way class
-						 //updateWay(checker->getNearestPoint(report->point), checker->getLastPointOnWay(), way);
-						 //checker->refreshChecker(way);
+					 if (report->is_rebilded){
+						 
+						 structWay = optWayBuilder->getOptWay(
+							 structMap->getLineByPoint(report->point),
+							 structWay->getList()[structWay->getList()->Count - 1]);
+						 checker = gcnew ProbabilityMapChecker(structMap, structWay);
 						 System::Windows::Forms::MessageBox::Show("way is rebuilded");
 					 }
 				 }
@@ -906,7 +924,10 @@ private: System::Void buttonClear_Click(System::Object^  sender, System::EventAr
 private: System::Void buttonDraw_Click(System::Object^  sender, System::EventArgs^  e) {
 	
 	simpleGenerate(map, way, pictureBox1);
-	checker = gcnew ProbabilityMapChecker(map, way);
+	structWay = gcnew Way(way);
+	structMap = gcnew Map(map);
+	optWayBuilder = gcnew OptWayBuilder(structMap);
+	checker = gcnew ProbabilityMapChecker(structMap, structWay);
 	
 	Windows::Point cur_point(UIOffset_x, UIOffset_y);
 	fingerPrinting = gcnew WifiWorker("CORP1FLOOR2.xml", "../logs/WIFIlog.txt");
@@ -990,6 +1011,13 @@ private: System::Void button3_Click(System::Object^  sender, System::EventArgs^ 
 }
 private: System::Void button2_Click(System::Object^  sender, System::EventArgs^  e) {
 	currentAngle = 0;
+}
+private: void printCurrentState() {
+	List<CurrentStateWay^>^ states = checker->getCurrentSates();
+	currentStates->Text = "";
+	for (int i = 0; i < states->Count; i++) {
+		currentStates->Text += states[i]->ToText() + "\n";
+	}	
 }
 };
 }

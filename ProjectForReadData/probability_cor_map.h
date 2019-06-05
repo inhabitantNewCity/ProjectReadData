@@ -131,51 +131,20 @@ public:
 
 //store information about lines which system find out in database
 ref class Map {
-	
-private:
-	PathGeometry^ intervals;
+
 protected:
 	List<Line^>^ lines;
 public:
 	
 	Map(List<Line^>^ intervals) {
 		this->lines = intervals;
-		this->intervals = gcnew PathGeometry();
 		for (int i = 0; i < intervals->Count; i++) {
 			Windows::Point point1(intervals[i]->X1, intervals[i]->Y1);
 			Windows::Point point2(intervals[i]->X2, intervals[i]->Y2);
-			this->intervals->AddGeometry(gcnew LineGeometry(point1, point2));
 		}
 	}
 
 	List<Line^>^ getRelatedEges(Line^ line){
-		//FOR_TEST
-		/*double x = line->X1;
-		double y = line->Y1;
-		line->X1 = line->X2;
-		line->Y1 = line->Y2;
-		line->X2 = x;
-		line->Y2 = y;
-
-		Line^ line_0 = gcnew Line();
-		line_0->X1 = 1;
-		line_0->Y1 = 5;
-		line_0->X2 = 1;
-		line_0->Y2 = 7;
-		lines->Add(line_0);
-		Line^ line_1 = gcnew Line();
-		line_1->X1 = 1;
-		line_1->Y1 = 5;
-		line_1->X2 = -1;
-		line_1->Y2 = 5;
-		lines->Add(line_1);
-		Line^ line_2 = gcnew Line();
-		line_2->X1 = 1;
-		line_2->Y1 = 5;
-		line_2->X2 = 5;
-		line_2->Y2 = 5;
-		lines->Add(line_2);
-		*/
 
 		List<Line^>^ result = gcnew List<Line^>();
 		for (int i = 0; i < lines->Count; i++) {
@@ -186,10 +155,6 @@ public:
 				result->Add(lines[i]);
 			else if (line->X2 == lines[i]->X2 && line->Y2 == lines[i]->Y2 ) 
 				result->Add(lines[i]);
-			/*else if (line->X2 == lines[i]->X1 && line->Y2 == lines[i]->Y1)
-				result->Add(lines[i]);
-			else if (line->X2 == lines[i]->X2 && line->Y2 == lines[i]->Y2)
-				result->Add(lines[i]);*/
 		}
 		return result;
 	}
@@ -201,6 +166,14 @@ public:
 	Windows::Point getNearestPoint(Windows::Point source_point) {
 		/// TODO: get nerest point of current map
 		return source_point;
+	}
+
+	Line^ getLineByPoint(Windows::Point source_point) {
+		for (int i = 0; i < lines->Count; i++) {
+			if (GeomUtill::isPointInhereLine(source_point, lines[i]))
+				return lines[i];
+		}
+		return nullptr;
 	}
 
 };
@@ -406,6 +379,17 @@ public:
 		bool is_last_step = Windows::Vector::Subtract(way_vector, point_vector).Length < CLOSED_ENVIRONS;
 		return is_last_segment && is_last_step;
 	}
+
+	String^ ToText() {
+		
+		String^ result = "p = " + probability + " is Primary = " + is_primary_way;
+		
+		if (line_segment != nullptr) {
+			result += "(x = " + line_segment->getStartPoint().X + ", y = " + line_segment->getStartPoint().Y + ")";
+		}
+
+		return result;
+	}
 };
 //provide result of mapping current information from PPS to map
 ref class PredictionResult
@@ -462,18 +446,18 @@ private:
 	PredictionResult^ takeSolution() {
 		CurrentStateWay^ currentSate = current_states[0];
 		Windows::Point result = currentSate->getCurrentPoint();
-		return gcnew PredictionResult(result, false/*!currentSate->getPrimaryWay()*/, false/*currentSate->isLastStep(result)*/);
+		return gcnew PredictionResult(result, !currentSate->getPrimaryWay(), currentSate->isLastStep(result));
 	};
 
 public:
-	ProbabilityMapChecker(List<Line^>^ map, List<Line^>^ way) {
-		this->map = gcnew Map(map);
-		this->way = gcnew Way(way);
+	ProbabilityMapChecker(Map^ map, Way^ way) {
+		this->map = map;
+		this->way = way;
 
 		calculater_probability = gcnew CalculaterProbability(3, 1, gcnew NormalizedDistribution(0, 2), gcnew NormalizedDistribution(0, 0.6));
 
 		current_states = gcnew List<CurrentStateWay^>(OPT_WAYS_NUMBER);
-		LineSegmentCustom^ primary_way = gcnew LineSegmentCustom(way[0]);
+		LineSegmentCustom^ primary_way = gcnew LineSegmentCustom(way->getList()[0]);
 		current_states->Add(gcnew CurrentStateWay(primary_way, 1, true, this->map, this->way, this->calculater_probability));
 	};
 	
@@ -514,5 +498,9 @@ public:
 
 	Windows::Point getLastPointOnWay() {
 		return way->getLastPoint();
+	}
+
+	List<CurrentStateWay^>^ getCurrentSates() {
+		return current_states;
 	}
 };

@@ -36,3 +36,35 @@ public:
 		return a * distance_probility->getDensity(distance) + b * angle_probility->getDensity(angle);
 	}
 };
+
+ref class GeomUtill {
+private: 
+	static double max(double x, double y)
+	{
+		if (x < y) {
+			return x;
+		}
+		return x;
+	}
+
+	static double min(double x, double y)
+	{
+		if (x > y) {
+			return y;
+		}
+		return x;
+	}
+public:
+	static bool isPointInhereLine(System::Windows::Point point, System::Windows::Shapes::Line^ line) {
+		double k, c;
+
+		if (line->X1 == line->X2) {
+			return (point.X == line->X1 && point.Y >= min(line->Y1, line->Y2) && line->X1 <= max(line->Y1, line->Y2));
+		}
+
+		k = (line->Y2 - line->Y1) / (line->X2 - line->X1);
+		c = line->Y1 - k * line->X1;
+
+		return point.Y == point.X * k + c;
+	}
+};
