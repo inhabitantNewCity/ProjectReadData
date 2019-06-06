@@ -115,6 +115,13 @@ namespace ProjectForReadData {
 			currentAngle = PI;
 			this->KeyPreview = true;
 			allAccDetected = true;
+			alternativeWays = gcnew List<System::Drawing::Brush^>();
+			alternativeWays->Add(gcnew System::Drawing::SolidBrush(System::Drawing::Color::DodgerBlue));
+			alternativeWays->Add(gcnew System::Drawing::SolidBrush(System::Drawing::Color::Aqua));
+			alternativeWays->Add(gcnew System::Drawing::SolidBrush(System::Drawing::Color::DarkGreen));
+			alternativeWays->Add(gcnew System::Drawing::SolidBrush(System::Drawing::Color::BurlyWood));
+			alternativeWays->Add(gcnew System::Drawing::SolidBrush(System::Drawing::Color::Brown));
+			alternativeWays->Add(gcnew System::Drawing::SolidBrush(System::Drawing::Color::Crimson));
 		}
 
 	protected:
@@ -221,6 +228,7 @@ namespace ProjectForReadData {
 	System::Drawing::Pen^ penPoints;
 	System::Drawing::Brush^ brashPoints;
 	System::Drawing::Brush^ brashWifi;
+	List<System::Drawing::Brush^>^ alternativeWays;
 	
 	float current_x_single;
 	float current_y_single;
@@ -645,7 +653,13 @@ bool firstPhaseOfStepIsDetected(float accX, float accY, float accZ)
 	float executeChatAlgorithm(float accX, float accY, float accZ){
 		float result = 0;
 		
-		if(secondPhaseOfStepIsDetected(accX, accY, accZ)){
+		if (firstPhaseOfStepIsDetected(accX, accY, accZ)) {
+			firstPhaseOfStepDetected = true;
+
+			x_current->Add(accY);
+			y_current->Add(accX);
+		}
+		if(secondPhaseOfStepIsDetected(accX, accY, accZ) && firstPhaseOfStepDetected){
 			secondPhaseOfStepDetected = true;
 			DataPoint^ cur_ver_point = gcnew DataPoint(current_time, accY);
 			
@@ -656,7 +670,7 @@ bool firstPhaseOfStepIsDetected(float accX, float accY, float accZ)
 			numberReadInBetweenPhase = 0;
 
 		}
-		if(thridPhaseOfStepIsDetected(accX, accY, accZ) && secondPhaseOfStepDetected){
+		if(thridPhaseOfStepIsDetected(accX, accY, accZ) && secondPhaseOfStepDetected && firstPhaseOfStepDetected){
 			thridPhaseOfStepDetected = true;
 
 			DataPoint^ cur_ver_point = gcnew DataPoint(current_time, accY);
@@ -676,9 +690,6 @@ bool firstPhaseOfStepIsDetected(float accX, float accY, float accZ)
 					merge();
 					return  calculateLengthOfStep(module(accX, accY, accZ));
 				}
-			
-			x_current->Add(accY);	
-			y_current->Add(accX);
 
 			allAccDetected = checkCurrentSate(accX,accY,accZ, numberReadInBetweenPhase);
 			numberReadInBetweenPhase++;
@@ -764,8 +775,6 @@ private: System::Void Form1_Load(System::Object^  sender, System::EventArgs^  e)
 					
 				for (int i = 0; i < map->Count; i++) {
 					e->Graphics->DrawLine(penMap, (float)map[i]->X1, (float)map[i]->Y1, (float)map[i]->X2, (float)map[i]->Y2);
-					//e->Graphics->FillEllipse(brashPoints, map[i]->X1, map[i]->Y1, 8, 8);
-					//e->Graphics->FillEllipse(brashPoints, map[i]->X2, map[i]->Y2, 8, 8);
 				}
 
 
@@ -776,7 +785,12 @@ private: System::Void Form1_Load(System::Object^  sender, System::EventArgs^  e)
 				for (int i = 0; i < points->Count-1; i++) {
 					e->Graphics->DrawLine(penPoints, (float)points[i].X, (float)points[i].Y, (float)points[i + 1].X, (float)points[i + 1].Y );
 				}
-					
+				if(checker != nullptr){
+					for (int i = 0; i < checker->getCurrentSates()->Count; i++) {
+						Windows::Point statePoint = checker->getCurrentSates()[i]->getCurrentPoint();
+						e->Graphics->FillEllipse(alternativeWays[i], statePoint.X, statePoint.Y, 8, 8);
+					}
+				}
 				array<float>^ pointsArrayX = pointsX->ToArray();
 				array<float>^ pointsArrayY = pointsY->ToArray();
 
@@ -846,7 +860,7 @@ private: System::Void Form1_Load(System::Object^  sender, System::EventArgs^  e)
 	private: System::Void timer1_Tick(System::Object^  sender, System::EventArgs^  e) {
 				 char* readDate = readDataFromSensors();
 				 parseReadDate(readDate);
-				 float lengthStep = execute(accX, accY, accZ);
+				 float lengthStep = executeChatAlgorithm(accX, accY, accZ);
 				 
 				 if (lengthStep) {
 					 calculateStartPointAndFinishpoint(lengthStep, angleX, angleY, angleZ);

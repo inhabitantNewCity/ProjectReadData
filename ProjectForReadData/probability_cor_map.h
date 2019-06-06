@@ -250,6 +250,7 @@ private:
 	CalculaterProbability^ calculater_probability;
 	
 	bool is_updated;
+	bool is_cloesed;
 
 
 	double getCurrentProbability(LineSegmentCustom^ way_line_segment, LineSegmentCustom^ current_line_segment, double current_probability) {
@@ -306,6 +307,12 @@ private:
 
 		//selecting next lines among related enges 
 		Line^ result = getNextline(lines);
+		if (result == nullptr) {
+			is_cloesed = true;
+			is_updated = false;
+			return nullptr;
+		}
+
 		lines->Remove(result);
 		
 		//it is neccessary for corrected probability
@@ -338,6 +345,7 @@ public:
 		this->map = map;
 		this->way = way;
 		this->calculater_probability = calculater_probability;
+		this->is_cloesed = false;
 	};
 
 	//update probability and line if it is necessary line equals (first point  = last point(input point) in line segment, second point = second point from interval)
@@ -350,6 +358,9 @@ public:
 		is_updated = false;
 
 		this->line_segment = findCurrentLine(angle, length);
+		if (line_segment == nullptr)
+			return;
+
 		Windows::Point point = buildPoint(angle, length);
 
 		LineSegmentCustom^ current_segment = gcnew LineSegmentCustom(line_segment->getStartPoint(), point);
@@ -383,6 +394,10 @@ public:
 	void setPrimaryWay(bool flag) {
 		this->is_primary_way = flag;
 	};
+
+	bool isClosed() {
+		return is_cloesed;
+	}
 
 	int CompareTo(Object^ state) override {
 		CurrentStateWay^ stateS = (CurrentStateWay^)state;
@@ -456,8 +471,17 @@ private:
 		for (int i = 0; i < OPT_WAYS_NUMBER && i < current_states->Count; i++)
 			current_states[i]->setProbability(current_states[i]->getProbability() / sum);
 	}
-	
+	void removeClosedWays() {
+		List<CurrentStateWay^>^ closeds = gcnew List<CurrentStateWay^>();
+		for (int i = 0; i < current_states->Count; i++)
+			if (current_states[i]->isClosed())
+				closeds->Add(current_states[i]);
+
+		for (int i = 0; i < closeds->Count; i++)
+			current_states->Remove(closeds[i]);
+	}
 	void normalize() {
+		removeClosedWays();
 		current_states->Sort();
 		if (current_states->Count.CompareTo(OPT_WAYS_NUMBER) == 1 )
 			current_states = current_states->GetRange(0, OPT_WAYS_NUMBER);
