@@ -876,7 +876,9 @@ private: System::Void Form1_Load(System::Object^  sender, System::EventArgs^  e)
 						 structWay = optWayBuilder->getOptWay(
 							 structMap->getLineByPoint(report->point),
 							 structWay->getList()[structWay->getList()->Count - 1]);
-						 checker = gcnew ProbabilityMapChecker(structMap, structWay);
+						 way = structWay->getList();
+						 checker->refreshChecker(structWay);
+						 points->Clear();
 						 System::Windows::Forms::MessageBox::Show("way is rebuilded");
 					 }
 				 }

@@ -1,300 +1,2074 @@
 Second phage: vertical acceleration [ -6 ; -0,9234567 ] Horizontal acceleration [ -8 ; -0,5 ] 
 Triad phage: vertical acceleration [ 0,945678 , 6 ] Horizontal acceleration [ 6 , 0,8 ] 
-ANGLES: angleX = 4,39 angleY = 30,49 angleZ = -12,72
-COMPAS: comX = 0,56 comY = 2,83 comZ = 0,56
-COMPAS: giroX = 5,82 giroY = -3,73 giroZ = -3,73
-
-ANGLES: angleX = 7,79 angleY = 33,37 angleZ = -14,31
-COMPAS: comX = -0,86 comY = 1,22 comZ = -0,86
-COMPAS: giroX = 5,82 giroY = -3,73 giroZ = -3,73
-
-ANGLES: angleX = 8,39 angleY = 33,84 angleZ = -14,88
-COMPAS: comX = 2,64 comY = -0,78 comZ = 2,64
-COMPAS: giroX = 5,82 giroY = -3,73 giroZ = -3,73
-
-ANGLES: angleX = 6,44 angleY = 34,32 angleZ = -18,49
-COMPAS: comX = 1,24 comY = -0,94 comZ = 1,24
-COMPAS: giroX = 5,54 giroY = -3,71 giroZ = -3,71
-
-ANGLES: angleX = 7,01 angleY = 32,41 angleZ = -16,96
-COMPAS: comX = -0,67 comY = -1,24 comZ = -0,67
-COMPAS: giroX = 5,54 giroY = -3,71 giroZ = -3,71
-
-ANGLES: angleX = 7,67 angleY = 33,24 angleZ = -17,56
-COMPAS: comX = -1,03 comY = 0,96 comZ = -1,03
-COMPAS: giroX = 5,54 giroY = -3,71 giroZ = -3,71
-
-ANGLES: angleX = 10,85 angleY = 34,62 angleZ = -21,14
-COMPAS: comX = -0,07 comY = -0,93 comZ = -0,07
-COMPAS: giroX = 5,39 giroY = -3,63 giroZ = -3,63
-
-ANGLES: angleX = 9,1 angleY = 35,37 angleZ = -20,01
-COMPAS: comX = 0,19 comY = -0,61 comZ = 0,19
-COMPAS: giroX = 5,39 giroY = -3,63 giroZ = -3,63
-
-ANGLES: angleX = 9,5 angleY = 35,73 angleZ = -25,64
-COMPAS: comX = -2,94 comY = 6,1 comZ = -2,94
-COMPAS: giroX = 5,39 giroY = -3,63 giroZ = -3,63
-
-ANGLES: angleX = 13,06 angleY = 38,87 angleZ = -25,46
-COMPAS: comX = 3,26 comY = 2,11 comZ = 3,26
-COMPAS: giroX = 2,42 giroY = -3,76 giroZ = -3,76
-
-ANGLES: angleX = 13,18 angleY = 37,9 angleZ = -28,53
-COMPAS: comX = 3,25 comY = 3,44 comZ = 3,25
-COMPAS: giroX = 2,42 giroY = -3,76 giroZ = -3,76
-
-ANGLES: angleX = 13,97 angleY = 41,84 angleZ = -27,1
-COMPAS: comX = 1,6 comY = 3,4 comZ = 1,6
-COMPAS: giroX = 2,42 giroY = -3,76 giroZ = -3,76
-
-ANGLES: angleX = 14,07 angleY = 39,85 angleZ = -27,64
-COMPAS: comX = -0,01 comY = 3,17 comZ = -0,01
-COMPAS: giroX = 2,11 giroY = -3,72 giroZ = -3,72
-
-ANGLES: angleX = 15,89 angleY = 40,27 angleZ = -33,66
-COMPAS: comX = 2,89 comY = 2,31 comZ = 2,89
-COMPAS: giroX = 2,11 giroY = -3,72 giroZ = -3,72
-
-ANGLES: angleX = 15,92 angleY = 39,91 angleZ = -34,28
-COMPAS: comX = -2,73 comY = -0,03 comZ = -2,73
-COMPAS: giroX = 2,11 giroY = -3,72 giroZ = -3,72
-
-ANGLES: angleX = 15,89 angleY = 39,87 angleZ = -34,37
-COMPAS: comX = -3,41 comY = 1,9 comZ = -3,41
-COMPAS: giroX = 1,78 giroY = -3,83 giroZ = -3,83
-
-ANGLES: angleX = 15,91 angleY = 39,95 angleZ = -36,99
-COMPAS: comX = -0,16 comY = 4,28 comZ = -0,16
-COMPAS: giroX = 1,78 giroY = -3,83 giroZ = -3,83
-
-ANGLES: angleX = 14,26 angleY = 44,14 angleZ = -39,28
-COMPAS: comX = 8,88 comY = 2,28 comZ = 8,88
-COMPAS: giroX = 1,78 giroY = -3,83 giroZ = -3,83
-
-ANGLES: angleX = 19,13 angleY = 46,81 angleZ = -37,44
-COMPAS: comX = 10,91 comY = -1,84 comZ = 10,91
-COMPAS: giroX = 1,41 giroY = -1,45 giroZ = -1,45
-
-ANGLES: angleX = 22,05 angleY = 51,39 angleZ = -32,51
-COMPAS: comX = 9,38 comY = -23,93 comZ = 9,38
-COMPAS: giroX = 1,41 giroY = -1,45 giroZ = -1,45
-
-ANGLES: angleX = 27,13 angleY = 56,12 angleZ = -18,43
-COMPAS: comX = 0,54 comY = -49,75 comZ = 0,54
-COMPAS: giroX = 1,41 giroY = -1,45 giroZ = -1,45
-
-ANGLES: angleX = 8 angleY = 37,12 angleZ = -60,52
-COMPAS: comX = 5,46 comY = -12,13 comZ = 5,46
-COMPAS: giroX = 3,4 giroY = -1,88 giroZ = -1,88
-
-ANGLES: angleX = 15,31 angleY = 37,78 angleZ = -50,58
-COMPAS: comX = -5,88 comY = -39,16 comZ = -5,88
-COMPAS: giroX = 3,4 giroY = -1,88 giroZ = -1,88
-
-ANGLES: angleX = 24,35 angleY = 44,1 angleZ = -28,71
-COMPAS: comX = -14,63 comY = -62,54 comZ = -14,63
-COMPAS: giroX = 3,4 giroY = -1,88 giroZ = -1,88
-
-ANGLES: angleX = 22,84 angleY = 48,5 angleZ = 3,97
-COMPAS: comX = -25,83 comY = -58,73 comZ = -25,83
-COMPAS: giroX = 2,44 giroY = 0,68 giroZ = 0,68
-
-ANGLES: angleX = 11,44 angleY = 54,3 angleZ = 39,34
-COMPAS: comX = -17,73 comY = -54,54 comZ = -17,73
-COMPAS: giroX = 2,44 giroY = 0,68 giroZ = 0,68
-
-ANGLES: angleX = -3,46 angleY = 46,32 angleZ = 54,55
-COMPAS: comX = -34,02 comY = -33,03 comZ = -34,02
-COMPAS: giroX = 2,44 giroY = 0,68 giroZ = 0,68
-
-ANGLES: angleX = -10,43 angleY = 38,54 angleZ = 65,09
-COMPAS: comX = -28,62 comY = -20,78 comZ = -28,62
-COMPAS: giroX = 2,44 giroY = 0,68 giroZ = 0,68
-
-ANGLES: angleX = -11,74 angleY = 28,02 angleZ = 70,25
-COMPAS: comX = -1,51 comY = -2,16 comZ = -1,51
-COMPAS: giroX = -0,26 giroY = -1,83 giroZ = -1,83
-
-ANGLES: angleX = -4,47 angleY = 18,84 angleZ = 65,85
-COMPAS: comX = -10,66 comY = -2,9 comZ = -10,66
-COMPAS: giroX = -0,26 giroY = -1,83 giroZ = -1,83
-
-ANGLES: angleX = -1,61 angleY = 12,83 angleZ = 63,47
-COMPAS: comX = -4,12 comY = -0,44 comZ = -4,12
-COMPAS: giroX = -0,26 giroY = -1,83 giroZ = -1,83
-
-ANGLES: angleX = -1,7 angleY = 9,41 angleZ = 63,46
-COMPAS: comX = -0,54 comY = -0,65 comZ = -0,54
-COMPAS: giroX = 2,73 giroY = -2,08 giroZ = -2,08
-
-ANGLES: angleX = -3,33 angleY = 7,21 angleZ = 65,01
-COMPAS: comX = -3,77 comY = 0,14 comZ = -3,77
-COMPAS: giroX = 2,73 giroY = -2,08 giroZ = -2,08
-
-ANGLES: angleX = -8,76 angleY = 38,56 angleZ = -45,47
-COMPAS: comX = 5,16 comY = 1,1 comZ = 5,16
-COMPAS: giroX = 3,08 giroY = -2,71 giroZ = -2,71
-
-ANGLES: angleX = -1,82 angleY = 37,21 angleZ = -47,15
-COMPAS: comX = -0,3 comY = 3,39 comZ = -0,3
-COMPAS: giroX = 3,08 giroY = -2,71 giroZ = -2,71
-
-ANGLES: angleX = 3,15 angleY = 44,79 angleZ = -47,18
-COMPAS: comX = 5,94 comY = -0,26 comZ = 5,94
-COMPAS: giroX = 3,08 giroY = -2,71 giroZ = -2,71
-
-ANGLES: angleX = 5,97 angleY = 43,11 angleZ = -48,81
-COMPAS: comX = -6,18 comY = 2,03 comZ = -6,18
-COMPAS: giroX = 3,44 giroY = -2,77 giroZ = -2,77
-
-ANGLES: angleX = 7,37 angleY = 46,86 angleZ = -45,74
-COMPAS: comX = -0,8 comY = 0,59 comZ = -0,8
-COMPAS: giroX = 3,44 giroY = -2,77 giroZ = -2,77
-
-ANGLES: angleX = 9,15 angleY = 46,79 angleZ = -47,27
-COMPAS: comX = -2,12 comY = -1,24 comZ = -2,12
-COMPAS: giroX = 3,44 giroY = -2,77 giroZ = -2,77
-
-ANGLES: angleX = 13,54 angleY = 44,86 angleZ = -47,17
-COMPAS: comX = -0,88 comY = -1,01 comZ = -0,88
-COMPAS: giroX = 3,39 giroY = -3,08 giroZ = -3,08
-
-ANGLES: angleX = 12,46 angleY = 45,48 angleZ = -46,15
-COMPAS: comX = -2,81 comY = -0,14 comZ = -2,81
-COMPAS: giroX = 3,39 giroY = -3,08 giroZ = -3,08
-
-ANGLES: angleX = 16,34 angleY = 45,51 angleZ = -46,27
-COMPAS: comX = 0,51 comY = 2,89 comZ = 0,51
-COMPAS: giroX = 3,39 giroY = -3,08 giroZ = -3,08
-
-ANGLES: angleX = 19,11 angleY = 48,81 angleZ = -46,68
-COMPAS: comX = 2,58 comY = 0,6 comZ = 2,58
-COMPAS: giroX = 3,34 giroY = -3,28 giroZ = -3,28
-
-ANGLES: angleX = 22,07 angleY = 49,6 angleZ = -43,99
-COMPAS: comX = 1,54 comY = -15,65 comZ = 1,54
-COMPAS: giroX = 3,34 giroY = -3,28 giroZ = -3,28
-
-ANGLES: angleX = 31,45 angleY = 50,59 angleZ = -26,94
-COMPAS: comX = -5,28 comY = -48 comZ = -5,28
-COMPAS: giroX = 3,34 giroY = -3,28 giroZ = -3,28
-
-ANGLES: angleX = 26,95 angleY = 59,32 angleZ = 2,61
-COMPAS: comX = -27,37 comY = -64,07 comZ = -27,37
-COMPAS: giroX = 3,47 giroY = 0,72 giroZ = 0,72
-
-ANGLES: angleX = 11,55 angleY = 59,58 angleZ = 31,48
-COMPAS: comX = -27,16 comY = -45,6 comZ = -27,16
-COMPAS: giroX = 3,47 giroY = 0,72 giroZ = 0,72
-
-ANGLES: angleX = -9,62 angleY = 50 angleZ = 46,2
-COMPAS: comX = -26,56 comY = -17,21 comZ = -26,56
-COMPAS: giroX = 3,47 giroY = 0,72 giroZ = 0,72
-
-ANGLES: angleX = -12,72 angleY = 38,81 angleZ = 53,32
-COMPAS: comX = -21,79 comY = -17,93 comZ = -21,79
-COMPAS: giroX = 2,41 giroY = -3,58 giroZ = -3,58
-
-ANGLES: angleX = -15,22 angleY = 24,91 angleZ = 66,83
-COMPAS: comX = -4,77 comY = 0,94 comZ = -4,77
-COMPAS: giroX = 2,41 giroY = -3,58 giroZ = -3,58
-
-ANGLES: angleX = -11,51 angleY = 14,36 angleZ = 69,91
-COMPAS: comX = -3,16 comY = -4,21 comZ = -3,16
-COMPAS: giroX = 2,41 giroY = -3,58 giroZ = -3,58
-
-ANGLES: angleX = -2,48 angleY = 7,17 angleZ = 67,27
-COMPAS: comX = 1,7 comY = 3,1 comZ = 1,7
-COMPAS: giroX = 3,23 giroY = -1,59 giroZ = -1,59
-
-ANGLES: angleX = -0,53 angleY = 1,44 angleZ = 56,09
-COMPAS: comX = 6,91 comY = 5,38 comZ = 6,91
-COMPAS: giroX = 3,23 giroY = -1,59 giroZ = -1,59
-
-ANGLES: angleX = -0,78 angleY = 2,19 angleZ = 37,33
-COMPAS: comX = 20,62 comY = 12,03 comZ = 20,62
-COMPAS: giroX = 3,23 giroY = -1,59 giroZ = -1,59
-
-ANGLES: angleX = -1,84 angleY = 8,97 angleZ = 15,45
-COMPAS: comX = 20,67 comY = 26,65 comZ = 20,67
-COMPAS: giroX = 6,27 giroY = 0,64 giroZ = 0,64
-
-ANGLES: angleX = -7,51 angleY = 21,27 angleZ = -12,18
-COMPAS: comX = 15,4 comY = 35,47 comZ = 15,4
-COMPAS: giroX = 6,27 giroY = 0,64 giroZ = 0,64
-
-ANGLES: angleX = -12,8 angleY = 29,18 angleZ = -30,4
-COMPAS: comX = 10,84 comY = 33,87 comZ = 10,84
-COMPAS: giroX = 6,27 giroY = 0,64 giroZ = 0,64
-
-ANGLES: angleX = -14,02 angleY = 35,04 angleZ = -44,65
-COMPAS: comX = 13,09 comY = 14,45 comZ = 13,09
-COMPAS: giroX = 3,48 giroY = 0,13 giroZ = 0,13
-
-ANGLES: angleX = 8,12 angleY = 46,51 angleZ = 29,32
-COMPAS: comX = -27,45 comY = -35,91 comZ = -27,45
-COMPAS: giroX = 6,11 giroY = 0,91 giroZ = 0,91
-
-ANGLES: angleX = -7,29 angleY = 33,73 angleZ = 45,25
-COMPAS: comX = -33,83 comY = -17,08 comZ = -33,83
-COMPAS: giroX = 6,11 giroY = 0,91 giroZ = 0,91
-
-ANGLES: angleX = -9,31 angleY = 14,94 angleZ = 57,83
-COMPAS: comX = -35,44 comY = -9,74 comZ = -35,44
-COMPAS: giroX = 6,11 giroY = 0,91 giroZ = 0,91
-
-ANGLES: angleX = -10,46 angleY = 7,38 angleZ = 61,74
-COMPAS: comX = -5,09 comY = -3,99 comZ = -5,09
-COMPAS: giroX = 3,15 giroY = -2,13 giroZ = -2,13
-
-ANGLES: angleX = -1,41 angleY = 1,87 angleZ = 55,31
-COMPAS: comX = -0,79 comY = -6,32 comZ = -0,79
-COMPAS: giroX = 3,15 giroY = -2,13 giroZ = -2,13
-
-ANGLES: angleX = 2,58 angleY = -0,89 angleZ = 51,53
-COMPAS: comX = 1,96 comY = 5,96 comZ = 1,96
-COMPAS: giroX = 3,15 giroY = -2,13 giroZ = -2,13
-
-ANGLES: angleX = 3,53 angleY = 0,24 angleZ = 34,88
-COMPAS: comX = 19,09 comY = 4,76 comZ = 19,09
-COMPAS: giroX = 1,49 giroY = -2,27 giroZ = -2,27
-
-ANGLES: angleX = 0,53 angleY = 8,17 angleZ = 7,55
-COMPAS: comX = 26,69 comY = 23,8 comZ = 26,69
-COMPAS: giroX = 1,49 giroY = -2,27 giroZ = -2,27
-
-ANGLES: angleX = -10,33 angleY = 14,26 angleZ = -21,1
-COMPAS: comX = 9,73 comY = 31,17 comZ = 9,73
-COMPAS: giroX = 1,49 giroY = -2,27 giroZ = -2,27
-
-ANGLES: angleX = 7,47 angleY = 42,84 angleZ = -51,79
-COMPAS: comX = 3,55 comY = -26,61 comZ = 3,55
-COMPAS: giroX = 3,4 giroY = -1,32 giroZ = -1,32
-
-ANGLES: angleX = 14,63 angleY = 42,17 angleZ = -35,91
-COMPAS: comX = -9,55 comY = -46,68 comZ = -9,55
-COMPAS: giroX = 3,4 giroY = -1,32 giroZ = -1,32
-
-ANGLES: angleX = 14,1 angleY = 40,02 angleZ = -10,62
-COMPAS: comX = -21,76 comY = -44,32 comZ = -21,76
-COMPAS: giroX = 5,64 giroY = 0,6 giroZ = 0,6
-
-ANGLES: angleX = 2,18 angleY = 41,19 angleZ = 20,82
-COMPAS: comX = -12,49 comY = -40,2 comZ = -12,49
-COMPAS: giroX = 5,64 giroY = 0,6 giroZ = 0,6
-
-ANGLES: angleX = -8,63 angleY = 24,73 angleZ = 44,31
-COMPAS: comX = -36,14 comY = -21,27 comZ = -36,14
-COMPAS: giroX = 5,64 giroY = 0,6 giroZ = 0,6
-
-ANGLES: angleX = -10,06 angleY = 17,3 angleZ = 56,32
-COMPAS: comX = -6,58 comY = -6,25 comZ = -6,58
-COMPAS: giroX = 1,63 giroY = -1,43 giroZ = -1,43
-
-ANGLES: angleX = -6,84 angleY = 12,75 angleZ = 59,87
-COMPAS: comX = 1,28 comY = -7,43 comZ = 1,28
-COMPAS: giroX = 1,63 giroY = -1,43 giroZ = -1,43
-
-ANGLES: angleX = 0,45 angleY = 4,57 angleZ = 53,31
-COMPAS: comX = -3,94 comY = -4,
+ANGLES: angleX = -1,11 angleY = -29,64 angleZ = -11,15
+COMPAS: comX = 2,04 comY = 0,89 comZ = 2,04
+COMPAS: giroX = 3,84 giroY = -3,61 giroZ = -3,61
+
+ANGLES: angleX = -0,79 angleY = -30,26 angleZ = -10,99
+COMPAS: comX = 0,56 comY = -0,25 comZ = 0,56
+COMPAS: giroX = 3,86 giroY = -3,4 giroZ = -3,4
+
+ANGLES: angleX = -0,12 angleY = -34,25 angleZ = -10,54
+COMPAS: comX = -5,51 comY = -1,16 comZ = -5,51
+COMPAS: giroX = 3,86 giroY = -3,4 giroZ = -3,4
+
+ANGLES: angleX = -0,89 angleY = -35,85 angleZ = -10,67
+COMPAS: comX = 2,64 comY = 0,61 comZ = 2,64
+COMPAS: giroX = 3,86 giroY = -3,4 giroZ = -3,4
+
+ANGLES: angleX = -0,49 angleY = -32,39 angleZ = -10,58
+COMPAS: comX = 2,77 comY = 0,11 comZ = 2,77
+COMPAS: giroX = 3,86 giroY = -3,4 giroZ = -3,4
+
+ANGLES: angleX = 3,69 angleY = -36,24 angleZ = -10,65
+COMPAS: comX = -2,42 comY = -2,26 comZ = -2,42
+COMPAS: giroX = 3,9 giroY = -3,3 giroZ = -3,3
+
+ANGLES: angleX = 3,05 angleY = -35,78 angleZ = -9,54
+COMPAS: comX = -2,19 comY = -3,73 comZ = -2,19
+COMPAS: giroX = 3,9 giroY = -3,3 giroZ = -3,3
+
+ANGLES: angleX = 2,78 angleY = -32,2 angleZ = -13,9
+COMPAS: comX = 4,44 comY = -6,95 comZ = 4,44
+COMPAS: giroX = 3,9 giroY = -3,3 giroZ = -3,3
+
+ANGLES: angleX = 0,89 angleY = -33,23 angleZ = -12,51
+COMPAS: comX = -2,93 comY = -8 comZ = -2,93
+COMPAS: giroX = 3,85 giroY = -3,09 giroZ = -3,09
+
+ANGLES: angleX = 0,59 angleY = -32,9 angleZ = -17,74
+COMPAS: comX = 2,76 comY = -10,32 comZ = 2,76
+COMPAS: giroX = 3,85 giroY = -3,09 giroZ = -3,09
+
+ANGLES: angleX = 2,81 angleY = -32,92 angleZ = -21,45
+COMPAS: comX = 3,54 comY = -3,63 comZ = 3,54
+COMPAS: giroX = 3,85 giroY = -3,09 giroZ = -3,09
+
+ANGLES: angleX = -1,86 angleY = -24,09 angleZ = -20,52
+COMPAS: comX = 9,49 comY = 42,74 comZ = 9,49
+COMPAS: giroX = 3,69 giroY = 0,87 giroZ = 0,87
+
+ANGLES: angleX = -11,37 angleY = -19,07 angleZ = 4,31
+COMPAS: comX = 20,15 comY = 39,54 comZ = 20,15
+COMPAS: giroX = 3,69 giroY = 0,87 giroZ = 0,87
+
+ANGLES: angleX = -11,76 angleY = -20,84 angleZ = 15,29
+COMPAS: comX = 3,27 comY = 31,98 comZ = 3,27
+COMPAS: giroX = 5,47 giroY = 1,17 giroZ = 1,17
+
+ANGLES: angleX = -16,59 angleY = -31,1 angleZ = 26,42
+COMPAS: comX = -16,92 comY = 7,91 comZ = -16,92
+COMPAS: giroX = 5,47 giroY = 1,17 giroZ = 1,17
+
+ANGLES: angleX = -9,56 angleY = -33,06 angleZ = 25,74
+COMPAS: comX = -6,23 comY = -1,48 comZ = -6,23
+COMPAS: giroX = 5,47 giroY = 1,17 giroZ = 1,17
+
+ANGLES: angleX = -8,19 angleY = -38,16 angleZ = 18,22
+COMPAS: comX = -1,73 comY = 1,37 comZ = -1,73
+COMPAS: giroX = 5,99 giroY = 0,85 giroZ = 0,85
+
+ANGLES: angleX = -4,02 angleY = -40,45 angleZ = 18,7
+COMPAS: comX = -5,23 comY = 1,42 comZ = -5,23
+COMPAS: giroX = 5,99 giroY = 0,85 giroZ = 0,85
+
+ANGLES: angleX = -1,46 angleY = -44,68 angleZ = 17,92
+COMPAS: comX = -4,63 comY = -5,13 comZ = -4,63
+COMPAS: giroX = 5,89 giroY = 0,35 giroZ = 0,35
+
+ANGLES: angleX = -1,28 angleY = -41,94 angleZ = 8,56
+COMPAS: comX = 0,83 comY = -28,97 comZ = 0,83
+COMPAS: giroX = 5,89 giroY = 0,35 giroZ = 0,35
+
+ANGLES: angleX = 3,8 angleY = -33,17 angleZ = -19,11
+COMPAS: comX = 13,5 comY = -59,78 comZ = 13,5
+COMPAS: giroX = 5,89 giroY = 0,35 giroZ = 0,35
+
+ANGLES: angleX = 2,12 angleY = -34,49 angleZ = -50,5
+COMPAS: comX = 7,55 comY = -52,39 comZ = 7,55
+COMPAS: giroX = 5,68 giroY = 0,98 giroZ = 0,98
+
+ANGLES: angleX = -4,12 angleY = -34,65 angleZ = -52,91
+COMPAS: comX = -12,44 comY = -28,38 comZ = -12,44
+COMPAS: giroX = 5,71 giroY = 0,33 giroZ = 0,33
+
+ANGLES: angleX = -11,15 angleY = -41,09 angleZ = -62,02
+COMPAS: comX = -26,07 comY = -8,78 comZ = -26,07
+COMPAS: giroX = 2,23 giroY = 1,19 giroZ = 1,19
+
+ANGLES: angleX = -8,76 angleY = -42,31 angleZ = -55,74
+COMPAS: comX = 2,85 comY = 5,61 comZ = 2,85
+COMPAS: giroX = 2,23 giroY = 1,19 giroZ = 1,19
+
+ANGLES: angleX = -5,48 angleY = -30,21 angleZ = -50,83
+COMPAS: comX = 14,87 comY = 2,74 comZ = 14,87
+COMPAS: giroX = 2,23 giroY = 1,19 giroZ = 1,19
+
+ANGLES: angleX = -2,13 angleY = -20,78 angleZ = -45,81
+COMPAS: comX = 4,47 comY = 5,95 comZ = 4,47
+COMPAS: giroX = 1,82 giroY = 1 giroZ = 1
+
+ANGLES: angleX = -5,22 angleY = -20,95 angleZ = -34,17
+COMPAS: comX = -1,35 comY = 20,39 comZ = -1,35
+COMPAS: giroX = 1,82 giroY = 1 giroZ = 1
+
+ANGLES: angleX = -8,76 angleY = -19,69 angleZ = -10,91
+COMPAS: comX = 12,08 comY = 33,2 comZ = 12,08
+COMPAS: giroX = 1,82 giroY = 1 giroZ = 1
+
+ANGLES: angleX = -13,74 angleY = -24,14 angleZ = 9,63
+COMPAS: comX = 3,97 comY = 33,62 comZ = 3,97
+COMPAS: giroX = 6,3 giroY = 0,43 giroZ = 0,43
+
+ANGLES: angleX = -12,06 angleY = -34,32 angleZ = 28,62
+COMPAS: comX = -15,06 comY = 23,54 comZ = -15,06
+COMPAS: giroX = 6,3 giroY = 0,43 giroZ = 0,43
+
+ANGLES: angleX = -12,63 angleY = -41,41 angleZ = 30,9
+COMPAS: comX = -15,13 comY = 8,41 comZ = -15,13
+COMPAS: giroX = 6,3 giroY = 0,43 giroZ = 0,43
+
+ANGLES: angleX = -9,43 angleY = -39,69 angleZ = 28,36
+COMPAS: comX = -4,2 comY = -3,27 comZ = -4,2
+COMPAS: giroX = 5,78 giroY = 0,04 giroZ = 0,04
+
+ANGLES: angleX = -8,05 angleY = -39,24 angleZ = 20,52
+COMPAS: comX = 0,77 comY = -21,11 comZ = 0,77
+COMPAS: giroX = 5,78 giroY = 0,04 giroZ = 0,04
+
+ANGLES: angleX = -3,37 angleY = -32,07 angleZ = -0,18
+COMPAS: comX = 4,55 comY = -51,71 comZ = 4,55
+COMPAS: giroX = 5,78 giroY = 0,04 giroZ = 0,04
+
+ANGLES: angleX = 2,41 angleY = -29,53 angleZ = -44,08
+COMPAS: comX = 4,77 comY = -50,94 comZ = 4,77
+COMPAS: giroX = 5,97 giroY = -2,8 giroZ = -2,8
+
+ANGLES: angleX = -0,22 angleY = -33,01 angleZ = -59,26
+COMPAS: comX = -15,4 comY = -33,56 comZ = -15,4
+COMPAS: giroX = 2,5 giroY = 0,96 giroZ = 0,96
+
+ANGLES: angleX = -3,72 angleY = -43,83 angleZ = -66,55
+COMPAS: comX = -17,38 comY = -6,22 comZ = -17,38
+COMPAS: giroX = 2,5 giroY = 0,96 giroZ = 0,96
+
+ANGLES: angleX = -1,28 angleY = -40,23 angleZ = -62,93
+COMPAS: comX = -0,11 comY = 2,47 comZ = -0,11
+COMPAS: giroX = 2,5 giroY = 0,96 giroZ = 0,96
+
+ANGLES: angleX = 2,44 angleY = -28,83 angleZ = -57,24
+COMPAS: comX = 16,47 comY = 3,46 comZ = 16,47
+COMPAS: giroX = 2,5 giroY = 0,96 giroZ = 0,96
+
+ANGLES: angleX = 2,08 angleY = -21,57 angleZ = -50,95
+COMPAS: comX = 3,88 comY = 1,44 comZ = 3,88
+COMPAS: giroX = 1,33 giroY = 0,93 giroZ = 0,93
+
+ANGLES: angleX = 3,07 angleY = -17,76 angleZ = -42,84
+COMPAS: comX = -6,04 comY = 13,89 comZ = -6,04
+COMPAS: giroX = 1,33 giroY = 0,93 giroZ = 0,93
+
+ANGLES: angleX = 0,25 angleY = -18,77 angleZ = -27,01
+COMPAS: comX = 8,58 comY = 26,8 comZ = 8,58
+COMPAS: giroX = 1,33 giroY = 0,93 giroZ = 0,93
+
+ANGLES: angleX = -7,97 angleY = -20,69 angleZ = -8,54
+COMPAS: comX = 10,73 comY = 33,49 comZ = 10,73
+COMPAS: giroX = 6,22 giroY = 0,26 giroZ = 0,26
+
+ANGLES: angleX = -13,53 angleY = -26,69 angleZ = 12,51
+COMPAS: comX = -8,47 comY = 33,01 comZ = -8,47
+COMPAS: giroX = 6,22 giroY = 0,26 giroZ = 0,26
+
+ANGLES: angleX = -13,97 angleY = -35,62 angleZ = 25,93
+COMPAS: comX = -23,1 comY = 23,66 comZ = -23,1
+COMPAS: giroX = 6,22 giroY = 0,26 giroZ = 0,26
+
+ANGLES: angleX = -13,64 angleY = -44,57 angleZ = 26,91
+COMPAS: comX = -10,64 comY = 11,49 comZ = -10,64
+COMPAS: giroX = 5,8 giroY = -2,78 giroZ = -2,78
+
+ANGLES: angleX = -7,47 angleY = -43,84 angleZ = 25,12
+COMPAS: comX = -5,53 comY = -6,25 comZ = -5,53
+COMPAS: giroX = 5,8 giroY = -2,78 giroZ = -2,78
+
+ANGLES: angleX = -4,6 angleY = -38,23 angleZ = 15,09
+COMPAS: comX = -1,22 comY = -26,82 comZ = -1,22
+COMPAS: giroX = 5,8 giroY = -2,78 giroZ = -2,78
+
+ANGLES: angleX = -3,15 angleY = -36,17 angleZ = -6,07
+COMPAS: comX = 8,03 comY = -51,22 comZ = 8,03
+COMPAS: giroX = 6,3 giroY = -3,23 giroZ = -3,23
+
+ANGLES: angleX = -0,18 angleY = -32,84 angleZ = -40,95
+COMPAS: comX = 1,62 comY = -64,16 comZ = 1,62
+COMPAS: giroX = 6,3 giroY = -3,23 giroZ = -3,23
+
+ANGLES: angleX = -4,86 angleY = -37,53 angleZ = 22,33
+COMPAS: comX = -8,46 comY = -0,08 comZ = -8,46
+COMPAS: giroX = 5,97 giroY = 0,5 giroZ = 0,5
+
+ANGLES: angleX = -6,1 angleY = -37,43 angleZ = 19,82
+COMPAS: comX = -5,16 comY = -6,57 comZ = -5,16
+COMPAS: giroX = 5,97 giroY = 0,5 giroZ = 0,5
+
+ANGLES: angleX = -1,9 angleY = -38,66 angleZ = 7,3
+COMPAS: comX = -5,2 comY = -27,93 comZ = -5,2
+COMPAS: giroX = 5,97 giroY = 0,5 giroZ = 0,5
+
+ANGLES: angleX = 2,99 angleY = -35 angleZ = -15,57
+COMPAS: comX = 1,21 comY = -54,64 comZ = 1,21
+COMPAS: giroX = 6,23 giroY = -2,62 giroZ = -2,62
+
+ANGLES: angleX = -3,33 angleY = -37,84 angleZ = -48,55
+COMPAS: comX = -13,5 comY = -42,47 comZ = -13,5
+COMPAS: giroX = 6,23 giroY = -2,62 giroZ = -2,62
+
+ANGLES: angleX = -10,39 angleY = -46,76 angleZ = -65,87
+COMPAS: comX = -21,82 comY = -9,9 comZ = -21,82
+COMPAS: giroX = 6,23 giroY = -2,62 giroZ = -2,62
+
+ANGLES: angleX = -5,54 angleY = -44,24 angleZ = -61,33
+COMPAS: comX = 8,78 comY = 2,69 comZ = 8,78
+COMPAS: giroX = 3,54 giroY = 0,87 giroZ = 0,87
+
+ANGLES: angleX = -2,58 angleY = -26,62 angleZ = -55,33
+COMPAS: comX = 12,99 comY = 3,57 comZ = 12,99
+COMPAS: giroX = 3,54 giroY = 0,87 giroZ = 0,87
+
+ANGLES: angleX = 1,23 angleY = -18,07 angleZ = -57,11
+COMPAS: comX = -2,07 comY = -1,46 comZ = -2,07
+COMPAS: giroX = 3,54 giroY = 0,87 giroZ = 0,87
+
+ANGLES: angleX = 2,61 angleY = -13,64 angleZ = -52,95
+COMPAS: comX = 0,33 comY = -1,06 comZ = 0,33
+COMPAS: giroX = 1,41 giroY = 1,09 giroZ = 1,09
+
+ANGLES: angleX = 3,01 angleY = -6,5 angleZ = -52,03
+COMPAS: comX = -0,65 comY = -0,55 comZ = -0,65
+COMPAS: giroX = 1,41 giroY = 1,09 giroZ = 1,09
+
+ANGLES: angleX = 0,83 angleY = -4,54 angleZ = -44,69
+COMPAS: comX = -0,95 comY = 13,76 comZ = -0,95
+COMPAS: giroX = 1,41 giroY = 1,09 giroZ = 1,09
+
+ANGLES: angleX = -5,45 angleY = -8,47 angleZ = -25,44
+COMPAS: comX = 3,57 comY = 23,72 comZ = 3,57
+COMPAS: giroX = 2,27 giroY = 0,82 giroZ = 0,82
+
+ANGLES: angleX = -9,49 angleY = -16,17 angleZ = -6,04
+COMPAS: comX = 0,76 comY = 28,08 comZ = 0,76
+COMPAS: giroX = 2,27 giroY = 0,82 giroZ = 0,82
+
+ANGLES: angleX = -15,76 angleY = -23,95 angleZ = 12,15
+COMPAS: comX = -8,7 comY = 31,65 comZ = -8,7
+COMPAS: giroX = 2,27 giroY = 0,82 giroZ = 0,82
+
+ANGLES: angleX = -15,32 angleY = -27,02 angleZ = 23,14
+COMPAS: comX = -7,69 comY = 16,28 comZ = -7,69
+COMPAS: giroX = 5,76 giroY = -2,6 giroZ = -2,6
+
+ANGLES: angleX = -12,65 angleY = -29,62 angleZ = 23,59
+COMPAS: comX = -3,45 comY = 0,75 comZ = -3,45
+COMPAS: giroX = 5,76 giroY = -2,6 giroZ = -2,6
+
+ANGLES: angleX = -2,42 angleY = -49,64 angleZ = -48,6
+COMPAS: comX = -2,36 comY = -1,72 comZ = -2,36
+COMPAS: giroX = 6,3 giroY = -2,61 giroZ = -2,61
+
+ANGLES: angleX = -1,46 angleY = -38,36 angleZ = -48,74
+COMPAS: comX = 1,86 comY = 0,73 comZ = 1,86
+COMPAS: giroX = 5,29 giroY = 0,32 giroZ = 0,32
+
+ANGLES: angleX = -2,96 angleY = -33,88 angleZ = -49,14
+COMPAS: comX = -2,36 comY = -3,81 comZ = -2,36
+COMPAS: giroX = 5,29 giroY = 0,32 giroZ = 0,32
+
+ANGLES: angleX = 0,09 angleY = -27,13 angleZ = -49,04
+COMPAS: comX = -1,75 comY = 0,35 comZ = -1,75
+COMPAS: giroX = 5,29 giroY = 0,32 giroZ = 0,32
+
+ANGLES: angleX = -3 angleY = -22,23 angleZ = -45,18
+COMPAS: comX = -0,21 comY = -0,98 comZ = -0,21
+COMPAS: giroX = 5,29 giroY = 0,32 giroZ = 0,32
+
+ANGLES: angleX = -2,96 angleY = -19,94 angleZ = -43,11
+COMPAS: comX = 1,07 comY = 2,98 comZ = 1,07
+COMPAS: giroX = 5,29 giroY = 0,35 giroZ = 0,35
+
+ANGLES: angleX = -1,32 angleY = -14,58 angleZ = -43,82
+COMPAS: comX = 2,6 comY = 0,42 comZ = 2,6
+COMPAS: giroX = 5,29 giroY = 0,35 giroZ = 0,35
+
+ANGLES: angleX = -3,39 angleY = -15,68 angleZ = -40,14
+COMPAS: comX = 0,56 comY = 0,21 comZ = 0,56
+COMPAS: giroX = 5,29 giroY = 0,35 giroZ = 0,35
+
+ANGLES: angleX = 0,27 angleY = -12,04 angleZ = -41,35
+COMPAS: comX = -2,58 comY = -2,95 comZ = -2,58
+COMPAS: giroX = 5,29 giroY = 0,35 giroZ = 0,35
+
+ANGLES: angleX = 0,34 angleY = -12,96 angleZ = -37,95
+COMPAS: comX = 0,42 comY = -2,62 comZ = 0,42
+COMPAS: giroX = 5,49 giroY = 0,42 giroZ = 0,42
+
+ANGLES: angleX = 0,39 angleY = -10,16 angleZ = -37,45
+COMPAS: comX = -3,84 comY = -2,95 comZ = -3,84
+COMPAS: giroX = 5,49 giroY = 0,42 giroZ = 0,42
+
+ANGLES: angleX = 0 angleY = -9,68 angleZ = -39,33
+COMPAS: comX = 0,46 comY = 0,24 comZ = 0,46
+COMPAS: giroX = 5,49 giroY = 0,42 giroZ = 0,42
+
+ANGLES: angleX = -2,97 angleY = -9,26 angleZ = -38,77
+COMPAS: comX = 0,37 comY = -2,6 comZ = 0,37
+COMPAS: giroX = 5,53 giroY = 0,43 giroZ = 0,43
+
+ANGLES: angleX = -3,21 angleY = -9,17 angleZ = -35,28
+COMPAS: comX = 0,46 comY = 0,6 comZ = 0,46
+COMPAS: giroX = 5,53 giroY = 0,43 giroZ = 0,43
+
+ANGLES: angleX = -3,35 angleY = -9,29 angleZ = -36,61
+COMPAS: comX = 0,84 comY = 0,23 comZ = 0,84
+COMPAS: giroX = 5,53 giroY = 0,43 giroZ = 0,43
+
+ANGLES: angleX = -3,7 angleY = -9,16 angleZ = -33,15
+COMPAS: comX = 0,64 comY = 0,21 comZ = 0,64
+COMPAS: giroX = 5,59 giroY = 0,46 giroZ = 0,46
+
+ANGLES: angleX = -1,71 angleY = -11,21 angleZ = -32,49
+COMPAS: comX = 0,56 comY = 0,44 comZ = 0,56
+COMPAS: giroX = 5,59 giroY = 0,46 giroZ = 0,46
+
+ANGLES: angleX = -1,78 angleY = -9,93 angleZ = -29,81
+COMPAS: comX = 0,31 comY = 3,81 comZ = 0,31
+COMPAS: giroX = 5,59 giroY = 0,46 giroZ = 0,46
+
+ANGLES: angleX = -5,38 angleY = -12,14 angleZ = -25,56
+COMPAS: comX = 0,71 comY = 5,79 comZ = 0,71
+COMPAS: giroX = 5,76 giroY = 0,37 giroZ = 0,37
+
+ANGLES: angleX = -5,59 angleY = -16,93 angleZ = -19,21
+COMPAS: comX = -6,02 comY = 11,46 comZ = -6,02
+COMPAS: giroX = 5,76 giroY = 0,37 giroZ = 0,37
+
+ANGLES: angleX = -4,2 angleY = -22,41 angleZ = -11,95
+COMPAS: comX = -3,47 comY = 16,16 comZ = -3,47
+COMPAS: giroX = 5,76 giroY = 0,37 giroZ = 0,37
+
+ANGLES: angleX = -4,77 angleY = -24,63 angleZ = -9,51
+COMPAS: comX = -3,39 comY = 5,08 comZ = -3,39
+COMPAS: giroX = 6,21 giroY = -2,94 giroZ = -2,94
+
+ANGLES: angleX = -8,03 angleY = -28,51 angleZ = -12
+COMPAS: comX = -8,47 comY = 0,98 comZ = -8,47
+COMPAS: giroX = 6,21 giroY = -2,94 giroZ = -2,94
+
+ANGLES: angleX = -8,58 angleY = -28,34 angleZ = -10,07
+COMPAS: comX = 0,14 comY = 4,78 comZ = 0,14
+COMPAS: giroX = 6,21 giroY = -2,94 giroZ = -2,94
+
+ANGLES: angleX = -4,57 angleY = -30,22 angleZ = -9
+COMPAS: comX = -20,7 comY = 0,66 comZ = -20,7
+COMPAS: giroX = 6,33 giroY = -3,6 giroZ = -3,6
+
+ANGLES: angleX = -4,47 angleY = -31,49 angleZ = -7,33
+COMPAS: comX = -0,24 comY = 2,02 comZ = -0,24
+COMPAS: giroX = 6,33 giroY = -3,6 giroZ = -3,6
+
+ANGLES: angleX = -5,04 angleY = -28,63 angleZ = -6,53
+COMPAS: comX = 1,68 comY = 5,62 comZ = 1,68
+COMPAS: giroX = 6,33 giroY = -3,6 giroZ = -3,6
+
+ANGLES: angleX = -7,76 angleY = -30,83 angleZ = -8,29
+COMPAS: comX = -6,96 comY = 6,02 comZ = -6,96
+COMPAS: giroX = 6,33 giroY = -1,32 giroZ = -1,32
+
+ANGLES: angleX = -4,84 angleY = -33,99 angleZ = -4,95
+COMPAS: comX = -8,58 comY = 2,18 comZ = -8,58
+COMPAS: giroX = 6,33 giroY = -1,32 giroZ = -1,32
+
+ANGLES: angleX = -4,92 angleY = -29,96 angleZ = -4,21
+COMPAS: comX = 3,68 comY = 2,51 comZ = 3,68
+COMPAS: giroX = 6,33 giroY = -1,32 giroZ = -1,32
+
+ANGLES: angleX = -7,88 angleY = -31,18 angleZ = -6,38
+COMPAS: comX = -0,03 comY = 4,19 comZ = -0,03
+COMPAS: giroX = 3,88 giroY = -1,61 giroZ = -1,61
+
+ANGLES: angleX = -4,33 angleY = -28,26 angleZ = -5,5
+COMPAS: comX = 4,77 comY = 1,59 comZ = 4,77
+COMPAS: giroX = 3,88 giroY = -1,61 giroZ = -1,61
+
+ANGLES: angleX = -5,75 angleY = -28,27 angleZ = -2,22
+COMPAS: comX = -3,27 comY = 2,58 comZ = -3,27
+COMPAS: giroX = 3,88 giroY = -1,61 giroZ = -1,61
+
+ANGLES: angleX = -2,22 angleY = -29,23 angleZ = -1,45
+COMPAS: comX = 0,22 comY = 2,79 comZ = 0,22
+COMPAS: giroX = 4,01 giroY = -3,83 giroZ = -3,83
+
+ANGLES: angleX = -3,15 angleY = -31,65 angleZ = -3,56
+COMPAS: comX = -2,52 comY = -3,29 comZ = -2,52
+COMPAS: giroX = 4,01 giroY = -3,83 giroZ = -3,83
+
+ANGLES: angleX = -3,35 angleY = -31,28 angleZ = -1,38
+COMPAS: comX = 2,7 comY = -0,8 comZ = 2,7
+COMPAS: giroX = 4,01 giroY = -3,83 giroZ = -3,83
+
+ANGLES: angleX = -3,63 angleY = -29,52 angleZ = -5,22
+COMPAS: comX = -1,75 comY = -0,84 comZ = -1,75
+COMPAS: giroX = 3,97 giroY = -1,34 giroZ = -1,34
+
+ANGLES: angleX = -3,27 angleY = -29,65 angleZ = -4,14
+COMPAS: comX = -2,87 comY = -2,93 comZ = -2,87
+COMPAS: giroX = 3,97 giroY = -1,34 giroZ = -1,34
+
+ANGLES: angleX = 0,32 angleY = -29,89 angleZ = -8,14
+COMPAS: comX = 1,03 comY = -2,54 comZ = 1,03
+COMPAS: giroX = 3,97 giroY = -1,34 giroZ = -1,34
+
+ANGLES: angleX = -0,81 angleY = -31,67 angleZ = -6,69
+COMPAS: comX = 2,73 comY = -5,01 comZ = 2,73
+COMPAS: giroX = 6,36 giroY = -1,38 giroZ = -1,38
+
+ANGLES: angleX = 2,81 angleY = -31,73 angleZ = -10,45
+COMPAS: comX = -0,42 comY = -2,37 comZ = -0,42
+COMPAS: giroX = 6,36 giroY = -1,38 giroZ = -1,38
+
+ANGLES: angleX = -0,08 angleY = -30,73 angleZ = -11,34
+COMPAS: comX = 0,86 comY = -3,83 comZ = 0,86
+COMPAS: giroX = 6,36 giroY = -1,38 giroZ = -1,38
+
+ANGLES: angleX = -0,02 angleY = -30,89 angleZ = -9,43
+COMPAS: comX = -0,65 comY = 0,36 comZ = -0,65
+COMPAS: giroX = 6,28 giroY = -3,76 giroZ = -3,76
+
+ANGLES: angleX = -0,29 angleY = -30,88 angleZ = -9,93
+COMPAS: comX = -1,02 comY = -3,15 comZ = -1,02
+COMPAS: giroX = 6,28 giroY = -3,76 giroZ = -3,76
+
+ANGLES: angleX = -0,01 angleY = -31,32 angleZ = -10,2
+COMPAS: comX = 0,64 comY = -3,63 comZ = 0,64
+COMPAS: giroX = 6,28 giroY = -3,76 giroZ = -3,76
+
+ANGLES: angleX = 2,63 angleY = -31,92 angleZ = -13,03
+COMPAS: comX = -2,92 comY = -2,66 comZ = -2,92
+COMPAS: giroX = 6,27 giroY = -3,61 giroZ = -3,61
+
+ANGLES: angleX = -0,11 angleY = -29,58 angleZ = -13,26
+COMPAS: comX = -2,74 comY = -3 comZ = -2,74
+COMPAS: giroX = 6,27 giroY = -3,61 giroZ = -3,61
+
+ANGLES: angleX = -0,22 angleY = -29,94 angleZ = -13,42
+COMPAS: comX = 0,33 comY = 0 comZ = 0,33
+COMPAS: giroX = 6,27 giroY = -3,61 giroZ = -3,61
+
+ANGLES: angleX = -0,25 angleY = -29,69 angleZ = -13,58
+COMPAS: comX = 1,17 comY = -2,66 comZ = 1,17
+COMPAS: giroX = 6,39 giroY = -3,56 giroZ = -3,56
+
+ANGLES: angleX = -0,34 angleY = -29,95 angleZ = -13,75
+COMPAS: comX = 0,25 comY = -2,61 comZ = 0,25
+COMPAS: giroX = 6,39 giroY = -3,56 giroZ = -3,56
+
+ANGLES: angleX = -0,69 angleY = -33,3 angleZ = -13,95
+COMPAS: comX = -3,64 comY = 0,26 comZ = -3,64
+COMPAS: giroX = 6,39 giroY = -3,56 giroZ = -3,56
+
+ANGLES: angleX = -1,27 angleY = -32,95 angleZ = -11,7
+COMPAS: comX = -7,94 comY = 0,29 comZ = -7,94
+COMPAS: giroX = 6,34 giroY = -3,58 giroZ = -3,58
+
+ANGLES: angleX = 1,17 angleY = -35,28 angleZ = -12,01
+COMPAS: comX = -5,11 comY = 0,13 comZ = -5,11
+COMPAS: giroX = 6,34 giroY = -3,58 giroZ = -3,58
+
+ANGLES: angleX = 1,05 angleY = -36,93 angleZ = -12,25
+COMPAS: comX = 0,85 comY = -3,33 comZ = 0,85
+COMPAS: giroX = 6,34 giroY = -3,58 giroZ = -3,58
+
+ANGLES: angleX = -1,12 angleY = -33 angleZ = -15,59
+COMPAS: comX = 0,53 comY = -5,36 comZ = 0,53
+COMPAS: giroX = 6,27 giroY = -1,45 giroZ = -1,45
+
+ANGLES: angleX = -0,41 angleY = -32,88 angleZ = -16,2
+COMPAS: comX = -1,78 comY = -1,76 comZ = -1,78
+COMPAS: giroX = 6,27 giroY = -1,45 giroZ = -1,45
+
+ANGLES: angleX = 3,36 angleY = -34,51 angleZ = -16,36
+COMPAS: comX = -3,26 comY = -2,17 comZ = -3,26
+COMPAS: giroX = 6,27 giroY = -1,45 giroZ = -1,45
+
+ANGLES: angleX = 3,48 angleY = -33,81 angleZ = -16,34
+COMPAS: comX = 0,59 comY = 0,64 comZ = 0,59
+COMPAS: giroX = 6,31 giroY = -1,43 giroZ = -1,43
+
+ANGLES: angleX = -0,51 angleY = -36,29 angleZ = -14,4
+COMPAS: comX = -6,38 comY = 0,78 comZ = -6,38
+COMPAS: giroX = 6,31 giroY = -1,43 giroZ = -1,43
+
+ANGLES: angleX = 2,85 angleY = -34 angleZ = -14,36
+COMPAS: comX = 3,42 comY = -2,07 comZ = 3,42
+COMPAS: giroX = 6,31 giroY = -1,43 giroZ = -1,43
+
+ANGLES: angleX = 1,41 angleY = -29,43 angleZ = -16
+COMPAS: comX = 8,44 comY = 0,52 comZ = 8,44
+COMPAS: giroX = 6,26 giroY = -1,6 giroZ = -1,6
+
+ANGLES: angleX = 2,01 angleY = -28,61 angleZ = -15,57
+COMPAS: comX = 1,46 comY = -1,5 comZ = 1,46
+COMPAS: giroX = 6,26 giroY = -1,6 giroZ = -1,6
+
+ANGLES: angleX = 5,47 angleY = -28,89 angleZ = -15,51
+COMPAS: comX = 0,63 comY = -2,17 comZ = 0,63
+COMPAS: giroX = 6,26 giroY = -1,6 giroZ = -1,6
+
+ANGLES: angleX = 3,81 angleY = -28,2 angleZ = -12,64
+COMPAS: comX = 6,71 comY = -0,31 comZ = 6,71
+COMPAS: giroX = 6,32 giroY = -3,48 giroZ = -3,48
+
+ANGLES: angleX = 3,4 angleY = -28,96 angleZ = -8,18
+COMPAS: comX = -0,67 comY = 11,11 comZ = -0,67
+COMPAS: giroX = 6,32 giroY = -3,48 giroZ = -3,48
+
+ANGLES: angleX = -0,06 angleY = -28,9 angleZ = 2,6
+COMPAS: comX = 11,39 comY = 15,47 comZ = 11,39
+COMPAS: giroX = 6,32 giroY = -3,48 giroZ = -3,48
+
+ANGLES: angleX = 2,17 angleY = -8,46 angleZ = -57,74
+COMPAS: comX = -1,59 comY = 0,85 comZ = -1,59
+COMPAS: giroX = 1,57 giroY = 1,25 giroZ = 1,25
+
+ANGLES: angleX = 2,17 angleY = -5,57 angleZ = -56,08
+COMPAS: comX = 1,18 comY = -2,98 comZ = 1,18
+COMPAS: giroX = 1,57 giroY = 1,25 giroZ = 1,25
+
+ANGLES: angleX = 1,83 angleY = -2,97 angleZ = -55,37
+COMPAS: comX = 0,31 comY = -2,71 comZ = 0,31
+COMPAS: giroX = 1,59 giroY = 1,24 giroZ = 1,24
+
+ANGLES: angleX = 2,35 angleY = -0,8 angleZ = -57,17
+COMPAS: comX = 0,28 comY = -3,19 comZ = 0,28
+COMPAS: giroX = 1,59 giroY = 1,24 giroZ = 1,24
+
+ANGLES: angleX = 2,55 angleY = 2,91 angleZ = -53,6
+COMPAS: comX = -2,84 comY = 0,58 comZ = -2,84
+COMPAS: giroX = 1,59 giroY = 1,24 giroZ = 1,24
+
+ANGLES: angleX = 2,54 angleY = 1,37 angleZ = -52,81
+COMPAS: comX = 0,28 comY = -2,7 comZ = 0,28
+COMPAS: giroX = 1,58 giroY = -1,28 giroZ = -1,28
+
+ANGLES: angleX = 2,46 angleY = 2,36 angleZ = -54,47
+COMPAS: comX = -1,82 comY = 0,17 comZ = -1,82
+COMPAS: giroX = 1,58 giroY = -1,28 giroZ = -1,28
+
+ANGLES: angleX = 2 angleY = 5,89 angleZ = -51
+COMPAS: comX = 0,55 comY = -2,74 comZ = 0,55
+COMPAS: giroX = 1,58 giroY = -1,28 giroZ = -1,28
+
+ANGLES: angleX = 1,82 angleY = 4 angleZ = -50,33
+COMPAS: comX = -2,67 comY = 0,69 comZ = -2,67
+COMPAS: giroX = 1,59 giroY = 1,21 giroZ = 1,21
+
+ANGLES: angleX = 1,99 angleY = 4,29 angleZ = -52,33
+COMPAS: comX = 0,2 comY = 0,11 comZ = 0,2
+COMPAS: giroX = 1,59 giroY = 1,21 giroZ = 1,21
+
+ANGLES: angleX = 2,05 angleY = 4,56 angleZ = -51,44
+COMPAS: comX = -2,92 comY = 0,63 comZ = -2,92
+COMPAS: giroX = 1,59 giroY = 1,21 giroZ = 1,21
+
+ANGLES: angleX = 1,82 angleY = 4,7 angleZ = -48,09
+COMPAS: comX = -3,05 comY = 0,12 comZ = -3,05
+COMPAS: giroX = 1,67 giroY = 1,19 giroZ = 1,19
+
+ANGLES: angleX = 3,52 angleY = 4,36 angleZ = -49,07
+COMPAS: comX = -3,08 comY = 2,75 comZ = -3,08
+COMPAS: giroX = 1,67 giroY = 1,19 giroZ = 1,19
+
+ANGLES: angleX = -0,85 angleY = 2 angleZ = -41,35
+COMPAS: comX = -2,74 comY = 4,19 comZ = -2,74
+COMPAS: giroX = 1,67 giroY = 1,19 giroZ = 1,19
+
+ANGLES: angleX = -5,81 angleY = -3,42 angleZ = -25,36
+COMPAS: comX = 3,22 comY = 16,49 comZ = 3,22
+COMPAS: giroX = 5,59 giroY = 0,68 giroZ = 0,68
+
+ANGLES: angleX = -8,97 angleY = -6,87 angleZ = -7,39
+COMPAS: comX = 4,9 comY = 17,17 comZ = 4,9
+COMPAS: giroX = 5,59 giroY = 0,68 giroZ = 0,68
+
+ANGLES: angleX = -15,94 angleY = -15,95 angleZ = 6,06
+COMPAS: comX = 3,49 comY = 22,83 comZ = 3,49
+COMPAS: giroX = 5,59 giroY = 0,68 giroZ = 0,68
+
+ANGLES: angleX = -7,21 angleY = -14,72 angleZ = 1,29
+COMPAS: comX = -3,65 comY = -3,99 comZ = -3,65
+COMPAS: giroX = 6,18 giroY = 0,62 giroZ = 0,62
+
+ANGLES: angleX = -5,6 angleY = -21,58 angleZ = 5,4
+COMPAS: comX = -3,15 comY = -4,84 comZ = -3,15
+COMPAS: giroX = 6,18 giroY = 0,62 giroZ = 0,62
+
+ANGLES: angleX = -3,76 angleY = -23,99 angleZ = 3,93
+COMPAS: comX = -7,84 comY = -0,01 comZ = -7,84
+COMPAS: giroX = 6,18 giroY = 0,62 giroZ = 0,62
+
+ANGLES: angleX = 3,87 angleY = -1,17 angleZ = -55,46
+COMPAS: comX = -2,99 comY = 5,88 comZ = -2,99
+COMPAS: giroX = 3,1 giroY = -0,97 giroZ = -0,97
+
+ANGLES: angleX = 5,93 angleY = 3,07 angleZ = -48,09
+COMPAS: comX = 3,5 comY = 5,12 comZ = 3,5
+COMPAS: giroX = 3,1 giroY = -0,97 giroZ = -0,97
+
+ANGLES: angleX = 2,85 angleY = 2,88 angleZ = -34,16
+COMPAS: comX = 2,58 comY = 8,61 comZ = 2,58
+COMPAS: giroX = 2,4 giroY = 1,26 giroZ = 1,26
+
+ANGLES: angleX = -8,43 angleY = 0,69 angleZ = -20,97
+COMPAS: comX = 1,32 comY = 13,32 comZ = 1,32
+COMPAS: giroX = 2,4 giroY = 1,26 giroZ = 1,26
+
+ANGLES: angleX = -13,57 angleY = -8,29 angleZ = -8,24
+COMPAS: comX = 2,77 comY = 12,72 comZ = 2,77
+COMPAS: giroX = 2,4 giroY = 1,26 giroZ = 1,26
+
+ANGLES: angleX = -11,95 angleY = -15,84 angleZ = 5,19
+COMPAS: comX = -3,42 comY = 13,88 comZ = -3,42
+COMPAS: giroX = 6,13 giroY = 1,05 giroZ = 1,05
+
+ANGLES: angleX = -14,03 angleY = -22,07 angleZ = 12,31
+COMPAS: comX = -4,21 comY = 11,44 comZ = -4,21
+COMPAS: giroX = 6,13 giroY = 1,05 giroZ = 1,05
+
+ANGLES: angleX = -11,3 angleY = -28,08 angleZ = 17,74
+COMPAS: comX = -2 comY = 8,28 comZ = -2
+COMPAS: giroX = 6,13 giroY = 1,05 giroZ = 1,05
+
+ANGLES: angleX = -8,04 angleY = -30,65 angleZ = 16,76
+COMPAS: comX = -0,82 comY = -3,03 comZ = -0,82
+COMPAS: giroX = 5,72 giroY = 1 giroZ = 1
+
+ANGLES: angleX = -2,04 angleY = -18,27 angleZ = -56,21
+COMPAS: comX = -3,61 comY = -0,75 comZ = -3,61
+COMPAS: giroX = 3,07 giroY = -1,16 giroZ = -1,16
+
+ANGLES: angleX = 1,22 angleY = -11,51 angleZ = -50,54
+COMPAS: comX = -0,2 comY = 3,44 comZ = -0,2
+COMPAS: giroX = 3,07 giroY = -1,16 giroZ = -1,16
+
+ANGLES: angleX = 3,82 angleY = -3,89 angleZ = -37,5
+COMPAS: comX = 4,66 comY = 2,59 comZ = 4,66
+COMPAS: giroX = 3,56 giroY = -1,25 giroZ = -1,25
+
+ANGLES: angleX = 0,91 angleY = -5,14 angleZ = -22,86
+COMPAS: comX = 1,95 comY = 8,8 comZ = 1,95
+COMPAS: giroX = 3,56 giroY = -1,25 giroZ = -1,25
+
+ANGLES: angleX = -6,05 angleY = -8,33 angleZ = -13,72
+COMPAS: comX = 0,92 comY = 9,47 comZ = 0,92
+COMPAS: giroX = 3,56 giroY = -1,25 giroZ = -1,25
+
+ANGLES: angleX = -8,34 angleY = -11,38 angleZ = -8,92
+COMPAS: comX = -3,34 comY = 10,97 comZ = -3,34
+COMPAS: giroX = 6,15 giroY = 1,07 giroZ = 1,07
+
+ANGLES: angleX = -8,34 angleY = -18,6 angleZ = 2,99
+COMPAS: comX = -4,1 comY = 7,91 comZ = -4,1
+COMPAS: giroX = 6,15 giroY = 1,07 giroZ = 1,07
+
+ANGLES: angleX = -8,78 angleY = -19,65 angleZ = 4,32
+COMPAS: comX = -4,54 comY = 10,4 comZ = -4,54
+COMPAS: giroX = 6,15 giroY = 1,07 giroZ = 1,07
+
+ANGLES: angleX = -5,06 angleY = -24,64 angleZ = 9,38
+COMPAS: comX = -2,94 comY = 5,11 comZ = -2,94
+COMPAS: giroX = 6,15 giroY = 1,07 giroZ = 1,07
+
+ANGLES: angleX = -6,28 angleY = -27,88 angleZ = 12,38
+COMPAS: comX = -3,65 comY = 8,85 comZ = -3,65
+COMPAS: giroX = 6,05 giroY = 0,83 giroZ = 0,83
+
+ANGLES: angleX = -3,67 angleY = -34,47 angleZ = 20,77
+COMPAS: comX = -8,88 comY = 3,92 comZ = -8,88
+COMPAS: giroX = 6,05 giroY = 0,83 giroZ = 0,83
+
+ANGLES: angleX = 0,15 angleY = -32,81 angleZ = 11,2
+COMPAS: comX = -2,35 comY = -28,61 comZ = -2,35
+COMPAS: giroX = 6,05 giroY = 0,83 giroZ = 0,83
+
+ANGLES: angleX = -3,72 angleY = -29,29 angleZ = -20,83
+COMPAS: comX = 12,17 comY = -46,98 comZ = 12,17
+COMPAS: giroX = 5,92 giroY = 0,41 giroZ = 0,41
+
+ANGLES: angleX = -5,02 angleY = -23,94 angleZ = -51,21
+COMPAS: comX = 1,7 comY = -22,26 comZ = 1,7
+COMPAS: giroX = 5,92 giroY = 0,41 giroZ = 0,41
+
+ANGLES: angleX = -7,48 angleY = -28,61 angleZ = -61,83
+COMPAS: comX = -20,63 comY = -3,81 comZ = -20,63
+COMPAS: giroX = 5,92 giroY = 0,41 giroZ = 0,41
+
+ANGLES: angleX = -4,15 angleY = -24,65 angleZ = -59,43
+COMPAS: comX = 1,33 comY = -2,91 comZ = 1,33
+COMPAS: giroX = 2,97 giroY = -1,01 giroZ = -1,01
+
+ANGLES: angleX = -3,44 angleY = -15,23 angleZ = -55,55
+COMPAS: comX = 2,24 comY = -3,01 comZ = 2,24
+COMPAS: giroX = 2,97 giroY = -1,01 giroZ = -1,01
+
+ANGLES: angleX = -1,18 angleY = -10,72 angleZ = -57,26
+COMPAS: comX = -2,46 comY = 2,02 comZ = -2,46
+COMPAS: giroX = 2,97 giroY = -1,01 giroZ = -1,01
+
+ANGLES: angleX = 2,66 angleY = -5,94 angleZ = -49,39
+COMPAS: comX = 4,61 comY = 5,37 comZ = 4,61
+COMPAS: giroX = 3,17 giroY = -1,04 giroZ = -1,04
+
+ANGLES: angleX = -0,59 angleY = 1,05 angleZ = -33,57
+COMPAS: comX = 8,33 comY = 8,25 comZ = 8,33
+COMPAS: giroX = 3,17 giroY = -1,04 giroZ = -1,04
+
+ANGLES: angleX = -5,67 angleY = -2,4 angleZ = -18,28
+COMPAS: comX = -3,82 comY = 12,05 comZ = -3,82
+COMPAS: giroX = 3,17 giroY = -1,04 giroZ = -1,04
+
+ANGLES: angleX = -10,96 angleY = -9,13 angleZ = -6,4
+COMPAS: comX = -4,77 comY = 15,89 comZ = -4,77
+COMPAS: giroX = 5,71 giroY = -1,27 giroZ = -1,27
+
+ANGLES: angleX = -13,67 angleY = -17,97 angleZ = 2,45
+COMPAS: comX = -2,15 comY = 10,84 comZ = -2,15
+COMPAS: giroX = 5,71 giroY = -1,27 giroZ = -1,27
+
+ANGLES: angleX = -11,42 angleY = -23,95 angleZ = 11,12
+COMPAS: comX = -8,24 comY = 6,23 comZ = -8,24
+COMPAS: giroX = 5,71 giroY = -1,27 giroZ = -1,27
+
+ANGLES: angleX = -7,06 angleY = -27,27 angleZ = 11,8
+COMPAS: comX = -4,18 comY = 4,3 comZ = -4,18
+COMPAS: giroX = 6,07 giroY = 0,36 giroZ = 0,36
+
+ANGLES: angleX = -6,4 angleY = -33,29 angleZ = 17,95
+COMPAS: comX = -1,94 comY = 3,3 comZ = -1,94
+COMPAS: giroX = 6,07 giroY = 0,36 giroZ = 0,36
+
+ANGLES: angleX = -2,06 angleY = -35,94 angleZ = 16,18
+COMPAS: comX = -6,39 comY = -4,85 comZ = -6,39
+COMPAS: giroX = 6,07 giroY = 0,36 giroZ = 0,36
+
+ANGLES: angleX = -2,41 angleY = -29,89 angleZ = -0,35
+COMPAS: comX = 4,52 comY = -28,55 comZ = 4,52
+COMPAS: giroX = 5,96 giroY = 0,08 giroZ = 0,08
+
+ANGLES: angleX = -4,74 angleY = -21,81 angleZ = -29,97
+COMPAS: comX = 10,73 comY = -32,27 comZ = 10,73
+COMPAS: giroX = 5,96 giroY = 0,08 giroZ = 0,08
+
+ANGLES: angleX = -7,65 angleY = -19,99 angleZ = -54,07
+COMPAS: comX = -11,27 comY = -9,5 comZ = -11,27
+COMPAS: giroX = 5,96 giroY = 0,08 giroZ = 0,08
+
+ANGLES: angleX = -10,69 angleY = -24,94 angleZ = -57,38
+COMPAS: comX = -10,15 comY = 0,34 comZ = -10,15
+COMPAS: giroX = 3,15 giroY = -1,27 giroZ = -1,27
+
+ANGLES: angleX = -1,71 angleY = -32,55 angleZ = 12,77
+COMPAS: comX = 0,15 comY = -5,79 comZ = 0,15
+COMPAS: giroX = 6,05 giroY = 0,26 giroZ = 0,26
+
+ANGLES: angleX = -2,88 angleY = -33,2 angleZ = 9,45
+COMPAS: comX = -3 comY = -10,98 comZ = -3
+COMPAS: giroX = 6,05 giroY = 0,26 giroZ = 0,26
+
+ANGLES: angleX = -2,69 angleY = -30,42 angleZ = -2,11
+COMPAS: comX = 5,59 comY = -31,45 comZ = 5,59
+COMPAS: giroX = 6,09 giroY = 0,1 giroZ = 0,1
+
+ANGLES: angleX = -3,79 angleY = -24,75 angleZ = -21,83
+COMPAS: comX = 9,85 comY = -41,17 comZ = 9,85
+COMPAS: giroX = 6,09 giroY = 0,1 giroZ = 0,1
+
+ANGLES: angleX = -4,28 angleY = -20,45 angleZ = -49,56
+COMPAS: comX = 0,61 comY = -16,96 comZ = 0,61
+COMPAS: giroX = 6,09 giroY = 0,1 giroZ = 0,1
+
+ANGLES: angleX = -8,17 angleY = -24,87 angleZ = -56,23
+COMPAS: comX = -15,27 comY = 0,36 comZ = -15,27
+COMPAS: giroX = 6,09 giroY = 0,1 giroZ = 0,1
+
+ANGLES: angleX = -6,37 angleY = -26,36 angleZ = -56,86
+COMPAS: comX = 7,12 comY = -1,65 comZ = 7,12
+COMPAS: giroX = 3,44 giroY = -1,24 giroZ = -1,24
+
+ANGLES: angleX = -2,26 angleY = -17,83 angleZ = -53,4
+COMPAS: comX = 3,24 comY = 3,6 comZ = 3,24
+COMPAS: giroX = 3,44 giroY = -1,24 giroZ = -1,24
+
+ANGLES: angleX = 0,04 angleY = -12 angleZ = -50,71
+COMPAS: comX = -0,44 comY = -0,23 comZ = -0,44
+COMPAS: giroX = 3,44 giroY = -1,24 giroZ = -1,24
+
+ANGLES: angleX = 1,18 angleY = -7,66 angleZ = -49,24
+COMPAS: comX = 2,55 comY = -0,29 comZ = 2,55
+COMPAS: giroX = 3,62 giroY = -1,1 giroZ = -1,1
+
+ANGLES: angleX = 2,74 angleY = -4,75 angleZ = -32,62
+COMPAS: comX = 3,51 comY = 6,1 comZ = 3,51
+COMPAS: giroX = 3,62 giroY = -1,1 giroZ = -1,1
+
+ANGLES: angleX = -0,3 angleY = -6,71 angleZ = -22,64
+COMPAS: comX = -6,23 comY = 11,68 comZ = -6,23
+COMPAS: giroX = 3,62 giroY = -1,1 giroZ = -1,1
+
+ANGLES: angleX = -6,25 angleY = -15,65 angleZ = -9,4
+COMPAS: comX = -9,05 comY = 18,76 comZ = -9,05
+COMPAS: giroX = 3,62 giroY = -1,1 giroZ = -1,1
+
+ANGLES: angleX = -6,41 angleY = -17,43 angleZ = -5,91
+COMPAS: comX = -10,3 comY = 14,98 comZ = -10,3
+COMPAS: giroX = 6,2 giroY = 0,26 giroZ = 0,26
+
+ANGLES: angleX = -10,53 angleY = -23,93 angleZ = 1,47
+COMPAS: comX = -4,89 comY = 10,52 comZ = -4,89
+COMPAS: giroX = 6,2 giroY = 0,26 giroZ = 0,26
+
+ANGLES: angleX = -7,24 angleY = -25,07 angleZ = 4,87
+COMPAS: comX = -8,09 comY = 5,71 comZ = -8,09
+COMPAS: giroX = 6,2 giroY = 0,26 giroZ = 0,26
+
+ANGLES: angleX = -5,1 angleY = -27,79 angleZ = 8,89
+COMPAS: comX = -5,56 comY = 3,65 comZ = -5,56
+COMPAS: giroX = 6,18 giroY = -2,86 giroZ = -2,86
+
+ANGLES: angleX = -5,58 angleY = -30,11 angleZ = 7,03
+COMPAS: comX = -2,26 comY = 0,91 comZ = -2,26
+COMPAS: giroX = 6,18 giroY = -2,86 giroZ = -2,86
+
+ANGLES: angleX = -1,87 angleY = -29,94 angleZ = 3,32
+COMPAS: comX = -3,48 comY = -14,56 comZ = -3,48
+COMPAS: giroX = 6,18 giroY = -2,86 giroZ = -2,86
+
+ANGLES: angleX = -3,19 angleY = -25,68 angleZ = -21,17
+COMPAS: comX = 12,07 comY = -39,52 comZ = 12,07
+COMPAS: giroX = 6,2 giroY = -3,03 giroZ = -3,03
+
+ANGLES: angleX = 0,28 angleY = -17,12 angleZ = -45,87
+COMPAS: comX = 6,78 comY = -23,76 comZ = 6,78
+COMPAS: giroX = 6,2 giroY = -3,03 giroZ = -3,03
+
+ANGLES: angleX = -3,56 angleY = -22,27 angleZ = -53,62
+COMPAS: comX = -15,75 comY = -1,63 comZ = -15,75
+COMPAS: giroX = 6,2 giroY = -3,03 giroZ = -3,03
+
+ANGLES: angleX = 0,54 angleY = -22,91 angleZ = -53,35
+COMPAS: comX = 0,53 comY = -3,14 comZ = 0,53
+COMPAS: giroX = 3,33 giroY = 1,26 giroZ = 1,26
+
+ANGLES: angleX = 3,66 angleY = -19,22 angleZ = -37,18
+COMPAS: comX = 20,39 comY = -30,33 comZ = 20,39
+COMPAS: giroX = 5,99 giroY = -3,34 giroZ = -3,34
+
+ANGLES: angleX = 3,2 angleY = -19,16 angleZ = -52,07
+COMPAS: comX = 15,86 comY = -19,36 comZ = 15,86
+COMPAS: giroX = 2,4 giroY = 1,19 giroZ = 1,19
+
+ANGLES: angleX = -0,58 angleY = -22,5 angleZ = -56,98
+COMPAS: comX = -7,12 comY = -1 comZ = -7,12
+COMPAS: giroX = 2,4 giroY = 1,19 giroZ = 1,19
+
+ANGLES: angleX = 3,09 angleY = -19,31 angleZ = -53,76
+COMPAS: comX = 4,32 comY = 0,56 comZ = 4,32
+COMPAS: giroX = 2,4 giroY = 1,19 giroZ = 1,19
+
+ANGLES: angleX = 1,17 angleY = -21,89 angleZ = -52,83
+COMPAS: comX = 3,7 comY = -15,92 comZ = 3,7
+COMPAS: giroX = 5,93 giroY = -2,76 giroZ = -2,76
+
+ANGLES: angleX = -3,56 angleY = -24,47 angleZ = -57,76
+COMPAS: comX = -12,84 comY = -1,62 comZ = -12,84
+COMPAS: giroX = 5,93 giroY = -2,76 giroZ = -2,76
+
+ANGLES: angleX = 3,08 angleY = -25,59 angleZ = -55,47
+COMPAS: comX = -0,88 comY = 3,03 comZ = -0,88
+COMPAS: giroX = 3,17 giroY = 1,09 giroZ = 1,09
+
+ANGLES: angleX = 2,03 angleY = -17,19 angleZ = -51,06
+COMPAS: comX = 8,26 comY = 1,11 comZ = 8,26
+COMPAS: giroX = 3,17 giroY = 1,09 giroZ = 1,09
+
+ANGLES: angleX = 2,41 angleY = -10,68 angleZ = -45,03
+COMPAS: comX = 3,81 comY = 5,42 comZ = 3,81
+COMPAS: giroX = 3,17 giroY = 1,09 giroZ = 1,09
+
+ANGLES: angleX = 1,5 angleY = -4,8 angleZ = -36,5
+COMPAS: comX = 1,22 comY = 4,79 comZ = 1,22
+COMPAS: giroX = 1,64 giroY = 1,16 giroZ = 1,16
+
+ANGLES: angleX = 0,35 angleY = -6,63 angleZ = -17,43
+COMPAS: comX = 0,31 comY = 11,85 comZ = 0,31
+COMPAS: giroX = 1,64 giroY = 1,16 giroZ = 1,16
+
+ANGLES: angleX = -4,66 angleY = -13,83 angleZ = -4,02
+COMPAS: comX = -1,94 comY = 15,8 comZ = -1,94
+COMPAS: giroX = 1,64 giroY = 1,16 giroZ = 1,16
+
+ANGLES: angleX = -7,03 angleY = -16,68 angleZ = 2,83
+COMPAS: comX = -9,36 comY = 7,43 comZ = -9,36
+COMPAS: giroX = 6,18 giroY = 0,11 giroZ = 0,11
+
+ANGLES: angleX = -8,6 angleY = -26,62 angleZ = 7,95
+COMPAS: comX = -13,7 comY = 5,73 comZ = -13,7
+COMPAS: giroX = 6,18 giroY = 0,11 giroZ = 0,11
+
+ANGLES: angleX = -5,08 angleY = -30,83 angleZ = 10,34
+COMPAS: comX = -8,18 comY = 1,53 comZ = -8,18
+COMPAS: giroX = 6,18 giroY = 0,11 giroZ = 0,11
+
+ANGLES: angleX = -5,16 angleY = -30,35 angleZ = 4,85
+COMPAS: comX = 0,56 comY = -4,19 comZ = 0,56
+COMPAS: giroX = 6,01 giroY = -3,28 giroZ = -3,28
+
+ANGLES: angleX = -1,62 angleY = -30,14 angleZ = 3,42
+COMPAS: comX = 0,65 comY = -13,13 comZ = 0,65
+COMPAS: giroX = 6,01 giroY = -3,28 giroZ = -3,28
+
+ANGLES: angleX = -3,43 angleY = -24,68 angleZ = -14,5
+COMPAS: comX = 10,72 comY = -32,31 comZ = 10,72
+COMPAS: giroX = 6,01 giroY = -3,28 giroZ = -3,28
+
+ANGLES: angleX = -0,64 angleY = -20,71 angleZ = -43,33
+COMPAS: comX = 12,38 comY = -36,19 comZ = 12,38
+COMPAS: giroX = 6,08 giroY = -2,6 giroZ = -2,6
+
+ANGLES: angleX = -2,64 angleY = -23,52 angleZ = -60,38
+COMPAS: comX = -15,75 comY = -5,46 comZ = -15,75
+COMPAS: giroX = 6,08 giroY = -2,6 giroZ = -2,6
+
+ANGLES: angleX = -0,04 angleY = -19,87 angleZ = -58,92
+COMPAS: comX = 7,64 comY = 1,27 comZ = 7,64
+COMPAS: giroX = 2,76 giroY = 1,2 giroZ = 1,2
+
+ANGLES: angleX = 1,81 angleY = -15,53 angleZ = -56,39
+COMPAS: comX = 2,19 comY = -0,18 comZ = 2,19
+COMPAS: giroX = 2,76 giroY = 1,2 giroZ = 1,2
+
+ANGLES: angleX = 5,7 angleY = -10,49 angleZ = -53,92
+COMPAS: comX = -0,74 comY = -1,03 comZ = -0,74
+COMPAS: giroX = 2,76 giroY = 1,2 giroZ = 1,2
+
+ANGLES: angleX = 1,78 angleY = -9,18 angleZ = -53,4
+COMPAS: comX = 15,46 comY = 1,43 comZ = 15,46
+COMPAS: giroX = 2,63 giroY = 1,22 giroZ = 1,22
+
+ANGLES: angleX = 3,24 angleY = -1,73 angleZ = -42,32
+COMPAS: comX = 4,67 comY = 7,28 comZ = 4,67
+COMPAS: giroX = 2,63 giroY = 1,22 giroZ = 1,22
+
+ANGLES: angleX = -1,08 angleY = 0,01 angleZ = -35,53
+COMPAS: comX = 1,55 comY = 7,42 comZ = 1,55
+COMPAS: giroX = 2,63 giroY = 1,22 giroZ = 1,22
+
+ANGLES: angleX = -5,41 angleY = 1,25 angleZ = -21,82
+COMPAS: comX = 8,98 comY = 14,05 comZ = 8,98
+COMPAS: giroX = 2,35 giroY = 1,12 giroZ = 1,12
+
+ANGLES: angleX = -9,27 angleY = -3,9 angleZ = -3,94
+COMPAS: comX = -0,65 comY = 16,83 comZ = -0,65
+COMPAS: giroX = 2,35 giroY = 1,12 giroZ = 1,12
+
+ANGLES: angleX = -13,39 angleY = -14,72 angleZ = 4,77
+COMPAS: comX = -12,95 comY = 9,53 comZ = -12,95
+COMPAS: giroX = 2,35 giroY = 1,12 giroZ = 1,12
+
+ANGLES: angleX = -9,39 angleY = -25,75 angleZ = 7,24
+COMPAS: comX = -13,14 comY = 3,58 comZ = -13,14
+COMPAS: giroX = 6,12 giroY = 0,33 giroZ = 0,33
+
+ANGLES: angleX = -8,34 angleY = -31,15 angleZ = 11,21
+COMPAS: comX = -5,15 comY = -2,8 comZ = -5,15
+COMPAS: giroX = 6,12 giroY = 0,33 giroZ = 0,33
+
+ANGLES: angleX = -4,39 angleY = -30,08 angleZ = 6,55
+COMPAS: comX = 0,54 comY = -6,3 comZ = 0,54
+COMPAS: giroX = 6,12 giroY = 0,33 giroZ = 0,33
+
+ANGLES: angleX = -6,36 angleY = -29,95 angleZ = 2,77
+COMPAS: comX = 0,78 comY = -13,43 comZ = 0,78
+COMPAS: giroX = 6,17 giroY = 0,01 giroZ = 0,01
+
+ANGLES: angleX = -5,68 angleY = -24,36 angleZ = -18,7
+COMPAS: comX = 9,48 comY = -34,18 comZ = 9,48
+COMPAS: giroX = 6,17 giroY = 0,01 giroZ = 0,01
+
+ANGLES: angleX = -5,23 angleY = -18,73 angleZ = -43,34
+COMPAS: comX = 11,55 comY = -28,06 comZ = 11,55
+COMPAS: giroX = 6,17 giroY = 0,01 giroZ = 0,01
+
+ANGLES: angleX = -2,39 angleY = -16,89 angleZ = -61,17
+COMPAS: comX = -12,99 comY = -13,44 comZ = -12,99
+COMPAS: giroX = 2,04 giroY = -0,85 giroZ = -0,85
+
+ANGLES: angleX = -0,26 angleY = -22,45 angleZ = -67,76
+COMPAS: comX = -3,97 comY = -1,79 comZ = -3,97
+COMPAS: giroX = 2,04 giroY = -0,85 giroZ = -0,85
+
+ANGLES: angleX = -1,58 angleY = -31,11 angleZ = -30,53
+COMPAS: comX = 5,88 comY = -51,54 comZ = 5,88
+COMPAS: giroX = 6,25 giroY = 0,35 giroZ = 0,35
+
+ANGLES: angleX = -6,69 angleY = -30,86 angleZ = -63,01
+COMPAS: comX = -13,5 comY = -31,62 comZ = -13,5
+COMPAS: giroX = 6,25 giroY = 0,35 giroZ = 0,35
+
+ANGLES: angleX = -5,11 angleY = -33,77 angleZ = -69,06
+COMPAS: comX = -4,06 comY = -9,42 comZ = -4,06
+COMPAS: giroX = 2,56 giroY = -0,39 giroZ = -0,39
+
+ANGLES: angleX = -5,92 angleY = -29,46 angleZ = -68,94
+COMPAS: comX = -0,13 comY = 0,64 comZ = -0,13
+COMPAS: giroX = 2,56 giroY = -0,39 giroZ = -0,39
+
+ANGLES: angleX = -3,76 angleY = -30,68 angleZ = -66,58
+COMPAS: comX = 1,01 comY = -0,26 comZ = 1,01
+COMPAS: giroX = 5,53 giroY = 0,92 giroZ = 0,92
+
+ANGLES: angleX = 5,38 angleY = -24,81 angleZ = -53,37
+COMPAS: comX = 8,52 comY = 1,48 comZ = 8,52
+COMPAS: giroX = 2,8 giroY = -0,74 giroZ = -0,74
+
+ANGLES: angleX = 5,85 angleY = -18,93 angleZ = -51,24
+COMPAS: comX = -1,78 comY = 3,3 comZ = -1,78
+COMPAS: giroX = 2,8 giroY = -0,74 giroZ = -0,74
+
+ANGLES: angleX = 3,76 angleY = -14,02 angleZ = -45,65
+COMPAS: comX = -2,85 comY = 6,02 comZ = -2,85
+COMPAS: giroX = 2,8 giroY = -0,74 giroZ = -0,74
+
+ANGLES: angleX = 3,42 angleY = -11,03 angleZ = -37,89
+COMPAS: comX = 5,73 comY = 5,09 comZ = 5,73
+COMPAS: giroX = 2,13 giroY = -1,11 giroZ = -1,11
+
+ANGLES: angleX = -0,99 angleY = -8,43 angleZ = -24,71
+COMPAS: comX = 4,85 comY = 10,83 comZ = 4,85
+COMPAS: giroX = 2,13 giroY = -1,11 giroZ = -1,11
+
+ANGLES: angleX = -6,83 angleY = -11,85 angleZ = -3,78
+COMPAS: comX = -2,6 comY = 14,71 comZ = -2,6
+COMPAS: giroX = 6,11 giroY = 1,27 giroZ = 1,27
+
+ANGLES: angleX = -6,77 angleY = -20,55 angleZ = 8,24
+COMPAS: comX = -2,87 comY = 7,55 comZ = -2,87
+COMPAS: giroX = 6,11 giroY = 1,27 giroZ = 1,27
+
+ANGLES: angleX = -6,77 angleY = -25,68 angleZ = 10,45
+COMPAS: comX = -4,03 comY = 5,66 comZ = -4,03
+COMPAS: giroX = 6,11 giroY = 1,27 giroZ = 1,27
+
+ANGLES: angleX = -6,35 angleY = -31,26 angleZ = 9,41
+COMPAS: comX = -6,06 comY = 2,03 comZ = -6,06
+COMPAS: giroX = 6,14 giroY = 1,1 giroZ = 1,1
+
+ANGLES: angleX = -3,53 angleY = -32,77 angleZ = 11,82
+COMPAS: comX = -1,55 comY = 1,12 comZ = -1,55
+COMPAS: giroX = 6,14 giroY = 1,1 giroZ = 1,1
+
+ANGLES: angleX = -0,65 angleY = -34,34 angleZ = 6,26
+COMPAS: comX = -3,43 comY = -28,72 comZ = -3,43
+COMPAS: giroX = 6,14 giroY = 1,1 giroZ = 1,1
+
+ANGLES: angleX = -3,64 angleY = -31,99 angleZ = -29,35
+COMPAS: comX = -4,26 comY = -45,76 comZ = -4,26
+COMPAS: giroX = 5,54 giroY = 1,1 giroZ = 1,1
+
+ANGLES: angleX = -7,69 angleY = -32,62 angleZ = -54,33
+COMPAS: comX = -13,75 comY = -16,71 comZ = -13,75
+COMPAS: giroX = 5,54 giroY = 1,1 giroZ = 1,1
+
+ANGLES: angleX = -4,14 angleY = -37,01 angleZ = -56,52
+COMPAS: comX = -4,47 comY = -6,47 comZ = -4,47
+COMPAS: giroX = 5,54 giroY = 1,1 giroZ = 1,1
+
+ANGLES: angleX = -2,66 angleY = -41,05 angleZ = 6,72
+COMPAS: comX = -1,67 comY = -20,63 comZ = -1,67
+COMPAS: giroX = 5,96 giroY = 0,88 giroZ = 0,88
+
+ANGLES: angleX = -10,8 angleY = -37,02 angleZ = -25,65
+COMPAS: comX = -13,21 comY = -42,27 comZ = -13,21
+COMPAS: giroX = 5,96 giroY = 0,88 giroZ = 0,88
+
+ANGLES: angleX = -13,14 angleY = -33,91 angleZ = -40,95
+COMPAS: comX = -9,6 comY = -23,22 comZ = -9,6
+COMPAS: giroX = 6,11 giroY = 0,44 giroZ = 0,44
+
+ANGLES: angleX = -11,44 angleY = -31,72 angleZ = -51,33
+COMPAS: comX = 0,3 comY = -9,7 comZ = 0,3
+COMPAS: giroX = 6,11 giroY = 0,44 giroZ = 0,44
+
+ANGLES: angleX = -6,51 angleY = -26,6 angleZ = -50,83
+COMPAS: comX = 3,3 comY = -5,36 comZ = 3,3
+COMPAS: giroX = 6,11 giroY = 0,44 giroZ = 0,44
+
+ANGLES: angleX = -3,86 angleY = -23,23 angleZ = -47,56
+COMPAS: comX = 1,52 comY = 2,86 comZ = 1,52
+COMPAS: giroX = 3,71 giroY = -1,21 giroZ = -1,21
+
+ANGLES: angleX = -3,39 angleY = -14,87 angleZ = -46,74
+COMPAS: comX = -1,2 comY = 1,22 comZ = -1,2
+COMPAS: giroX = 3,71 giroY = -1,21 giroZ = -1,21
+
+ANGLES: angleX = 0,74 angleY = -10,89 angleZ = -43,31
+COMPAS: comX = 0,27 comY = 0,18 comZ = 0,27
+COMPAS: giroX = 3,71 giroY = -1,21 giroZ = -1,21
+
+ANGLES: angleX = -0,77 angleY = -4,89 angleZ = -42,86
+COMPAS: comX = -3,61 comY = 0,65 comZ = -3,61
+COMPAS: giroX = 1,52 giroY = -1,2 giroZ = -1,2
+
+ANGLES: angleX = -0,26 angleY = -3,75 angleZ = -42,43
+COMPAS: comX = 0,48 comY = 0,19 comZ = 0,48
+COMPAS: giroX = 1,52 giroY = -1,2 giroZ = -1,2
+
+ANGLES: angleX = 3,01 angleY = 0,74 angleZ = -44,61
+COMPAS: comX = -2,79 comY = 0,32 comZ = -2,79
+COMPAS: giroX = 1,52 giroY = -1,2 giroZ = -1,2
+
+ANGLES: angleX = 2,95 angleY = 2,83 angleZ = -44,16
+COMPAS: comX = -2,95 comY = 1,12 comZ = -2,95
+COMPAS: giroX = 1,55 giroY = -1,28 giroZ = -1,28
+
+ANGLES: angleX = 2,58 angleY = 1,34 angleZ = -39,82
+COMPAS: comX = 0,44 comY = -0,99 comZ = 0,44
+COMPAS: giroX = 1,55 giroY = -1,28 giroZ = -1,28
+
+ANGLES: angleX = -0,24 angleY = 5,59 angleZ = -41,68
+COMPAS: comX = 0,94 comY = 0,66 comZ = 0,94
+COMPAS: giroX = 1,55 giroY = -1,28 giroZ = -1,28
+
+ANGLES: angleX = -0,29 angleY = 6,07 angleZ = -41,64
+COMPAS: comX = -3,15 comY = 0,13 comZ = -3,15
+COMPAS: giroX = 1,77 giroY = 1,18 giroZ = 1,18
+
+ANGLES: angleX = -0,02 angleY = 3,94 angleZ = -41,21
+COMPAS: comX = 0,51 comY = 0,28 comZ = 0,51
+COMPAS: giroX = 1,77 giroY = 1,18 giroZ = 1,18
+
+ANGLES: angleX = -0,14 angleY = 6,16 angleZ = -38,07
+COMPAS: comX = -2,58 comY = 0,74 comZ = -2,58
+COMPAS: giroX = 1,77 giroY = 1,18 giroZ = 1,18
+
+ANGLES: angleX = 2,61 angleY = 6,35 angleZ = -38,02
+COMPAS: comX = -2,6 comY = -3,01 comZ = -2,6
+COMPAS: giroX = 1,82 giroY = 1,1 giroZ = 1,1
+
+ANGLES: angleX = 2,76 angleY = 6,31 angleZ = -37,84
+COMPAS: comX = -2,67 comY = 0,19 comZ = -2,67
+COMPAS: giroX = 1,82 giroY = 1,1 giroZ = 1,1
+
+ANGLES: angleX = 3,03 angleY = 6,24 angleZ = -37,65
+COMPAS: comX = -2,68 comY = -2,62 comZ = -2,68
+COMPAS: giroX = 1,82 giroY = 1,1 giroZ = 1,1
+
+ANGLES: angleX = 3,25 angleY = 5,55 angleZ = -37,48
+COMPAS: comX = -3,62 comY = 0,73 comZ = -3,62
+COMPAS: giroX = 1,89 giroY = 1,12 giroZ = 1,12
+
+ANGLES: angleX = 3,39 angleY = 6 angleZ = -37,3
+COMPAS: comX = 0,6 comY = -3,01 comZ = 0,6
+COMPAS: giroX = 1,89 giroY = 1,12 giroZ = 1,12
+
+ANGLES: angleX = 3,41 angleY = 6,01 angleZ = -37,28
+COMPAS: comX = -3,31 comY = 0,27 comZ = -3,31
+COMPAS: giroX = 1,89 giroY = 1,12 giroZ = 1,12
+
+ANGLES: angleX = 3,32 angleY = 6,23 angleZ = -39,62
+COMPAS: comX = 0,67 comY = -2,85 comZ = 0,67
+COMPAS: giroX = 1,89 giroY = 1,08 giroZ = 1,08
+
+ANGLES: angleX = 3,24 angleY = 5,87 angleZ = -39,48
+COMPAS: comX = -3,44 comY = 0,52 comZ = -3,44
+COMPAS: giroX = 1,89 giroY = 1,08 giroZ = 1,08
+
+ANGLES: angleX = 3,27 angleY = 6 angleZ = -39,41
+COMPAS: comX = 0,48 comY = -3,03 comZ = 0,48
+COMPAS: giroX = 1,89 giroY = 1,08 giroZ = 1,08
+
+ANGLES: angleX = 3,13 angleY = 5,97 angleZ = -39,17
+COMPAS: comX = -3,04 comY = 0,41 comZ = -3,04
+COMPAS: giroX = 1,89 giroY = 1,06 giroZ = 1,06
+
+ANGLES: angleX = 2,95 angleY = 6,04 angleZ = -39,06
+COMPAS: comX = 0,11 comY = -2,86 comZ = 0,11
+COMPAS: giroX = 1,89 giroY = 1,06 giroZ = 1,06
+
+ANGLES: angleX = 3,06 angleY = 5,8 angleZ = -38,95
+COMPAS: comX = -3,18 comY = 0,41 comZ = -3,18
+COMPAS: giroX = 1,89 giroY = 1,06 giroZ = 1,06
+
+ANGLES: angleX = 3,05 angleY = 5,76 angleZ = -38,59
+COMPAS: comX = 0,25 comY = -2,68 comZ = 0,25
+COMPAS: giroX = 1,94 giroY = 1,05 giroZ = 1,05
+
+ANGLES: angleX = 2,71 angleY = 5,65 angleZ = -38,52
+COMPAS: comX = -3,03 comY = 0,09 comZ = -3,03
+COMPAS: giroX = 1,94 giroY = 1,05 giroZ = 1,05
+
+ANGLES: angleX = -0,1 angleY = 5,22 angleZ = -35,81
+COMPAS: comX = 0,3 comY = 0,13 comZ = 0,3
+COMPAS: giroX = 1,94 giroY = 1,05 giroZ = 1,05
+
+ANGLES: angleX = -0,39 angleY = 5,54 angleZ = -35,72
+COMPAS: comX = 0,13 comY = -2,6 comZ = 0,13
+COMPAS: giroX = 1,99 giroY = 1,08 giroZ = 1,08
+
+ANGLES: angleX = 2,65 angleY = 5,25 angleZ = -35,53
+COMPAS: comX = -3,15 comY = 0,18 comZ = -3,15
+COMPAS: giroX = 1,99 giroY = 1,08 giroZ = 1,08
+
+ANGLES: angleX = -0,12 angleY = 2,5 angleZ = -35,42
+COMPAS: comX = 0,15 comY = -2,63 comZ = 0,15
+COMPAS: giroX = 1,99 giroY = 1,08 giroZ = 1,08
+
+ANGLES: angleX = -0,38 angleY = 2,21 angleZ = -35,37
+COMPAS: comX = -2,82 comY = 0,1 comZ = -2,82
+COMPAS: giroX = 2,01 giroY = 1,03 giroZ = 1,03
+
+ANGLES: angleX = -0,3 angleY = 2,35 angleZ = -35,3
+COMPAS: comX = -2,74 comY = -2,78 comZ = -2,74
+COMPAS: giroX = 2,01 giroY = 1,03 giroZ = 1,03
+
+ANGLES: angleX = -0,24 angleY = 2,19 angleZ = -35,33
+COMPAS: comX = -2,73 comY = 0,12 comZ = -2,73
+COMPAS: giroX = 2,01 giroY = 1,03 giroZ = 1,03
+
+ANGLES: angleX = -0,22 angleY = 2,21 angleZ = -35,22
+COMPAS: comX = 0,47 comY = -2,71 comZ = 0,47
+COMPAS: giroX = 1,98 giroY = 1,02 giroZ = 1,02
+
+ANGLES: angleX = -0,11 angleY = 1,6 angleZ = -35,14
+COMPAS: comX = -3 comY = 0,26 comZ = -3
+COMPAS: giroX = 1,98 giroY = 1,02 giroZ = 1,02
+
+ANGLES: angleX = 2,63 angleY = 1,36 angleZ = -35,15
+COMPAS: comX = 0,04 comY = -2,79 comZ = 0,04
+COMPAS: giroX = 1,98 giroY = 1,02 giroZ = 1,02
+
+ANGLES: angleX = -0,21 angleY = 1,31 angleZ = -35,13
+COMPAS: comX = 0,16 comY = -2,63 comZ = 0,16
+COMPAS: giroX = 2,01 giroY = 0,99 giroZ = 0,99
+
+ANGLES: angleX = 2,92 angleY = 1,54 angleZ = -35,22
+COMPAS: comX = -2,78 comY = -2,77 comZ = -2,78
+COMPAS: giroX = 2,01 giroY = 0,99 giroZ = 0,99
+
+ANGLES: angleX = 3,05 angleY = 1,33 angleZ = -35,12
+COMPAS: comX = -2,68 comY = 0,1 comZ = -2,68
+COMPAS: giroX = 2,01 giroY = 0,99 giroZ = 0,99
+
+ANGLES: angleX = 2,88 angleY = 3,8 angleZ = -34,97
+COMPAS: comX = -2,86 comY = 0,11 comZ = -2,86
+COMPAS: giroX = 2,01 giroY = 1,01 giroZ = 1,01
+
+ANGLES: angleX = 2,57 angleY = 1,37 angleZ = -35,04
+COMPAS: comX = 0,09 comY = 0,01 comZ = 0,09
+COMPAS: giroX = 2,01 giroY = 1,01 giroZ = 1,01
+
+ANGLES: angleX = -0,28 angleY = 3,82 angleZ = -34,95
+COMPAS: comX = 0,11 comY = -2,86 comZ = 0,11
+COMPAS: giroX = 2,01 giroY = 1,01 giroZ = 1,01
+
+ANGLES: angleX = -0,4 angleY = 1,61 angleZ = -35,07
+COMPAS: comX = -2,7 comY = -2,58 comZ = -2,7
+COMPAS: giroX = 2,01 giroY = 1,01 giroZ = 1,01
+
+ANGLES: angleX = -0,23 angleY = 1,58 angleZ = -34,9
+COMPAS: comX = -2,64 comY = 0,15 comZ = -2,64
+COMPAS: giroX = 2,01 giroY = 1,01 giroZ = 1,01
+
+ANGLES: angleX = -0,02 angleY = 1,82 angleZ = -35,06
+COMPAS: comX = -2,72 comY = -2,77 comZ = -2,72
+COMPAS: giroX = 2,01 giroY = 1,01 giroZ = 1,01
+
+ANGLES: angleX = -0,04 angleY = 1,66 angleZ = -34,88
+COMPAS: comX = -2,71 comY = 0,21 comZ = -2,71
+COMPAS: giroX = 2,03 giroY = 0,95 giroZ = 0,95
+
+ANGLES: angleX = -0,21 angleY = 1,49 angleZ = -35
+COMPAS: comX = -2,6 comY = -2,81 comZ = -2,6
+COMPAS: giroX = 2,03 giroY = 0,95 giroZ = 0,95
+
+ANGLES: angleX = -0,16 angleY = 3,75 angleZ = -34,98
+COMPAS: comX = 0,25 comY = -2,75 comZ = 0,25
+COMPAS: giroX = 2,03 giroY = 0,95 giroZ = 0,95
+
+ANGLES: angleX = -0,23 angleY = 1,39 angleZ = -34,99
+COMPAS: comX = -2,8 comY = -2,58 comZ = -2,8
+COMPAS: giroX = 2,01 giroY = 0,94 giroZ = 0,94
+
+ANGLES: angleX = -0,22 angleY = 1,3 angleZ = -34,98
+COMPAS: comX = -2,63 comY = 0,22 comZ = -2,63
+COMPAS: giroX = 2,01 giroY = 0,94 giroZ = 0,94
+
+ANGLES: angleX = -0,11 angleY = 1,5 angleZ = -35,03
+COMPAS: comX = -2,63 comY = -2,82 comZ = -2,63
+COMPAS: giroX = 2,01 giroY = 0,94 giroZ = 0,94
+
+ANGLES: angleX = -0,16 angleY = 1,43 angleZ = -35,01
+COMPAS: comX = -2,96 comY = 0,15 comZ = -2,96
+COMPAS: giroX = 2,04 giroY = 0,94 giroZ = 0,94
+
+ANGLES: angleX = -0,23 angleY = 1,44 angleZ = -35,03
+COMPAS: comX = -2,73 comY = 0,13 comZ = -2,73
+COMPAS: giroX = 2,04 giroY = 0,94 giroZ = 0,94
+
+ANGLES: angleX = 2,67 angleY = 3,71 angleZ = -35,02
+COMPAS: comX = -3,32 comY = 0,19 comZ = -3,32
+COMPAS: giroX = 2,04 giroY = 0,94 giroZ = 0,94
+
+ANGLES: angleX = 2,72 angleY = 1,43 angleZ = -35,03
+COMPAS: comX = 0,54 comY = -3,01 comZ = 0,54
+COMPAS: giroX = 2,01 giroY = 0,94 giroZ = 0,94
+
+ANGLES: angleX = -0,06 angleY = 1,35 angleZ = -35,03
+COMPAS: comX = -2,73 comY = 0,19 comZ = -2,73
+COMPAS: giroX = 2,01 giroY = 0,94 giroZ = 0,94
+
+ANGLES: angleX = 2,73 angleY = 1,5 angleZ = -35,1
+COMPAS: comX = 0,3 comY = -2,88 comZ = 0,3
+COMPAS: giroX = 2,01 giroY = 0,94 giroZ = 0,94
+
+ANGLES: angleX = 3,19 angleY = 3,81 angleZ = -35,05
+COMPAS: comX = -3,18 comY = 0,08 comZ = -3,18
+COMPAS: giroX = 2,05 giroY = 0,97 giroZ = 0,97
+
+ANGLES: angleX = 3 angleY = 1,61 angleZ = -35,03
+COMPAS: comX = 0,51 comY = -2,81 comZ = 0,51
+COMPAS: giroX = 2,05 giroY = 0,97 giroZ = 0,97
+
+ANGLES: angleX = 2,85 angleY = 1,36 angleZ = -34,96
+COMPAS: comX = -2,9 comY = 0,26 comZ = -2,9
+COMPAS: giroX = 2,05 giroY = 0,97 giroZ = 0,97
+
+ANGLES: angleX = 2,6 angleY = 1,45 angleZ = -34,9
+COMPAS: comX = 0,28 comY = 0,1 comZ = 0,28
+COMPAS: giroX = 2,04 giroY = 0,94 giroZ = 0,94
+
+ANGLES: angleX = -0,27 angleY = 1,35 angleZ = -34,63
+COMPAS: comX = -2,78 comY = 0,47 comZ = -2,78
+COMPAS: giroX = 2,04 giroY = 0,94 giroZ = 0,94
+
+ANGLES: angleX = -0,78 angleY = 1,42 angleZ = -34,64
+COMPAS: comX = 0,36 comY = 0,3 comZ = 0,36
+COMPAS: giroX = 2,04 giroY = 0,94 giroZ = 0,94
+
+ANGLES: angleX = -0,48 angleY = 1,46 angleZ = -36,98
+COMPAS: comX = 0,05 comY = 0,4 comZ = 0,05
+COMPAS: giroX = 2,07 giroY = 0,91 giroZ = 0,91
+
+ANGLES: angleX = -0,51 angleY = 1,47 angleZ = -36,99
+COMPAS: comX = -2,6 comY = -2,73 comZ = -2,6
+COMPAS: giroX = 2,07 giroY = 0,91 giroZ = 0,91
+
+ANGLES: angleX = -0,47 angleY = 1,41 angleZ = -37,03
+COMPAS: comX = -2,65 comY = -2,64 comZ = -2,65
+COMPAS: giroX = 2,07 giroY = 0,91 giroZ = 0,91
+
+ANGLES: angleX = -0,36 angleY = 3,57 angleZ = -37,08
+COMPAS: comX = 0,1 comY = -2,69 comZ = 0,1
+COMPAS: giroX = 2,06 giroY = 0,93 giroZ = 0,93
+
+ANGLES: angleX = -0,46 angleY = 3,54 angleZ = -37,09
+COMPAS: comX = 0 comY = -2,68 comZ = 0
+COMPAS: giroX = 2,06 giroY = 0,93 giroZ = 0,93
+
+ANGLES: angleX = -0,65 angleY = 3,53 angleZ = -37,1
+COMPAS: comX = 0,12 comY = 0,03 comZ = 0,12
+COMPAS: giroX = 2,06 giroY = 0,93 giroZ = 0,93
+
+ANGLES: angleX = -0,54 angleY = 3,56 angleZ = -34,6
+COMPAS: comX = -2,87 comY = 0,07 comZ = -2,87
+COMPAS: giroX = 2,05 giroY = 0,95 giroZ = 0,95
+
+ANGLES: angleX = -0,28 angleY = 3,45 angleZ = -34,57
+COMPAS: comX = -2,58 comY = -2,58 comZ = -2,58
+COMPAS: giroX = 2,05 giroY = 0,95 giroZ = 0,95
+
+ANGLES: angleX = -0,28 angleY = 3,49 angleZ = -37,12
+COMPAS: comX = -2,71 comY = -2,61 comZ = -2,71
+COMPAS: giroX = 2,05 giroY = 0,95 giroZ = 0,95
+
+ANGLES: angleX = -0,49 angleY = 3,55 angleZ = -37,08
+COMPAS: comX = 0,39 comY = -2,75 comZ = 0,39
+COMPAS: giroX = 2,04 giroY = 0,94 giroZ = 0,94
+
+ANGLES: angleX = -0,12 angleY = 3,31 angleZ = -37,11
+COMPAS: comX = -3,03 comY = -2,58 comZ = -3,03
+COMPAS: giroX = 2,04 giroY = 0,94 giroZ = 0,94
+
+ANGLES: angleX = -0,34 angleY = 3,28 angleZ = -34,6
+COMPAS: comX = 0,22 comY = -2,76 comZ = 0,22
+COMPAS: giroX = 2,04 giroY = 0,94 giroZ = 0,94
+
+ANGLES: angleX = -0,62 angleY = 3,65 angleZ = -34,65
+COMPAS: comX = 0,27 comY = -2,7 comZ = 0,27
+COMPAS: giroX = 2,05 giroY = 0,91 giroZ = 0,91
+
+ANGLES: angleX = -0,16 angleY = 3,54 angleZ = -34,76
+COMPAS: comX = -2,88 comY = 0,12 comZ = -2,88
+COMPAS: giroX = 2,05 giroY = 0,91 giroZ = 0,91
+
+ANGLES: angleX = -0,48 angleY = 3,59 angleZ = -34,65
+COMPAS: comX = -2,71 comY = 0,33 comZ = -2,71
+COMPAS: giroX = 2,05 giroY = 0,91 giroZ = 0,91
+
+ANGLES: angleX = -1,12 angleY = 1,77 angleZ = -34,65
+COMPAS: comX = 0,31 comY = -2,91 comZ = 0,31
+COMPAS: giroX = 2,05 giroY = 0,93 giroZ = 0,93
+
+ANGLES: angleX = -0,92 angleY = 1,8 angleZ = -34,67
+COMPAS: comX = 0,24 comY = -2,71 comZ = 0,24
+COMPAS: giroX = 2,05 giroY = 0,93 giroZ = 0,93
+
+ANGLES: angleX = -0,56 angleY = 1,35 angleZ = -34,72
+COMPAS: comX = -2,67 comY = 0,01 comZ = -2,67
+COMPAS: giroX = 2,05 giroY = 0,93 giroZ = 0,93
+
+ANGLES: angleX = -0,6 angleY = 3,68 angleZ = -34,75
+COMPAS: comX = -2,85 comY = 0,22 comZ = -2,85
+COMPAS: giroX = 2,07 giroY = 0,95 giroZ = 0,95
+
+ANGLES: angleX = -0,54 angleY = 1,28 angleZ = -34,7
+COMPAS: comX = 0,08 comY = -2,78 comZ = 0,08
+COMPAS: giroX = 2,07 giroY = 0,95 giroZ = 0,95
+
+ANGLES: angleX = -0,36 angleY = 3,62 angleZ = -34,72
+COMPAS: comX = -3,3 comY = 0 comZ = -3,3
+COMPAS: giroX = 2,07 giroY = 0,95 giroZ = 0,95
+
+ANGLES: angleX = -0,39 angleY = 3,8 angleZ = -34,68
+COMPAS: comX = 0,01 comY = -3,08 comZ = 0,01
+COMPAS: giroX = 2,03 giroY = 0,88 giroZ = 0,88
+
+ANGLES: angleX = -0,62 angleY = 3,71 angleZ = -34,8
+COMPAS: comX = -3 comY = -2,84 comZ = -3
+COMPAS: giroX = 2,03 giroY = 0,88 giroZ = 0,88
+
+ANGLES: angleX = -0,56 angleY = 1,28 angleZ = -34,78
+COMPAS: comX = 0,31 comY = 0,23 comZ = 0,31
+COMPAS: giroX = 2,03 giroY = 0,88 giroZ = 0,88
+
+ANGLES: angleX = -0,42 angleY = 1,29 angleZ = -34,6
+COMPAS: comX = 0,03 comY = 0,12 comZ = 0,03
+COMPAS: giroX = 2,08 giroY = 0,9 giroZ = 0,9
+
+ANGLES: angleX = -0,28 angleY = 3,75 angleZ = -34,66
+COMPAS: comX = -2,65 comY = 0,22 comZ = -2,65
+COMPAS: giroX = 2,08 giroY = 0,9 giroZ = 0,9
+
+ANGLES: angleX = -0,41 angleY = 1,35 angleZ = -37,01
+COMPAS: comX = 0,3 comY = 0,08 comZ = 0,3
+COMPAS: giroX = 2,08 giroY = 0,9 giroZ = 0,9
+
+ANGLES: angleX = -0,46 angleY = 1,59 angleZ = -37,09
+COMPAS: comX = 0 comY = 0,11 comZ = 0
+COMPAS: giroX = 2,06 giroY = 0,93 giroZ = 0,93
+
+ANGLES: angleX = -0,42 angleY = 1,61 angleZ = -36,84
+COMPAS: comX = 0,38 comY = -2,58 comZ = 0,38
+COMPAS: giroX = 2,06 giroY = 0,93 giroZ = 0,93
+
+ANGLES: angleX = -0,31 angleY = 1,54 angleZ = -36,74
+COMPAS: comX = 0,06 comY = -2,75 comZ = 0,06
+COMPAS: giroX = 2,06 giroY = 0,93 giroZ = 0,93
+
+ANGLES: angleX = -0,21 angleY = 3,66 angleZ = -36,65
+COMPAS: comX = -2,84 comY = 0,09 comZ = -2,84
+COMPAS: giroX = 2,09 giroY = 0,9 giroZ = 0,9
+
+ANGLES: angleX = -0,26 angleY = 3,27 angleZ = -36,67
+COMPAS: comX = -3,13 comY = 0,31 comZ = -3,13
+COMPAS: giroX = 2,09 giroY = 0,9 giroZ = 0,9
+
+ANGLES: angleX = -0,59 angleY = 3,46 angleZ = -36,56
+COMPAS: comX = -2,58 comY = 0,05 comZ = -2,58
+COMPAS: giroX = 2,09 giroY = 0,9 giroZ = 0,9
+
+ANGLES: angleX = -0,71 angleY = 3,82 angleZ = -36,55
+COMPAS: comX = 0,34 comY = -2,95 comZ = 0,34
+COMPAS: giroX = 2,08 giroY = 0,85 giroZ = 0,85
+
+ANGLES: angleX = -0,11 angleY = 3,51 angleZ = -36,49
+COMPAS: comX = -2,85 comY = -2,65 comZ = -2,85
+COMPAS: giroX = 2,08 giroY = 0,85 giroZ = 0,85
+
+ANGLES: angleX = 2,86 angleY = 2,99 angleZ = -36,52
+COMPAS: comX = -3,48 comY = 0,16 comZ = -3,48
+COMPAS: giroX = 2,08 giroY = 0,85 giroZ = 0,85
+
+ANGLES: angleX = -0,69 angleY = 2,78 angleZ = -36,54
+COMPAS: comX = -2,91 comY = 0,46 comZ = -2,91
+COMPAS: giroX = 2,14 giroY = 0,89 giroZ = 0,89
+
+ANGLES: angleX = 1,03 angleY = 3,59 angleZ = -36,58
+COMPAS: comX = -1,14 comY = -3,02 comZ = -1,14
+COMPAS: giroX = 2,14 giroY = 0,89 giroZ = 0,89
+
+ANGLES: angleX = -0,83 angleY = 3,83 angleZ = -36,62
+COMPAS: comX = -2,71 comY = -2,8 comZ = -2,71
+COMPAS: giroX = 2,14 giroY = 0,89 giroZ = 0,89
+
+ANGLES: angleX = 2,73 angleY = 3,66 angleZ = -36,45
+COMPAS: comX = 0,05 comY = -2,96 comZ = 0,05
+COMPAS: giroX = 2,12 giroY = 0,89 giroZ = 0,89
+
+ANGLES: angleX = 2,81 angleY = 3,09 angleZ = -36,45
+COMPAS: comX = -3,05 comY = 0,42 comZ = -3,05
+COMPAS: giroX = 2,12 giroY = 0,89 giroZ = 0,89
+
+ANGLES: angleX = -0,02 angleY = 3,21 angleZ = -36,39
+COMPAS: comX = -3,11 comY = 0,04 comZ = -3,11
+COMPAS: giroX = 2,12 giroY = 0,89 giroZ = 0,89
+
+ANGLES: angleX = -0,64 angleY = 3,63 angleZ = -36,25
+COMPAS: comX = 0,17 comY = -2,7 comZ = 0,17
+COMPAS: giroX = 2,13 giroY = 0,87 giroZ = 0,87
+
+ANGLES: angleX = -0,9 angleY = 3,67 angleZ = -36,36
+COMPAS: comX = -2,81 comY = -2,72 comZ = -2,81
+COMPAS: giroX = 2,13 giroY = 0,87 giroZ = 0,87
+
+ANGLES: angleX = -0,92 angleY = 3,33 angleZ = -36,32
+COMPAS: comX = 0,38 comY = 0,3 comZ = 0,38
+COMPAS: giroX = 2,13 giroY = 0,87 giroZ = 0,87
+
+ANGLES: angleX = -0,79 angleY = 3,11 angleZ = -36,31
+COMPAS: comX = -3,02 comY = 0,26 comZ = -3,02
+COMPAS: giroX = 2,15 giroY = 0,88 giroZ = 0,88
+
+ANGLES: angleX = -0,82 angleY = 2,97 angleZ = -36,21
+COMPAS: comX = -3,14 comY = 0,32 comZ = -3,14
+COMPAS: giroX = 2,15 giroY = 0,88 giroZ = 0,88
+
+ANGLES: angleX = -1,23 angleY = 3,01 angleZ = -36,23
+COMPAS: comX = 0,28 comY = -2,85 comZ = 0,28
+COMPAS: giroX = 2,15 giroY = 0,88 giroZ = 0,88
+
+ANGLES: angleX = 1,22 angleY = 3,2 angleZ = -36,22
+COMPAS: comX = 0,01 comY = -2,61 comZ = 0,01
+COMPAS: giroX = 2,11 giroY = 0,84 giroZ = 0,84
+
+ANGLES: angleX = -0,92 angleY = 3,1 angleZ = -36,27
+COMPAS: comX = -2,6 comY = -2,75 comZ = -2,6
+COMPAS: giroX = 2,11 giroY = 0,84 giroZ = 0,84
+
+ANGLES: angleX = -0,81 angleY = 2,98 angleZ = -36,37
+COMPAS: comX = -3,14 comY = -2,58 comZ = -3,14
+COMPAS: giroX = 2,11 giroY = 0,84 giroZ = 0,84
+
+ANGLES: angleX = -0,96 angleY = 3,05 angleZ = -36,31
+COMPAS: comX = 0,39 comY = -2,73 comZ = 0,39
+COMPAS: giroX = 2,11 giroY = 0,82 giroZ = 0,82
+
+ANGLES: angleX = -0,8 angleY = 2,61 angleZ = -36,37
+COMPAS: comX = -3,41 comY = 0,46 comZ = -3,41
+COMPAS: giroX = 2,11 giroY = 0,82 giroZ = 0,82
+
+ANGLES: angleX = -0,86 angleY = 2,61 angleZ = -36,29
+COMPAS: comX = 0,14 comY = 0,06 comZ = 0,14
+COMPAS: giroX = 2,11 giroY = 0,82 giroZ = 0,82
+
+ANGLES: angleX = -0,97 angleY = 2,82 angleZ = -36,31
+COMPAS: comX = -2,91 comY = -2,74 comZ = -2,91
+COMPAS: giroX = 2,09 giroY = 0,8 giroZ = 0,8
+
+ANGLES: angleX = -1 angleY = 2,74 angleZ = -36,34
+COMPAS: comX = 0,24 comY = -2,63 comZ = 0,24
+COMPAS: giroX = 2,09 giroY = 0,8 giroZ = 0,8
+
+ANGLES: angleX = -0,74 angleY = 2,67 angleZ = -36,26
+COMPAS: comX = -2,8 comY = 0,17 comZ = -2,8
+COMPAS: giroX = 2,09 giroY = 0,8 giroZ = 0,8
+
+ANGLES: angleX = -0,65 angleY = -0,2 angleZ = -36,37
+COMPAS: comX = -2,86 comY = 0,09 comZ = -2,86
+COMPAS: giroX = 2,11 giroY = 0,77 giroZ = 0,77
+
+ANGLES: angleX = -0,77 angleY = -0,11 angleZ = -36,27
+COMPAS: comX = -2,58 comY = 0,04 comZ = -2,58
+COMPAS: giroX = 2,11 giroY = 0,77 giroZ = 0,77
+
+ANGLES: angleX = -1,13 angleY = 2,68 angleZ = -36,41
+COMPAS: comX = 0,13 comY = -2,85 comZ = 0,13
+COMPAS: giroX = 2,11 giroY = 0,77 giroZ = 0,77
+
+ANGLES: angleX = -1 angleY = 2,61 angleZ = -36,27
+COMPAS: comX = -2,7 comY = 0,08 comZ = -2,7
+COMPAS: giroX = 2,13 giroY = 0,77 giroZ = 0,77
+
+ANGLES: angleX = -0,82 angleY = -0,16 angleZ = -36,37
+COMPAS: comX = 0,09 comY = -2,73 comZ = 0,09
+COMPAS: giroX = 2,13 giroY = 0,77 giroZ = 0,77
+
+ANGLES: angleX = -0,91 angleY = -0,11 angleZ = -36,34
+COMPAS: comX = -2,88 comY = -2,65 comZ = -2,88
+COMPAS: giroX = 2,13 giroY = 0,77 giroZ = 0,77
+
+ANGLES: angleX = -0,91 angleY = -0,25 angleZ = -36,31
+COMPAS: comX = -2,85 comY = 0 comZ = -2,85
+COMPAS: giroX = 2,18 giroY = 0,77 giroZ = 0,77
+
+ANGLES: angleX = 1,2 angleY = -0,38 angleZ = -36,37
+COMPAS: comX = 0,19 comY = 0,11 comZ = 0,19
+COMPAS: giroX = 2,18 giroY = 0,77 giroZ = 0,77
+
+ANGLES: angleX = -1,26 angleY = -0,14 angleZ = -36,37
+COMPAS: comX = -2,71 comY = -2,8 comZ = -2,71
+COMPAS: giroX = 2,18 giroY = 0,77 giroZ = 0,77
+
+ANGLES: angleX = -1,15 angleY = 2,68 angleZ = -36,3
+COMPAS: comX = 0,1 comY = -2,63 comZ = 0,1
+COMPAS: giroX = 2,15 giroY = 0,78 giroZ = 0,78
+
+ANGLES: angleX = -1,05 angleY = -0,06 angleZ = -36,33
+COMPAS: comX = -2,91 comY = -2,71 comZ = -2,91
+COMPAS: giroX = 2,15 giroY = 0,78 giroZ = 0,78
+
+ANGLES: angleX = -1,07 angleY = -0,31 angleZ = -36,34
+COMPAS: comX = 0,08 comY = 0,21 comZ = 0,08
+COMPAS: giroX = 2,15 giroY = 0,78 giroZ = 0,78
+
+ANGLES: angleX = -0,96 angleY = 2,65 angleZ = -36,38
+COMPAS: comX = -2,8 comY = -2,76 comZ = -2,8
+COMPAS: giroX = 2,16 giroY = 0,77 giroZ = 0,77
+
+ANGLES: angleX = -0,9 angleY = 2,59 angleZ = -36,32
+COMPAS: comX = 0,13 comY = -2,64 comZ = 0,13
+COMPAS: giroX = 2,16 giroY = 0,77 giroZ = 0,77
+
+ANGLES: angleX = -0,94 angleY = 2,62 angleZ = -36,39
+COMPAS: comX = -2,71 comY = -2,58 comZ = -2,71
+COMPAS: giroX = 2,16 giroY = 0,77 giroZ = 0,77
+
+ANGLES: angleX = -1,01 angleY = -0,36 angleZ = -36,42
+COMPAS: comX = -2,66 comY = 0,38 comZ = -2,66
+COMPAS: giroX = 2,14 giroY = 0,76 giroZ = 0,76
+
+ANGLES: angleX = -0,73 angleY = -0,2 angleZ = -36,48
+COMPAS: comX = 0,03 comY = -2,62 comZ = 0,03
+COMPAS: giroX = 2,14 giroY = 0,76 giroZ = 0,76
+
+ANGLES: angleX = -0,78 angleY = -0,09 angleZ = -36,41
+COMPAS: comX = -2,82 comY = 0,12 comZ = -2,82
+COMPAS: giroX = 2,14 giroY = 0,76 giroZ = 0,76
+
+ANGLES: angleX = -1,09 angleY = 2,85 angleZ = -36,47
+COMPAS: comX = 0,45 comY = -2,97 comZ = 0,45
+COMPAS: giroX = 2,18 giroY = 0,75 giroZ = 0,75
+
+ANGLES: angleX = -0,64 angleY = -0,04 angleZ = -36,47
+COMPAS: comX = -2,87 comY = 0,28 comZ = -2,87
+COMPAS: giroX = 2,18 giroY = 0,75 giroZ = 0,75
+
+ANGLES: angleX = -0,31 angleY = -0,06 angleZ = -36,57
+COMPAS: comX = 0,06 comY = -2,99 comZ = 0,06
+COMPAS: giroX = 2,18 giroY = 0,75 giroZ = 0,75
+
+ANGLES: angleX = -0,25 angleY = -0,31 angleZ = -36,51
+COMPAS: comX = -2,83 comY = 0,17 comZ = -2,83
+COMPAS: giroX = 2,16 giroY = 0,75 giroZ = 0,75
+
+ANGLES: angleX = -0,49 angleY = -0,26 angleZ = -36,64
+COMPAS: comX = -2,61 comY = -2,65 comZ = -2,61
+COMPAS: giroX = 2,16 giroY = 0,75 giroZ = 0,75
+
+ANGLES: angleX = -0,75 angleY = -0,21 angleZ = -36,63
+COMPAS: comX = -2,71 comY = 0,07 comZ = -2,71
+COMPAS: giroX = 2,16 giroY = 0,75 giroZ = 0,75
+
+ANGLES: angleX = -0,8 angleY = 2,74 angleZ = -36,69
+COMPAS: comX = 0,19 comY = -2,66 comZ = 0,19
+COMPAS: giroX = 2,14 giroY = 0,75 giroZ = 0,75
+
+ANGLES: angleX = -0,72 angleY = 2,88 angleZ = -36,74
+COMPAS: comX = -2,98 comY = -2,69 comZ = -2,98
+COMPAS: giroX = 2,14 giroY = 0,75 giroZ = 0,75
+
+ANGLES: angleX = -0,86 angleY = 3,27 angleZ = -36,83
+COMPAS: comX = 0,5 comY = -3,09 comZ = 0,5
+COMPAS: giroX = 2,14 giroY = 0,75 giroZ = 0,75
+
+ANGLES: angleX = -0,7 angleY = 3,14 angleZ = -36,96
+COMPAS: comX = -3 comY = -2,63 comZ = -3
+COMPAS: giroX = 2,12 giroY = 0,76 giroZ = 0,76
+
+ANGLES: angleX = -0,49 angleY = 3,26 angleZ = -37,08
+COMPAS: comX = 0,43 comY = -3,45 comZ = 0,43
+COMPAS: giroX = 2,12 giroY = 0,76 giroZ = 0,76
+
+ANGLES: angleX = -0,32 angleY = 3,15 angleZ = -34,83
+COMPAS: comX = -3,21 comY = -3,11 comZ = -3,21
+COMPAS: giroX = 2,12 giroY = 0,76 giroZ = 0,76
+
+ANGLES: angleX = -0,09 angleY = 3,07 angleZ = -35,09
+COMPAS: comX = 0,37 comY = -1,38 comZ = 0,37
+COMPAS: giroX = 2,08 giroY = 0,8 giroZ = 0,8
+
+ANGLES: angleX = 2,84 angleY = 1,33 angleZ = -35,57
+COMPAS: comX = 0,61 comY = -1,68 comZ = 0,61
+COMPAS: giroX = 2,08 giroY = 0,8 giroZ = 0,8
+
+ANGLES: angleX = 3,4 angleY = 1,4 angleZ = -38,43
+COMPAS: comX = -3,58 comY = -1,35 comZ = -3,58
+COMPAS: giroX = 2,08 giroY = 0,8 giroZ = 0,8
+
+ANGLES: angleX = 1,61 angleY = 1,34 angleZ = -38,77
+COMPAS: comX = -3,42 comY = -1,95 comZ = -3,42
+COMPAS: giroX = 1,92 giroY = 0,92 giroZ = 0,92
+
+ANGLES: angleX = 2,08 angleY = 1,3 angleZ = -37,34
+COMPAS: comX = -2,04 comY = -5,44 comZ = -2,04
+COMPAS: giroX = 1,92 giroY = 0,92 giroZ = 0,92
+
+ANGLES: angleX = 6,03 angleY = 2,72 angleZ = -41,98
+COMPAS: comX = -4,69 comY = -4,84 comZ = -4,69
+COMPAS: giroX = 1,92 giroY = 0,92 giroZ = 0,92
+
+ANGLES: angleX = 4,95 angleY = -0,44 angleZ = -42,95
+COMPAS: comX = -6,56 comY = -6,59 comZ = -6,56
+COMPAS: giroX = 1,65 giroY = 1,01 giroZ = 1,01
+
+ANGLES: angleX = 8,74 angleY = -2,73 angleZ = -49,58
+COMPAS: comX = -13,83 comY = -4,69 comZ = -13,83
+COMPAS: giroX = 1,65 giroY = 1,01 giroZ = 1,01
+
+ANGLES: angleX = 8,22 angleY = -1,33 angleZ = -51,22
+COMPAS: comX = -11,31 comY = -2,88 comZ = -11,31
+COMPAS: giroX = 1,65 giroY = 1,01 giroZ = 1,01
+
+ANGLES: angleX = 7,13 angleY = 0,62 angleZ = -50,27
+COMPAS: comX = -4,42 comY = -4,64 comZ = -4,42
+COMPAS: giroX = 3,11 giroY = 0,8 giroZ = 0,8
+
+ANGLES: angleX = 9,86 angleY = 0,32 angleZ = -54,53
+COMPAS: comX = -16,19 comY = -3,74 comZ = -16,19
+COMPAS: giroX = 3,11 giroY = 0,8 giroZ = 0,8
+
+ANGLES: angleX = 14,04 angleY = -3,55 angleZ = -55,02
+COMPAS: comX = -10,2 comY = -1,71 comZ = -10,2
+COMPAS: giroX = 3,11 giroY = 0,8 giroZ = 0,8
+
+ANGLES: angleX = 12,79 angleY = -3,15 angleZ = -53,28
+COMPAS: comX = -8,5 comY = -6,35 comZ = -8,5
+COMPAS: giroX = 2,77 giroY = 0,46 giroZ = 0,46
+
+ANGLES: angleX = 15,38 angleY = -2,75 angleZ = -54,18
+COMPAS: comX = -7,24 comY = 1,21 comZ = -7,24
+COMPAS: giroX = 2,77 giroY = 0,46 giroZ = 0,46
+
+ANGLES: angleX = 12,75 angleY = -2,98 angleZ = -53,78
+COMPAS: comX = -7,27 comY = -3,62 comZ = -7,27
+COMPAS: giroX = 2,77 giroY = 0,46 giroZ = 0,46
+
+ANGLES: angleX = 16,35 angleY = 0,32 angleZ = -51,18
+COMPAS: comX = -8,59 comY = -2,12 comZ = -8,59
+COMPAS: giroX = 2,93 giroY = 0,21 giroZ = 0,21
+
+ANGLES: angleX = 14,74 angleY = 0,44 angleZ = -53,92
+COMPAS: comX = -10,37 comY = -2,1 comZ = -10,37
+COMPAS: giroX = 2,93 giroY = 0,21 giroZ = 0,21
+
+ANGLES: angleX = 18,03 angleY = -1,89 angleZ = -54,63
+COMPAS: comX = -13,46 comY = -3,36 comZ = -13,46
+COMPAS: giroX = 2,93 giroY = 0,21 giroZ = 0,21
+
+ANGLES: angleX = 17,17 angleY = -4,77 angleZ = -53,25
+COMPAS: comX = -7,19 comY = -7,87 comZ = -7,19
+COMPAS: giroX = 2,56 giroY = -2,62 giroZ = -2,62
+
+ANGLES: angleX = 19,96 angleY = -7,3 angleZ = -55,54
+COMPAS: comX = -8,94 comY = -8,05 comZ = -8,94
+COMPAS: giroX = 2,56 giroY = -2,62 giroZ = -2,62
+
+ANGLES: angleX = 22,17 angleY = -13,77 angleZ = -55,06
+COMPAS: comX = -16,6 comY = -4,61 comZ = -16,6
+COMPAS: giroX = 2,56 giroY = -2,62 giroZ = -2,62
+
+ANGLES: angleX = 25,26 angleY = -15,24 angleZ = -56,73
+COMPAS: comX = -15,85 comY = -6,84 comZ = -15,85
+COMPAS: giroX = 2,58 giroY = 0,07 giroZ = 0,07
+
+ANGLES: angleX = 31,61 angleY = -21,55 angleZ = -49,94
+COMPAS: comX = -21,41 comY = -2,47 comZ = -21,41
+COMPAS: giroX = 2,58 giroY = 0,07 giroZ = 0,07
+
+ANGLES: angleX = 34,03 angleY = -26,3 angleZ = -47,12
+COMPAS: comX = -28,54 comY = 1,2 comZ = -28,54
+COMPAS: giroX = 2,58 giroY = 0,07 giroZ = 0,07
+
+ANGLES: angleX = 38,72 angleY = -32,73 angleZ = -43,34
+COMPAS: comX = -29,86 comY = -9,16 comZ = -29,86
+COMPAS: giroX = 3,44 giroY = -3,24 giroZ = -3,24
+
+ANGLES: angleX = 37,87 angleY = -38,27 angleZ = -37,31
+COMPAS: comX = -27,24 comY = 12,82 comZ = -27,24
+COMPAS: giroX = 3,44 giroY = -3,24 giroZ = -3,24
+
+ANGLES: angleX = 38,21 angleY = -40,84 angleZ = -30,37
+COMPAS: comX = -23,4 comY = 10,25 comZ = -23,4
+COMPAS: giroX = 3,44 giroY = -3,24 giroZ = -3,24
+
+ANGLES: angleX = 37,38 angleY = -40,59 angleZ = -25,9
+COMPAS: comX = -12,2 comY = 16,92 comZ = -12,2
+COMPAS: giroX = 3,72 giroY = -5,82 giroZ = -5,82
+
+ANGLES: angleX = 35,15 angleY = -35,49 angleZ = -14,66
+COMPAS: comX = -4,21 comY = 12,73 comZ = -4,21
+COMPAS: giroX = 3,72 giroY = -5,82 giroZ = -5,82
+
+ANGLES: angleX = 36,64 angleY = -42,98 angleZ = -15,86
+COMPAS: comX = -25,05 comY = 5,37 comZ = -25,05
+COMPAS: giroX = 3,72 giroY = -5,82 giroZ = -5,82
+
+ANGLES: angleX = 37,48 angleY = -44,82 angleZ = -33,73
+COMPAS: comX = 1 comY = -1,42 comZ = 1
+COMPAS: giroX = 2,87 giroY = -8,22 giroZ = -8,22
+
+ANGLES: angleX = 37,96 angleY = -47,22 angleZ = -32,26
+COMPAS: comX = -2,91 comY = 0,53 comZ = -2,91
+COMPAS: giroX = 2,87 giroY = -8,22 giroZ = -8,22
+
+ANGLES: angleX = 41,25 angleY = -47,11 angleZ = -36,14
+COMPAS: comX = -2,8 comY = 0,14 comZ = -2,8
+COMPAS: giroX = 2,88 giroY = -8,2 giroZ = -8,2
+
+ANGLES: angleX = 41,98 angleY = -46,97 angleZ = -34,86
+COMPAS: comX = 0 comY = -2,75 comZ = 0
+COMPAS: giroX = 2,88 giroY = -8,2 giroZ = -8,2
+
+ANGLES: angleX = 40,06 angleY = -46,85 angleZ = -38,52
+COMPAS: comX = -2,64 comY = -2,59 comZ = -2,64
+COMPAS: giroX = 2,88 giroY = -8,2 giroZ = -8,2
+
+ANGLES: angleX = 40,78 angleY = -46,72 angleZ = -39,63
+COMPAS: comX = 0,13 comY = -3,05 comZ = 0,13
+COMPAS: giroX = 2,88 giroY = -8,23 giroZ = -8,23
+
+ANGLES: angleX = 44,09 angleY = -46,58 angleZ = -38,16
+COMPAS: comX = -2,58 comY = -2,76 comZ = -2,58
+COMPAS: giroX = 2,88 giroY = -8,23 giroZ = -8,23
+
+ANGLES: angleX = 44,75 angleY = -46,48 angleZ = -41,62
+COMPAS: comX = -2,68 comY = -2,58 comZ = -2,68
+COMPAS: giroX = 2,88 giroY = -8,23 giroZ = -8,23
+
+ANGLES: angleX = 42,82 angleY = -46,33 angleZ = -39,91
+COMPAS: comX = -2,58 comY = -2,92 comZ = -2,58
+COMPAS: giroX = 2,87 giroY = -8,22 giroZ = -8,22
+
+ANGLES: angleX = 46,14 angleY = -46,23 angleZ = -40,87
+COMPAS: comX = -2,78 comY = -2,63 comZ = -2,78
+COMPAS: giroX = 2,87 giroY = -8,22 giroZ = -8,22
+
+ANGLES: angleX = 46,82 angleY = -43,5 angleZ = -44,25
+COMPAS: comX = 0,02 comY = 0,03 comZ = 0,02
+COMPAS: giroX = 2,87 giroY = -8,22 giroZ = -8,22
+
+ANGLES: angleX = 44,93 angleY = -43,39 angleZ = -42,48
+COMPAS: comX = 0,02 comY = -2,71 comZ = 0,02
+COMPAS: giroX = 2,9 giroY = -8,23 giroZ = -8,23
+
+ANGLES: angleX = 45,62 angleY = -43,22 angleZ = -43,18
+COMPAS: comX = -2,58 comY = -2,6 comZ = -2,58
+COMPAS: giroX = 2,9 giroY = -8,23 giroZ = -8,23
+
+ANGLES: angleX = 48,86 angleY = -43,08 angleZ = -46,4
+COMPAS: comX = -2,66 comY = -2,65 comZ = -2,66
+COMPAS: giroX = 2,9 giroY = -8,23 giroZ = -8,23
+
+ANGLES: angleX = 49,49 angleY = -42,94 angleZ = -46,96
+COMPAS: comX = -2,64 comY = -2,74 comZ = -2,64
+COMPAS: giroX = 2,89 giroY = -8,23 giroZ = -8,23
+
+ANGLES: angleX = 47,65 angleY = -42,79 angleZ = -44,98
+COMPAS: comX = -2,74 comY = -2,66 comZ = -2,74
+COMPAS: giroX = 2,89 giroY = -8,23 giroZ = -8,23
+
+ANGLES: angleX = 48,29 angleY = -42,6 angleZ = -45,46
+COMPAS: comX = -2,68 comY = 0,05 comZ = -2,68
+COMPAS: giroX = 2,89 giroY = -8,23 giroZ = -8,23
+
+ANGLES: angleX = 51,53 angleY = -42,47 angleZ = -46,02
+COMPAS: comX = -2,58 comY = -2,64 comZ = -2,58
+COMPAS: giroX = 2,9 giroY = -8,22 giroZ = -8,22
+
+ANGLES: angleX = 52,26 angleY = -42,31 angleZ = -49,14
+COMPAS: comX = -2,6 comY = -2,61 comZ = -2,6
+COMPAS: giroX = 2,9 giroY = -8,22 giroZ = -8,22
+
+ANGLES: angleX = 50,4 angleY = -44,73 angleZ = -49,63
+COMPAS: comX = -2,64 comY = -2,66 comZ = -2,64
+COMPAS: giroX = 2,9 giroY = -8,22 giroZ = -8,22
+
+ANGLES: angleX = 51,06 angleY = -44,58 angleZ = -47,48
+COMPAS: comX = -2,63 comY = -2,58 comZ = -2,63
+COMPAS: giroX = 2,92 giroY = -8,21 giroZ = -8,21
+
+ANGLES: angleX = 54,36 angleY = -44,4 angleZ = -47,91
+COMPAS: comX = 0,03 comY = -2,83 comZ = 0,03
+COMPAS: giroX = 2,92 giroY = -8,21 giroZ = -8,21
+
+ANGLES: angleX = 55 angleY = -44,24 angleZ = -48,27
+COMPAS: comX = -2,61 comY = -2,81 comZ = -2,61
+COMPAS: giroX = 2,92 giroY = -8,21 giroZ = -8,21
+
+ANGLES: angleX = 53,1 angleY = -44,01 angleZ = -48,55
+COMPAS: comX = -2,65 comY = 0,01 comZ = -2,65
+COMPAS: giroX = 2,89 giroY = -8,21 giroZ = -8,21
+
+ANGLES: angleX = 56,4 angleY = -43,86 angleZ = -51,48
+COMPAS: comX = -2,65 comY = -2,75 comZ = -2,65
+COMPAS: giroX = 2,89 giroY = -8,21 giroZ = -8,21
+
+ANGLES: angleX = 57,06 angleY = -43,67 angleZ = -51,81
+COMPAS: comX = -2,58 comY = -2,58 comZ = -2,58
+COMPAS: giroX = 2,89 giroY = -8,21 giroZ = -8,21
+
+ANGLES: angleX = 55,19 angleY = -40,95 angleZ = -52,12
+COMPAS: comX = -2,58 comY = -2,79 comZ = -2,58
+COMPAS: giroX = 2,92 giroY = -8,23 giroZ = -8,23
+
+ANGLES: angleX = 55,89 angleY = -40,74 angleZ = -52,37
+COMPAS: comX = 0,05 comY = -2,66 comZ = 0,05
+COMPAS: giroX = 2,92 giroY = -8,23 giroZ = -8,23
+
+ANGLES: angleX = 59,15 angleY = -40,55 angleZ = -50,06
+COMPAS: comX = -2,59 comY = -2,62 comZ = -2,59
+COMPAS: giroX = 2,92 giroY = -8,23 giroZ = -8,23
+
+ANGLES: angleX = 59,81 angleY = -40,32 angleZ = -50,23
+COMPAS: comX = -2,64 comY = 0,01 comZ = -2,64
+COMPAS: giroX = 2,89 giroY = -8,23 giroZ = -8,23
+
+ANGLES: angleX = 57,96 angleY = -40,13 angleZ = -50,46
+COMPAS: comX = -2,59 comY = -2,62 comZ = -2,59
+COMPAS: giroX = 2,89 giroY = -8,23 giroZ = -8,23
+
+ANGLES: angleX = 58,64 angleY = -39,96 angleZ = -50,69
+COMPAS: comX = -2,62 comY = -2,63 comZ = -2,62
+COMPAS: giroX = 2,89 giroY = -8,23 giroZ = -8,23
+
+ANGLES: angleX = 61,88 angleY = -39,74 angleZ = -50,84
+COMPAS: comX = -2,64 comY = 0 comZ = -2,64
+COMPAS: giroX = 2,91 giroY = -8,21 giroZ = -8,21
+
+ANGLES: angleX = 62,54 angleY = -42,03 angleZ = -50,92
+COMPAS: comX = -2,69 comY = 0,12 comZ = -2,69
+COMPAS: giroX = 2,91 giroY = -8,21 giroZ = -8,21
+
+ANGLES: angleX = 60,65 angleY = -41,81 angleZ = -51,04
+COMPAS: comX = -2,63 comY = -2,73 comZ = -2,63
+COMPAS: giroX = 2,91 giroY = -8,21 giroZ = -8,21
+
+ANGLES: angleX = 61,3 angleY = -41,55 angleZ = -51,11
+COMPAS: comX = -2,62 comY = -2,63 comZ = -2,62
+COMPAS: giroX = 2,89 giroY = -8,24 giroZ = -8,24
+
+ANGLES: angleX = 64,59 angleY = -41,35 angleZ = -53,81
+COMPAS: comX = -2,67 comY = -2,71 comZ = -2,67
+COMPAS: giroX = 2,89 giroY = -8,24 giroZ = -8,24
+
+ANGLES: angleX = 65,22 angleY = -41,05 angleZ = -51,2
+COMPAS: comX = -2,74 comY = 0,05 comZ = -2,74
+COMPAS: giroX = 2,89 giroY = -8,24 giroZ = -8,24
+
+ANGLES: angleX = 63,31 angleY = -38,19 angleZ = -51,16
+COMPAS: comX = -2,73 comY = 0,11 comZ = -2,73
+COMPAS: giroX = 2,92 giroY = -8,23 giroZ = -8,23
+
+ANGLES: angleX = 66,68 angleY = -38,02 angleZ = -53,97
+COMPAS: comX = 0,08 comY = -2,73 comZ = 0,08
+COMPAS: giroX = 2,92 giroY = -8,23 giroZ = -8,23
+
+ANGLES: angleX = 67,32 angleY = -37,69 angleZ = -53,89
+COMPAS: comX = -2,72 comY = 0,01 comZ = -2,72
+COMPAS: giroX = 2,92 giroY = -8,23 giroZ = -8,23
+
+ANGLES: angleX = 65,43 angleY = -37,39 angleZ = -53,91
+COMPAS: comX = 0,03 comY = -2,66 comZ = 0,03
+COMPAS: giroX = 2,9 giroY = -8,23 giroZ = -8,23
+
+ANGLES: angleX = 66,13 angleY = -39,61 angleZ = -53,82
+COMPAS: comX = -2,76 comY = 0,05 comZ = -2,76
+COMPAS: giroX = 2,9 giroY = -8,23 giroZ = -8,23
+
+ANGLES: angleX = 69,38 angleY = -39,29 angleZ = -53,8
+COMPAS: comX = 0,02 comY = -2,78 comZ = 0,02
+COMPAS: giroX = 2,9 giroY = -8,23 giroZ = -8,23
+
+ANGLES: angleX = 70,03 angleY = -38,93 angleZ = -51,16
+COMPAS: comX = 0,02 comY = -2,69 comZ = 0,02
+COMPAS: giroX = 2,9 giroY = -8,22 giroZ = -8,22
+
+ANGLES: angleX = 68,16 angleY = -38,45 angleZ = -50,9
+COMPAS: comX = -2,76 comY = 0,22 comZ = -2,76
+COMPAS: giroX = 2,9 giroY = -8,22 giroZ = -8,22
+
+ANGLES: angleX = 68,79 angleY = -35,44 angleZ = -50,68
+COMPAS: comX = -2,72 comY = -2,59 comZ = -2,72
+COMPAS: giroX = 2,9 giroY = -8,22 giroZ = -8,22
+
+ANGLES: angleX = 72,01 angleY = -34,97 angleZ = -50,47
+COMPAS: comX = -2,58 comY = -2,6 comZ = -2,58
+COMPAS: giroX = 2,9 giroY = -8,21 giroZ = -8,21
+
+ANGLES: angleX = 72,76 angleY = -34,6 angleZ = -50,4
+COMPAS: comX = 0,01 comY = -2,78 comZ = 0,01
+COMPAS: giroX = 2,9 giroY = -8,21 giroZ = -8,21
+
+ANGLES: angleX = 70,84 angleY = -36,63 angleZ = -50,06
+COMPAS: comX = -2,72 comY = -2,64 comZ = -2,72
+COMPAS: giroX = 2,9 giroY = -8,21 giroZ = -8,21
+
+ANGLES: angleX = 71,44 angleY = -35,96 angleZ = -52,15
+COMPAS: comX = -2,74 comY = 0,22 comZ = -2,74
+COMPAS: giroX = 2,93 giroY = -8,23 giroZ = -8,23
+
+ANGLES: angleX = 74,69 angleY = -32,78 angleZ = -51,77
+COMPAS: comX = -2,65 comY = -2,59 comZ = -2,65
+COMPAS: giroX = 2,93 giroY = -8,23 giroZ = -8,23
+
+ANGLES: angleX = 75,36 angleY = -32,23 angleZ = -51,47
+COMPAS: comX = -2,59 comY = -2,68 comZ = -2,59
+COMPAS: giroX = 2,93 giroY = -8,23 giroZ = -8,23
+
+ANGLES: angleX = 73,49 angleY = -34,19 angleZ = -48,56
+COMPAS: comX = -2,63 comY = -2,63 comZ = -2,63
+COMPAS: giroX = 2,91 giroY = -8,23 giroZ = -8,23
+
+ANGLES: angleX = 74,16 angleY = -33,36 angleZ = -47,93
+COMPAS: comX = -2,63 comY = -2,59 comZ = -2,63
+COMPAS: giroX = 2,91 giroY = -8,23 giroZ = -8,23
+
+ANGLES: angleX = 77,35 angleY = -30,03 angleZ = -49,9
+COMPAS: comX = -2,72 comY = -2,58 comZ = -2,72
+COMPAS: giroX = 2,91 giroY = -8,23 giroZ = -8,23
+
+ANGLES: angleX = 78 angleY = -31,68 angleZ = -49,2
+COMPAS: comX = -2,63 comY = -2,59 comZ = -2,63
+COMPAS: giroX = 2,91 giroY = -8,23 giroZ = -8,23
+
+ANGLES: angleX = 76,14 angleY = -28,11 angleZ = -45,86
+COMPAS: comX = -2,64 comY = -2,67 comZ = -2,64
+COMPAS: giroX = 2,91 giroY = -8,23 giroZ = -8,23
+
+ANGLES: angleX = 76,78 angleY = -26,96 angleZ = -44,92
+COMPAS: comX = -2,72 comY = -2,58 comZ = -2,72
+COMPAS: giroX = 2,91 giroY = -8,23 giroZ = -8,23
+
+ANGLES: angleX = 79,96 angleY = -25,56 angleZ = -46,28
+COMPAS: comX = -2,67 comY = 0,09 comZ = -2,67
+COMPAS: giroX = 2,89 giroY = -8,21 giroZ = -8,21
+

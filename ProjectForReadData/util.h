@@ -42,7 +42,7 @@ private:
 	static double max(double x, double y)
 	{
 		if (x < y) {
-			return x;
+			return y;
 		}
 		return x;
 	}
@@ -59,12 +59,14 @@ public:
 		double k, c;
 
 		if (line->X1 == line->X2) {
-			return (point.X == line->X1 && point.Y >= min(line->Y1, line->Y2) && line->X1 <= max(line->Y1, line->Y2));
+			return (point.X == line->X1 && point.Y >= min(line->Y1, line->Y2) && point.Y <= max(line->Y1, line->Y2));
 		}
 
 		k = (line->Y2 - line->Y1) / (line->X2 - line->X1);
 		c = line->Y1 - k * line->X1;
 
-		return point.Y == point.X * k + c;
+		return (point.Y == point.X * k + c) 
+			&& (((point.X >= line->X1 ) && (point.Y >= line->Y1) && (point.X <= line->X2) && (point.Y <= line->Y2))
+				|| ((point.X <= line->X1) && (point.Y <= line->Y1) && (point.X >= line->X2) && (point.Y >= line->Y2)));
 	}
 };

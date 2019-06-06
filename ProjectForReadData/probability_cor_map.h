@@ -159,6 +159,24 @@ public:
 		return result;
 	}
 
+	List<Line^>^ getBothSideRelatedEges(Line^ line) {
+
+		List<Line^>^ result = gcnew List<Line^>();
+		for (int i = 0; i < lines->Count; i++) {
+
+			if (line == lines[i])
+				continue;
+			else if (line->X2 == lines[i]->X1 && line->Y2 == lines[i]->Y1)
+				result->Add(lines[i]);
+			else if (line->X2 == lines[i]->X2 && line->Y2 == lines[i]->Y2)
+				result->Add(lines[i]);
+			else if (line->X1 == lines[i]->X1 && line->Y1 == lines[i]->Y1)
+				result->Add(lines[i]);
+			else if (line->X1 == lines[i]->X2 && line->Y1 == lines[i]->Y2)
+				result->Add(lines[i]);
+		}
+		return result;
+	}
 	List<Line^>^ getList() {
 		return lines;
 	}
@@ -194,13 +212,6 @@ public:
 		return isOptim;
 	}
 	Line^ getNext(List<Line^>^ neboures) {
-		//FOR_TEXT
-		//Line^ line = gcnew Line();
-		//line->X1 = 1;
-		//line->Y1 = 5;
-		//line->X2 = 1;
-		//line->Y2 = 7;
-		//lines->Add(line);
 
 		for (int i = 0; i < neboures->Count; i++) {
 			for (int j = 0; j < lines->Count; j++) {
@@ -264,6 +275,15 @@ private:
 		return current_line;
 	};
 
+	List<Line^>^ deletingUselessNebourses(List<Line^>^ lines, LineSegmentCustom^ segment) {
+		Windows::Point startPoint = segment->getStartPoint();
+		for (int i = 0; i < lines->Count; i++) {
+			if (GeomUtill::isPointInhereLine(startPoint, lines[i]))
+				lines->RemoveAt(i);
+		}
+		return lines;
+	}
+
 	Line^ getNextline(List<Line^>^ lines) {
 		if (is_primary_way)
 			return way->getNext(lines);
@@ -281,6 +301,9 @@ private:
 		is_updated = true;
 		List<Line^>^ lines = map->getRelatedEges(line_segment->getLine());
 		
+		// deliting current line from ralated
+		lines = deletingUselessNebourses(lines, line_segment);
+
 		//selecting next lines among related enges 
 		Line^ result = getNextline(lines);
 		lines->Remove(result);
@@ -289,7 +312,7 @@ private:
 		result = zeroning_error(result);
 
 		nebourses = gcnew List<CurrentStateWay^>();		
-		for (int i = 1; i < lines->Count; i++) {
+		for (int i = 0; i < lines->Count; i++) {
 			LineSegmentCustom^ segment = gcnew LineSegmentCustom(lines[i]);
 			nebourses->Add(gcnew CurrentStateWay(segment, probability, false, map, way, calculater_probability));
 		}
@@ -365,7 +388,7 @@ public:
 		CurrentStateWay^ stateS = (CurrentStateWay^)state;
 		Double^ this_porbability = gcnew Double(probability);
 		Double^ state_porbability = gcnew Double(stateS->getProbability());
-		return this_porbability->CompareTo(state_porbability);
+		return -1 * this_porbability->CompareTo(state_porbability);
 	}
 	//check if current line not has nebourses
 	//and current point belongs to e-environs 
@@ -477,9 +500,9 @@ public:
 	};
 
 	// clear currrent states
-	void refreshChecker(List<Line^>^ way) {
+	void refreshChecker(Way^ way) {
 		current_states->Clear();
-		LineSegmentCustom^ primary_way = gcnew LineSegmentCustom(way[0]);
+		LineSegmentCustom^ primary_way = gcnew LineSegmentCustom(way->getList()[0]);
 		current_states->Add(gcnew CurrentStateWay(primary_way, 1, true, this->map, this->way, this->calculater_probability));
 	}
 
