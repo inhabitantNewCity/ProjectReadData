@@ -193,6 +193,7 @@ namespace ProjectForReadData {
 	int countTimeAfterScondPhase;
 
 	float SumRecivedAcceleration;
+	float lengthStep;
 	int countStep;
 	int prev_countStep;
 	StreamWriter^ sw;
@@ -247,6 +248,7 @@ private: System::Windows::Forms::Button^  button1;
 private: System::Windows::Forms::Button^  button2;
 private: System::Windows::Forms::Button^  button3;
 private: System::Windows::Forms::Label^  currentStates;
+private: System::Windows::Forms::Button^  buttonStep;
 
 		 bool allAccDetected;
 	protected: 
@@ -290,6 +292,7 @@ private: System::Windows::Forms::Label^  currentStates;
 			this->button2 = (gcnew System::Windows::Forms::Button());
 			this->button3 = (gcnew System::Windows::Forms::Button());
 			this->currentStates = (gcnew System::Windows::Forms::Label());
+			this->buttonStep = (gcnew System::Windows::Forms::Button());
 			(cli::safe_cast<System::ComponentModel::ISupportInitialize^>(this->pictureBox1))->BeginInit();
 			(cli::safe_cast<System::ComponentModel::ISupportInitialize^>(this->chart1))->BeginInit();
 			(cli::safe_cast<System::ComponentModel::ISupportInitialize^>(this->chart2))->BeginInit();
@@ -512,11 +515,22 @@ private: System::Windows::Forms::Label^  currentStates;
 			this->currentStates->Size = System::Drawing::Size(541, 206);
 			this->currentStates->TabIndex = 16;
 			// 
+			// buttonStep
+			// 
+			this->buttonStep->Location = System::Drawing::Point(797, 131);
+			this->buttonStep->Name = L"buttonStep";
+			this->buttonStep->Size = System::Drawing::Size(75, 23);
+			this->buttonStep->TabIndex = 17;
+			this->buttonStep->Text = L"Step";
+			this->buttonStep->UseVisualStyleBackColor = true;
+			this->buttonStep->Click += gcnew System::EventHandler(this, &Form1::buttonStep_Click);
+			// 
 			// Form1
 			// 
 			this->AutoScaleDimensions = System::Drawing::SizeF(6, 13);
 			this->AutoScaleMode = System::Windows::Forms::AutoScaleMode::Font;
 			this->ClientSize = System::Drawing::Size(1088, 823);
+			this->Controls->Add(this->buttonStep);
 			this->Controls->Add(this->currentStates);
 			this->Controls->Add(this->button3);
 			this->Controls->Add(this->button2);
@@ -860,8 +874,7 @@ private: System::Void Form1_Load(System::Object^  sender, System::EventArgs^  e)
 	private: System::Void timer1_Tick(System::Object^  sender, System::EventArgs^  e) {
 				 char* readDate = readDataFromSensors();
 				 parseReadDate(readDate);
-				 float lengthStep = executeChatAlgorithm(accX, accY, accZ);
-				 
+				 //float lengthStep = executeChatAlgorithm(accX, accY, accZ); 
 				 if (lengthStep) {
 					 calculateStartPointAndFinishpoint(lengthStep, angleX, angleY, angleZ);
 
@@ -879,6 +892,7 @@ private: System::Void Form1_Load(System::Object^  sender, System::EventArgs^  e)
 					 }
 
 					 points->Add(cur_point);
+
 					 //techicalPoints->AddRange(checker->getAllCurrentPoints());
 					 
 					 if (report->is_closed) {
@@ -891,11 +905,13 @@ private: System::Void Form1_Load(System::Object^  sender, System::EventArgs^  e)
 							 structMap->getLineByPoint(report->point),
 							 structWay->getList()[structWay->getList()->Count - 1]);
 						 way = structWay->getList();
-						 checker->refreshChecker(structWay);
-						 points->Clear();
+						 checker->refreshChecker(structWay, cur_point);
+						 //points->Clear();
+						 lengthStep = 0;
 						 System::Windows::Forms::MessageBox::Show("way is rebuilded");
 					 }
 				 }
+				 lengthStep = 0;
 				 pictureBox1->Invalidate();
 				 current_time += 1;
 			 }
@@ -1020,10 +1036,10 @@ private: System::Void leftButton_Click(System::Object^  sender, System::EventArg
 	currentAngle = PI;
 }
 private: System::Void button1_Click(System::Object^  sender, System::EventArgs^  e) {
-	currentAngle = PI/2;
+	currentAngle = -PI / 2;
 }
 private: System::Void button3_Click(System::Object^  sender, System::EventArgs^  e) {
-	currentAngle = -PI / 2;
+	currentAngle = PI / 2;
 }
 private: System::Void button2_Click(System::Object^  sender, System::EventArgs^  e) {
 	currentAngle = 0;
@@ -1034,6 +1050,9 @@ private: void printCurrentState() {
 	for (int i = 0; i < states->Count; i++) {
 		currentStates->Text += states[i]->ToText() + "\n";
 	}	
+}
+private: System::Void buttonStep_Click(System::Object^  sender, System::EventArgs^  e) {
+	lengthStep = 10;
 }
 };
 }

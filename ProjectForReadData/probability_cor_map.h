@@ -11,7 +11,7 @@ using namespace System::Collections::Generic;
 
 #define ESP 10
 #define ERR 0.1
-#define CLOSED_ENVIRONS 10
+#define CLOSED_ENVIRONS 20
 
 //current class provide posibility to simple operation for vectors
 ref class LineSegmentCustom {
@@ -409,6 +409,8 @@ public:
 	//and current point belongs to e-environs 
 	bool isLastStep(Windows::Point point) {
 		List<Line^>^ cur_nebourses = map->getRelatedEges(line_segment->getLine());
+		deletingUselessNebourses(cur_nebourses, line_segment);
+
 		bool is_last_segment = way->getNext(cur_nebourses)==nullptr;
 
 		Windows::Vector way_vector(line_segment->getLine()->X2, line_segment->getLine()->Y2);
@@ -524,9 +526,13 @@ public:
 	};
 
 	// clear currrent states
-	void refreshChecker(Way^ way) {
-		current_states->Clear();
-		LineSegmentCustom^ primary_way = gcnew LineSegmentCustom(way->getList()[0]);
+	void refreshChecker(Way^ way, Windows::Point point) {
+		//current_states->Clear();
+		Windows::Point endPoint(way->getList()[0]->X2, way->getList()[0]->Y2);
+		LineSegmentCustom^ primary_way = gcnew LineSegmentCustom(point, endPoint);
+		
+		//todo: need separate first line in way
+		this->way = way;
 		current_states->Add(gcnew CurrentStateWay(primary_way, 1, true, this->map, this->way, this->calculater_probability));
 	}
 

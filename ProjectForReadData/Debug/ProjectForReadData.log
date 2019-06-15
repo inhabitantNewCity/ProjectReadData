@@ -19,18 +19,18 @@ c:\steps\projectforreaddata_fix28\projectforreaddata\Form1.h(51): warning C4244:
 c:\steps\projectforreaddata_fix28\projectforreaddata\Form1.h(52): warning C4244: =: преобразование "double" в "float", возможна потеря данных
 c:\steps\projectforreaddata_fix28\projectforreaddata\Form1.h(68): warning C4552: -: оператор не имеет результата; требуется оператор с побочным действием
 c:\steps\projectforreaddata_fix28\projectforreaddata\Form1.h(74): warning C4552: +: оператор не имеет результата; требуется оператор с побочным действием
-c:\steps\projectforreaddata_fix28\projectforreaddata\Form1.h(596): warning C4244: return: преобразование "double" в "float", возможна потеря данных
-c:\steps\projectforreaddata_fix28\projectforreaddata\Form1.h(770): warning C4244: аргумент: преобразование "double" в "int", возможна потеря данных
-c:\steps\projectforreaddata_fix28\projectforreaddata\Form1.h(773): warning C4244: аргумент: преобразование "double" в "int", возможна потеря данных
-c:\steps\projectforreaddata_fix28\projectforreaddata\Form1.h(793): warning C4244: аргумент: преобразование "double" в "int", возможна потеря данных
-c:\steps\projectforreaddata_fix28\projectforreaddata\Form1.h(852): warning C4244: =: преобразование "double" в "float", возможна потеря данных
-c:\steps\projectforreaddata_fix28\projectforreaddata\Form1.h(853): warning C4244: инициализация: преобразование "double" в "float", возможна потеря данных
-c:\steps\projectforreaddata_fix28\projectforreaddata\Form1.h(854): warning C4244: инициализация: преобразование "double" в "float", возможна потеря данных
-c:\steps\projectforreaddata_fix28\projectforreaddata\Form1.h(870): warning C4244: аргумент: преобразование "double" в "float", возможна потеря данных
-c:\steps\projectforreaddata_fix28\projectforreaddata\Form1.h(977): warning C4101: aveg_z: неиспользованная локальная переменная
+c:\steps\projectforreaddata_fix28\projectforreaddata\Form1.h(610): warning C4244: return: преобразование "double" в "float", возможна потеря данных
+c:\steps\projectforreaddata_fix28\projectforreaddata\Form1.h(784): warning C4244: аргумент: преобразование "double" в "int", возможна потеря данных
+c:\steps\projectforreaddata_fix28\projectforreaddata\Form1.h(787): warning C4244: аргумент: преобразование "double" в "int", возможна потеря данных
+c:\steps\projectforreaddata_fix28\projectforreaddata\Form1.h(805): warning C4244: аргумент: преобразование "double" в "int", возможна потеря данных
+c:\steps\projectforreaddata_fix28\projectforreaddata\Form1.h(864): warning C4244: =: преобразование "double" в "float", возможна потеря данных
+c:\steps\projectforreaddata_fix28\projectforreaddata\Form1.h(865): warning C4244: инициализация: преобразование "double" в "float", возможна потеря данных
+c:\steps\projectforreaddata_fix28\projectforreaddata\Form1.h(866): warning C4244: инициализация: преобразование "double" в "float", возможна потеря данных
+c:\steps\projectforreaddata_fix28\projectforreaddata\Form1.h(881): warning C4244: аргумент: преобразование "double" в "float", возможна потеря данных
+c:\steps\projectforreaddata_fix28\projectforreaddata\Form1.h(991): warning C4101: aveg_z: неиспользованная локальная переменная
 c:\steps\projectforreaddata_fix28\projectforreaddata\probability_cor_map.h(294): warning C4715: CurrentStateWay::getNextline: значение возвращается не при всех путях выполнения
-c:\steps\projectforreaddata_fix28\projectforreaddata\form1.h(979): warning C4700: использована неинициализированная локальная переменная "aveg_x"
-c:\steps\projectforreaddata_fix28\projectforreaddata\form1.h(980): warning C4700: использована неинициализированная локальная переменная "aveg_y"
+c:\steps\projectforreaddata_fix28\projectforreaddata\form1.h(993): warning C4700: использована неинициализированная локальная переменная "aveg_x"
+c:\steps\projectforreaddata_fix28\projectforreaddata\form1.h(994): warning C4700: использована неинициализированная локальная переменная "aveg_y"
   AssemblyInfo.obj : /DEBUG:FASTLINK не поддерживается, если присутствует управляемый код; выполняется перезапуск компоновки с /DEBUG:FULL
   ProjectForReadData.vcxproj -> C:\steps\ProjectForReadData_fix28\Debug\ProjectForReadData.exe
   ProjectForReadData.vcxproj -> C:\steps\ProjectForReadData_fix28\Debug\ProjectForReadData.pdb (Partial PDB)
